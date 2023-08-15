@@ -52,7 +52,7 @@
                 }
               ],
               "outputHashing": "none",
-              "baseHref": "https://kaliloudougnon.github.io/palAvition"
+              "baseHref": "https://kaliloudougnon.github.io/palAviation/"
             },
             "development": {
               "buildOptimizer": false,
