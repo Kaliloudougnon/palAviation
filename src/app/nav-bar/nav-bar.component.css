@@ -17,16 +17,19 @@ nav{
   color: #ffffff;
 }
 .titleStyle1{
-  font-family: 'Roboto';
+  font-family:Algerian;
   font-size: 30px;
   color: brown;
 }
 .titleStyle2{
-  font-family: 'Roboto';
+  font-family: Algerian;
   font-size: 25px;
   color: white;
 }
-
+i{
+  color: aqua;
+  font-size: 30px;
+}
 .marge{
   margin-right: 10%;
   margin-left: 10%;

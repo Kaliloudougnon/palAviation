@@ -1,6 +1,6 @@
 .footer-style{
   background-color: black;
-  color: white;
+  color: #449a93;
   padding: 20px;
 }
 a{
@@ -11,4 +11,8 @@ a{
 ul li{
   list-style: none;
   text-transform: uppercase;
+}
+i{
+  margin-right: 5px;
+  color: #449a93;
 }
