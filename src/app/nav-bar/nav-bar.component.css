@@ -1,5 +1,6 @@
 nav{
-  background-color: #19354d;
+  background-color: #1d3244;
+  box-shadow: 5px 5px 44px 0px rgba(0,0,0,0.29);
 }
 .navbar-nav li{
   display: flex;

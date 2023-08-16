@@ -7,6 +7,11 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import {CommonModule} from '@angular/common';
+import { AboutComponent } from './about/about.component';
+import { StocksComponent } from './stocks/stocks.component';
+import { OurServiceComponent } from './our-service/our-service.component';
+import { AppRoutingModule } from './app-routing.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,11 +19,16 @@ import {CommonModule} from '@angular/common';
     NavBarComponent,
     HeaderComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent,
+    StocksComponent,
+    OurServiceComponent
   ],
   imports: [
     BrowserModule,
-    CommonModule
+    CommonModule,
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
