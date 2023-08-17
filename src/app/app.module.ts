@@ -12,6 +12,7 @@ import { StocksComponent } from './stocks/stocks.component';
 import { OurServiceComponent } from './our-service/our-service.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     FooterComponent,
     AboutComponent,
     StocksComponent,
-    OurServiceComponent
+    OurServiceComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
