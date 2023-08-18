@@ -42,6 +42,9 @@ i{
 .header-left {
   justify-content: flex-start;
 }
+.header-left img{
+  width:10%;
+}
 
 .offcanvas-body ul li a{
   font-family: 'Roboto';

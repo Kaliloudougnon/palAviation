@@ -3,7 +3,6 @@
   opacity: 0.9;
 }
 .depicter-layers-fold{
-  padding-top: 600px;
 }
 
 .depicter-background-animation-wrap, .depicter-background-container {
@@ -18,4 +17,9 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
+}
+.depicter-bg-video{
+  top: 0;
+  width:100%;
+opacity: 0.2;
 }

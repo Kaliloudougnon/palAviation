@@ -18,6 +18,10 @@ img {
   border-style: none;
   max-width: 100%;
 }
+.transform-style :hover{
+  transform: scale(1.1);
+
+}
 .box-left-style,.ct-section,.block-logo {
   background-color: aliceblue;
   box-shadow: 5px 5px 44px 0px rgba(0,0,0,0.29);
