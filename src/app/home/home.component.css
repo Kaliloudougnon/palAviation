@@ -22,7 +22,7 @@ img {
   transform: scale(1.1);
 
 }
-.box-left-style,.ct-section,.block-logo {
+.box-left-style,.section-style,.block-logo {
   background-color: aliceblue;
   box-shadow: 5px 5px 44px 0px rgba(0,0,0,0.29);
   border-radius: 5px;
@@ -34,12 +34,6 @@ img {
 .about-style{
   margin-bottom:80px;
 }
-.ct-div-block {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  align-items: flex-start;
-}
 .div-block-style {
   display: flex;
   flex-wrap: nowrap;
@@ -47,7 +41,7 @@ img {
   align-items: flex-start;
    margin: 9%;
 }
-.div-block-style-d-flex{
+.style-d-fledx{
   display: flex;
   justify-content: center;
 }
@@ -58,7 +52,7 @@ img {
   height:400px;
 
 }
-.ct-section {
+.section-style {
   text-align: left;
   color: #131212;
   padding: 5%;
@@ -79,13 +73,15 @@ img {
 
 }
 
-.div-block-left,.div-block-right {
+.div-block-left {
   color: white;
   text-align: center;
-  flex-direction: row;
+  padding:9% ;
   display: flex;
   background-color: #19354d;
-  align-items: center;
+  width: 50%;
+}
+.div-block-right {
   width: 50%;
 }
 .card-heading{
@@ -102,10 +98,14 @@ img {
     padding: 25px;
     height:100%;
   }
-  .div-block-style-d-flex{
+  .style-d-fledx{
     display: block;
   }
-  .div-block-left ,.div-block-right{
+  .div-block-left {
+    width: 100%;
+    padding-left: 18%;
+  }
+  .div-block-right{
     width: 100%;
   }
   .box-image{

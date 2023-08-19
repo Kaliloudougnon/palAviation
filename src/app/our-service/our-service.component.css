@@ -1,0 +1,42 @@
+.card-icon i{
+  font-size: 50px;
+  color: #449a93;
+}
+.card-heading{
+  font-size: 25px !important;
+}
+.card{
+  margin-bottom: 10px;
+  width: 30%;
+  margin-right: 10px;
+  text-align: center;
+}
+.card:hover{
+background-color: aliceblue;
+  transform: scale(1.05);
+}
+img{
+  box-shadow: 5px 5px 44px 0px rgba(0,0,0,0.29);
+  border-radius: 5px;
+  width: 100%;
+}
+.service-style .row{
+  margin-bottom: 10%;
+}
+.service-style h1{
+  color: #97c590;
+  margin-bottom:40px;
+}
+.service-style div{
+ padding: 10px;
+}
+@media (max-width:990px) {
+  .card{
+    margin-bottom: 10px;
+    width: 80%;
+    margin-right: 10px;
+  }
+  .container{
+    margin: 10%;
+  }
+}
