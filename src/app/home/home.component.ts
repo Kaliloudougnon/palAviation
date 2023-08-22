@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +7,54 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
 
+  services = [
+    {
+      icon: "bi bi-bar-chart",
+      header: "OUTRIGHT SALE",
+      text: "Some people say that size doesn’t matter, but they don’t have unlimited access to the world’s\n" +
+        "              largest available aircraft component inventory\n",
+      footer: ""
+    },
+    {
+      icon: "bi bi-gear",
+      header: "LOANS AND REPAIR MANAGEMENT",
+      text: "For many airlines component repair can be a stressful business. Dealing with workshops,\n" +
+        "              tackling tough timescales, negotiating deals and delivering the goods on",
+      footer: ""
+    },
+    {
+      icon: "bi bi-speedometer2",
+      header: "Standard Exchange or Flat Exchange",
+      text: "Pal Aviation helping you save space and no need to maintain high cost units at your\n" +
+        "              inventories. All the exchange units are provided",
+      footer: ""
+    },
+    {
+      icon: "bi bi-people",
+      header: "24/7 AOG SERVICE",
+      text: "Our AOG team is available 24/7/365. We stock\n" +
+        "              thousands of line items of airworthy material that can always be dispatched within an hour.",
+      footer: ""
+    },
+    {
+      icon: "bi bi-shop",
+      header: "CONSUMABLES AND EXPENDABLES",
+      text: "Pal Aviation has a large and growing inventory\n" +
+        "              of expendables and consumables. Our management program is designed to...",
+      footer: ""
+    },
+    {
+      icon: "bi bi-house-gear",
+      header: "LEASING",
+      text: "Pal Aviation’s leasing expertise, and commitment to constantly increasing our pool, provides\n" +
+        "              you with a unique partner who can help to unlock...",
+      footer: ""
+    }
+  ]
 }

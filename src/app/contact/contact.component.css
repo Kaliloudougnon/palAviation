@@ -1,8 +1,9 @@
 .form-style{
-  background-color: aliceblue;
-  box-shadow: 5px 5px 44px 0px rgba(0,0,0,0.29);
+  background-color: #1e1a34;
+  box-shadow: 5px 5px 44px 0px rgba(206, 187, 187, 0.29);
   border-radius: 5px;
   padding: 20px;
+  color: white;
 }
 input{
   padding: 20px;

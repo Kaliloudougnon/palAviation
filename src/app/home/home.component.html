@@ -4,31 +4,33 @@
       <div class="row">
         <div class=" col-lg-5 col-md-4 col-sm-12 box-left-style ">
           <div>
-           <!-- <h3 class="mt-5">About Us</h3>-->
+            <!-- <h3 class="mt-5">About Us</h3>-->
             <h2 class="mb-5 mt-3">We are experts, but we never stop listening.</h2>
             <div class="about-style">
               <div>Our DNA of honesty, courtesy, respect and family are the foundation of our business. We
                 always
                 focus on our customer’s needs, with our dynamic team; team of constantly fine-tuning our
                 aviation services to deliver the best solutions.
-              </div><br>
+              </div>
+              <br>
               <div>Pal Aviation is specializes in sale, lease, exchange and repair of aircraft parts, engines, and
                 components with unrivaled expertise and proven strategies for supporting operators .
                 Pal Aviation is now one of the largest independent aviation parts suppliers covering every
                 aerospace market sector.
               </div>
             </div>
-            <button type="button" class="btn btn-info" ><a class="" href="about">Learn more&nbsp; <i class="bi bi-arrow-right"></i></a></button>
+            <button type="button" class="btn mb-3"><a class="" href="about">Learn more&nbsp; <i
+              class="bi bi-arrow-right"></i></a></button>
           </div>
         </div>
         <div class=" box-image col-lg-6 col-md-4 col-sm-12">
           <div class="transform-style"><img alt=""
-                    src="assets/imgs/home1.png"
-                    class=" image-globle-style mb-3"
+                                            src="assets/imgs/F1.jpg"
+                                            class=" image-globle-style mb-3"
           >
           </div>
-          <div  class="transform-style"><img
-            src="assets/imgs/home2.png"
+          <div class="transform-style"><img
+            src="assets/imgs/F2.jpg"
             class=" image-globle-style"
           >
           </div>
@@ -39,98 +41,52 @@
   <section class="section-style ">
     <div class=""><h3>OFFERS services</h3>
       <h1>WHAT WE OFFER ?</h1>
-      <div class="row ">
-        <div class="  transform-style mb-5 col-lg-4 col-md-4 col-sm-12">
-          <div class=" card-global">
-            <div class=" card-icon">
-              <i class="bi bi-bar-chart"></i>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12" *ngFor="let service of services">
+          <div class="card mb-3">
+            <div class="card-header">
+              <div class=" card-icon">
+                <i class="{{service.icon}}"></i>
+                <span class=" card-heading"> {{service.header}}</span>
+              </div>
             </div>
-            <h1 class=" card-heading">OUTRIGHT<br>SALE</h1>
-            <p class="">Some people say that size doesn’t matter, but they don’t have unlimited access to the world’s
-              largest available aircraft component inventory.</p>
-            <button type="button" class="btn btn-info mt-3" ><a class="" href="service">Learn more&nbsp; <i class="bi bi-arrow-right"></i></a></button>
-          </div>
-        </div>
-        <div class=" transform-style mb-5 col-lg-4 col-md-4 col-sm-12">
-          <div class=" card-global">
-            <div class=" card-icon">
-              <i class="bi bi-gear"></i>
+            <div class="card-body">
+              <div class="">
+                {{service.text}}
+              </div>
+              <button type="button" class="btn  mt-3"><a class="" href="service">Learn more&nbsp; <i
+                class="bi bi-arrow-right"></i></a></button>
             </div>
-            <h1 class=" card-heading">LOANS AND REPAIR MANAGEMENT</h1>
-            <p class="">For many airlines component repair can be a stressful business. Dealing with workshops,
-              tackling tough timescales, negotiating deals and delivering the goods on </p>
-            <button type="button" class="btn btn-info mt-3" ><a class="" href="service">Learn more <i class="bi bi-arrow-right"></i></a></button>
-          </div>
-        </div>
-        <div class=" transform-style mb-5 col-lg-4 col-md-4 col-sm-12">
-          <div class=" card-global">
-            <div class=" card-icon">
-              <i class="bi bi-speedometer2"></i>
+            <div class="card-footer">
+              <div class=" card-icon">
+                <i class="{{service.icon}}"></i>
+              </div>
             </div>
-            <h1  class=" card-heading">Standard Exchange or Flat Exchange<br></h1>
-            <p  class=" ">Pal Aviation helping you save space and no need to maintain high cost units at your
-              inventories. All the exchange units are provided</p>
-            <button type="button" class="btn btn-info mt-3" ><a class="" href="service">Learn more <i class="bi bi-arrow-right"></i></a></button>
           </div>
-        </div>
-      </div>
-      <div class=" row ">
-        <div class=" transform-style mb-5 col-lg-4 col-md-4 col-sm-12">
-          <div class=" card-global">
-            <div class=" card-icon">
-              <i class="bi bi-people"></i>
-            </div>
-            <h1 class=" card-heading">24/7 AOG&nbsp;<br>SERVICE</h1>
-            <p  class=" ">Our AOG team is available 24/7/365. We stock
-              thousands of line items of airworthy material that can always be dispatched within an hour.</p>
-            <button type="button" class="btn btn-info mt-3" ><a class="" href="service">Learn more <i class="bi bi-arrow-right"></i></a></button>
-          </div>
-        </div>
-        <div class=" transform-style mb-5 col-lg-4 col-md-4 col-sm-12">
-          <div class=" card-global">
-            <div class=" card-icon">
-              <i class="bi bi-shop"></i>
-            </div>
-            <h1  class=" card-heading">CONSUMABLES AND EXPENDABLES<br></h1>
-            <p >Pal Aviation has a large and growing<br>inventory
-              of expendables and consumables. Our management program is designed to...</p>
-            <button type="button" class="btn btn-info mt-3" ><a class="" href="service">Learn more <i class="bi bi-arrow-right"></i></a></button>
-          </div>
-        </div>
-        <div class="  transform-style mb-5 col-lg-4 col-md-4 col-sm-12">
-          <div class=" card-global">
-            <div class=" card-icon">
-              <i class="bi bi-house-gear"></i>
-            </div>
-            <h1 class=" card-heading">LEASING<br><br></h1>
-            <p class=" ">Pal Aviation’s leasing expertise, and commitment to constantly increasing our pool, provides
-              you with a unique partner who can help to unlock...<br><br>
-            </p>
-           <button type="button" class="btn btn-info" ><a class="" href="service">Learn more&nbsp; <i class="bi bi-arrow-right"></i></a></button>
-          </div>
+
         </div>
       </div>
     </div>
   </section>
   <section class=" section-bottun-style">
-      <div class="div-block-style">
-        <div class=" style-d-fledx">
-          <div class="div-block-left "><h1 class="">AMONG OUR<br><span>PARTNERS</span> WHO
-            <br><b><span>TRUST</span></b> US</h1>
-          </div>
-          <div class="div-block-right "><img
-            alt=""
-            src="https://www.planetegrandesecoles.com/wp-content/uploads/2022/08/Tips-et-bons-plans-pour-voyager-pas-cher-en-etant-etudiant.-Avion-mer-vacances-pas-cher-850x560.png"
-          >
-          </div>
+    <div class="div-block-style">
+      <div class=" style-d-fledx">
+        <div class="div-block-left "><h1 class="">AMONG OUR<br><span>PARTNERS</span> WHO
+          <br><b><span>TRUST</span></b> US</h1>
         </div>
-        <div class="row mt-3 mb-5 transform-style">
-          <ng-container *ngFor="let i of [1,2,3,4,5,6,7,8,9,10,11,12,13,14]">
-            <div class=" block-logo  col-lg-3 col-md-4 col-sm-12">
-              <img src="assets/imgs/{{i}}.png">
-            </div>
-          </ng-container>
+        <div class="div-block-right "><img
+          alt=""
+          src="https://www.planetegrandesecoles.com/wp-content/uploads/2022/08/Tips-et-bons-plans-pour-voyager-pas-cher-en-etant-etudiant.-Avion-mer-vacances-pas-cher-850x560.png"
+        >
         </div>
       </div>
+      <div class="row mt-3 mb-5 transform-style">
+        <ng-container *ngFor="let i of [1,2,3,4,5,6,7,8,9,10,11,12,13,14]">
+          <div class=" block-logo  col-lg-3 col-md-4 col-sm-12">
+            <img src="assets/imgs/{{i}}.png">
+          </div>
+        </ng-container>
+      </div>
+    </div>
   </section>
 </div>

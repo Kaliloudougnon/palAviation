@@ -4,7 +4,6 @@ section{
 a{
   text-decoration: none;
   color: black;
-  font-family: "Times New Roman";
 }
 .image-globle-style {
   background-size: cover;
@@ -13,22 +12,40 @@ a{
   background-position: 50% 50%;
   box-shadow: 5px 5px 44px 0px rgba(0,0,0,0.29);
 }
+.card-header{
+  background-color: #1e1a34;
+  color: white;
+  height: 105px;
+}
+.card-body{
+  height: 250px;
+}
+.card-body div{
+  height: 160px;
+}
+.card-footer{
+  background-color: #1e1a34;
+}
+.card-icon i{
+  font-size: 40px;
+  color: #fdf9f9;
+}
+.card-heading{
+  font-size: 25px !important;
+}
 
 img {
   border-style: none;
   max-width: 100%;
 }
-.transform-style :hover{
-  transform: scale(1.1);
 
-}
 .box-left-style,.section-style,.block-logo {
-  background-color: aliceblue;
-  box-shadow: 5px 5px 44px 0px rgba(0,0,0,0.29);
+  background-color: #1e1a34;
+  color: white;
+  box-shadow: 5px 5px 44px 0px rgba(206, 187, 187, 0.29);
   border-radius: 5px;
 }
 .section-bottun-style{
-  background-color: aliceblue;
   margin: 0;
 }
 .about-style{
@@ -45,26 +62,13 @@ img {
   display: flex;
   justify-content: center;
 }
-.card-global {
-  background-color: #ffffff;
-  border-radius: 5px;
-  padding: 25px;
-  height:400px;
 
-}
 .section-style {
   text-align: left;
-  color: #131212;
   padding: 5%;
 }
 
-.card-icon i{
-  font-size: 50px;
-  color: #449a93;
-}
-.card-heading{
-  font-size: 25px !important;
-}
+
 .block-logo {
   background-color: #ffffff;
   border-radius: 5px;
