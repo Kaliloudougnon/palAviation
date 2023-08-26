@@ -19,6 +19,8 @@ export class ContactComponent implements OnInit {
       firstName: this.fb.control(""),
       lastName: this.fb.control(""),
       subject: this.fb.control(""),
+      country: this.fb.control(""),
+      phone: this.fb.control(""),
       email: this.fb.control(""),
       message: this.fb.control(""),
     })

@@ -47,4 +47,13 @@ h1{
   .text-style{
     font-size: 15px;
   }
+  h1,.text-style1{
+    font-weight: 200;
+    font-size: 20px;
+
+  }
+  .img-w{
+    width: 90%;
+    margin-top: 10px;
+  }
 }
