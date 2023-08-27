@@ -1,22 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-  background-color: #1e1a34 !important;
-  font-family: "Degular" , Sans-serif ;
+  background-color:aliceblue !important;
+  font-family:Lato, sans-serif ;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 footer{
-  background-color: #060024 !important;
+  background-color: #171212 !important;
   font-family: "Degular" , Sans-serif ;
   color: white;
   padding: 20px;
 }
 .btn{
-  background-color: #1e1a34 !important;
-  border: 2px solid #0e65af !important;
-  color: white!important;
+  background-color: aliceblue !important;
 }
-.btn a{
-  color:white !important;
-}
-.btn :hover,.btn a :hover{
-  box-shadow: 5px 5px 44px 0px rgb(30, 26, 26) !important;
-}
+

@@ -3,12 +3,12 @@ video {
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0.08;
+  opacity: 1;
   width: 100%;
 }
 .video-wrapper {
   width: 100%;
-  height:600px;
+  height:750px;
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -25,14 +25,20 @@ video {
   padding: 10px 30px 10px 30px;
   margin-top: 20px;
   margin-bottom: 15px;
+  color: black;
 }
 .carousel-item img{
   border-radius: 10%;
+  width: 80%;
 
 }
 .box-left{
   margin:80px 10px 10px 40px;
   text-align: center;
+}
+a{
+  text-decoration: none;
+  color: black;
 }
 
 .animate-charcter {

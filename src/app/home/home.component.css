@@ -1,36 +1,44 @@
-section{
+section {
   margin: 10%;
 }
-a{
+
+a {
   text-decoration: none;
   color: black;
 }
+
 .image-globle-style {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5px;
   background-position: 50% 50%;
-  box-shadow: 5px 5px 44px 0px rgba(0,0,0,0.29);
+  box-shadow: 5px 5px 44px 0px rgba(0, 0, 0, 0.29);
 }
-.card-header{
+
+.card-header {
   background-color: #1e1a34;
   color: white;
   height: 105px;
 }
-.card-body{
+
+.card-body {
   height: 250px;
 }
-.card-body div{
+
+.card-body div {
   height: 160px;
 }
-.card-footer{
+
+.card-footer {
   background-color: #1e1a34;
 }
-.card-icon i{
+
+.card-icon i {
   font-size: 40px;
   color: #fdf9f9;
 }
-.card-heading{
+
+.card-heading {
   font-size: 25px !important;
 }
 
@@ -39,26 +47,30 @@ img {
   max-width: 100%;
 }
 
-.box-left-style,.section-style,.block-logo {
-  background-color: #1e1a34;
+.box-left-style, .section-style, .block-logo {
+  background-color: #c6d2dc;
   color: white;
   box-shadow: 5px 5px 44px 0px rgba(206, 187, 187, 0.29);
   border-radius: 5px;
 }
-.section-bottun-style{
+
+.section-bottun-style {
   margin: 0;
 }
-.about-style{
-  margin-bottom:80px;
+
+.about-style {
+  margin-bottom: 80px;
 }
+
 .div-block-style {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
   align-items: flex-start;
-   margin: 9%;
+  margin: 9%;
 }
-.style-d-fledx{
+
+.style-d-fledx {
   display: flex;
   justify-content: center;
 }
@@ -74,49 +86,56 @@ img {
   border-radius: 5px;
   margin-right: 5px;
   margin-bottom: 5px;
-
+  width: 18%;
 }
 
 .div-block-left {
   color: white;
   text-align: center;
-  padding:9% ;
+  padding: 9%;
   display: flex;
-  background-color: #19354d;
+  background-color: #c6d2dc;
   width: 50%;
 }
+
 .div-block-right {
   width: 50%;
 }
-.card-heading{
+
+.card-heading {
   font-weight: 200;
   font-size: 56px;
   line-height: 1.3;
   margin-bottom: 20px;
 }
 
-@media (max-width:990px) {
+@media (max-width: 990px) {
   .card-global {
     background-color: #ffffff;
     border-radius: 5px;
     padding: 25px;
-    height:100%;
+    height: 100%;
   }
-  .style-d-fledx{
+
+  .style-d-fledx {
     display: block;
   }
+
   .div-block-left {
     width: 100%;
     padding-left: 18%;
   }
-  .div-block-right{
+
+  .div-block-right {
     width: 100%;
   }
-  .box-image{
+
+  .box-image {
     margin-top: 15px;
   }
+
   .block-logo {
     margin-bottom: 10px;
-
+    width: 100%;
   }
 }

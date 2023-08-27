@@ -7,7 +7,31 @@ ul li{
   list-style: none;
   text-transform: uppercase;
 }
-i{
+div i{
   margin-right: 5px;
   color: #449a93;
+}
+
+.youtube a i {
+  color: red;
+}
+
+.twitter a i {
+  color: blueviolet;
+}
+
+.facebook a i {
+  color: blue;
+}
+
+.instagram a i {
+  color: #7c3a7e;
+}
+
+.linkedin a i {
+  color: blue;
+}
+
+.whatsapp a i {
+  color: green;
 }

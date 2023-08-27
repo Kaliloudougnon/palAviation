@@ -1,13 +1,16 @@
 .form-style{
-  background-color: #1e1a34;
+  background-color: #c6d2dc;
   box-shadow: 5px 5px 44px 0px rgba(206, 187, 187, 0.29);
   border-radius: 5px;
   padding: 20px;
-  color: white;
 }
 input{
   padding: 20px;
 }
 label{
   font-weight: bold;
+}
+img{
+  width: 180%;
+  margin-left: 20px;
 }
