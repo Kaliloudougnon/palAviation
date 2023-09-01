@@ -11,13 +11,11 @@ section{
 }
 .text-style,.text-style3{
   font-size: 20px;
-  color: #171212;
 }
 .text-style1{
   font-weight: 200;
   font-size: 50px;
   line-height: 1;
-  color: #449a93;
   margin-right: 80px;
   text-align: center;
 }
@@ -30,7 +28,7 @@ h1{
   font-weight: 200;
   font-size: 55px;
   line-height: 1;
-  color: #449a93;
+  margin-bottom: 20px;
 }
 @media (max-width:990px) {
   section{

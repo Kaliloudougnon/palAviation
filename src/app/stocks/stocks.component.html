@@ -1,1 +1,26 @@
-<p>stocks works!</p>
+<div *ngIf="stocksList">
+  <div class="container">
+    <table class="table table-striped ">
+      <thead>
+      <tr>
+        <th>PartNumber</th>
+        <th>Description</th>
+        <th>ConditionCode</th>
+        <th>Quantity</th>
+        <th>UoM</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let piece of stocksList">
+        <td>    {{piece.partNumber}}</td>
+        <td>    {{piece.description}} </td>
+        <td>
+          {{piece.conditionCode}}</td>
+        <td>    {{piece.quantity}} </td>
+        <td>
+          {{piece.uoM}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

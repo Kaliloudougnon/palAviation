@@ -4,6 +4,7 @@ body{
   font-family:Lato, sans-serif ;
   font-size: 1rem;
   line-height: 1.5;
+  color: black !important;
 }
 footer{
   background-color: #171212 !important;
