@@ -1,5 +1,5 @@
 .form-style{
-  background-color: #c6d2dc;
+  background-color: #f0f3f6;
   box-shadow: 5px 5px 44px 0px rgba(206, 187, 187, 0.29);
   border-radius: 5px;
   padding: 20px;
@@ -13,4 +13,10 @@ label{
 img{
   width: 180%;
   margin-left: 20px;
+}
+@media (max-width: 990px) {
+  img{
+    width: 100%;
+    margin: 5px;
+  }
 }
