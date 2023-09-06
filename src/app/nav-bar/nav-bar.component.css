@@ -2,6 +2,8 @@ nav{
   background-color: rgba(0, 0, 0, .2);
   backdrop-filter: blur(30px);
   box-shadow: 5px 5px 44px 0px rgba(0,0,0,0.29);
+  text-align: initial;
+  text-transform: uppercase;
 }
 .navbar-nav li{
   display: flex;
@@ -18,32 +20,11 @@ nav{
   font-weight: 600;
   color: #ffffff;
 }
-.titleStyle1{
-  font-size: 30px;
-  color: brown;
-}
-.titleStyle2{
-  font-size: 25px;
-  color: white;
-}
-i{
-  color: aqua;
-  font-size: 30px;
-}
+
 .marge{
   margin-right: 10%;
   margin-left: 10%;
   padding: 0%;
-}
-.header-right {
-  justify-content:flex-end;
-}
-.header-left {
-  justify-content: flex-start;
-}
-.header-left img{
-  width:10%;
-  border-radius: 50%;
 }
 
 .offcanvas-body ul li a{
@@ -83,5 +64,6 @@ hr{
     visibility: visible;
 
   }
+
 
 }

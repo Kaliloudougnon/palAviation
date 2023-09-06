@@ -8,21 +8,21 @@ a {
 }
 
 .image-globle-style {
-  background-size: cover;
-  background-repeat: no-repeat;
   border-radius: 5px;
-  background-position: 50% 50%;
   box-shadow: 5px 5px 44px 0px rgba(0, 0, 0, 0.29);
 }
 
 .card-header {
-  background-color: #1e1a34;
+  background-color: #76b2e5;
   color: white;
   height: 105px;
 }
 
 .card-body {
   height: 250px;
+  text-align: justify;
+  text-justify: inter-word;
+
 }
 
 .card-body div {
@@ -30,7 +30,7 @@ a {
 }
 
 .card-footer {
-  background-color: #1e1a34;
+  background-color: #76b2e5;
 }
 
 .card-icon i {
@@ -48,7 +48,7 @@ img {
 }
 
 .box-left-style, .section-style, .block-logo {
-  background-color: #c6d2dc;
+  background-color: white;
   box-shadow: 5px 5px 44px 0px rgba(206, 187, 187, 0.29);
   border-radius: 5px;
 }
@@ -58,7 +58,7 @@ img {
 }
 
 .about-style {
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 }
 
 .div-block-style {
