@@ -11,7 +11,7 @@ export class StocksComponent implements OnInit {
   constructor( private stocks:StocksService) { }
 
   ngOnInit(): void {
-    this.stocksList=this.stocks.stockList.splice(0,45);
+    this.stocksList=this.stocks.stockList.splice(0,15);
   }
 
 }

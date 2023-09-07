@@ -4,7 +4,7 @@ section {
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .image-globle-style {
@@ -19,7 +19,7 @@ a {
 }
 
 .card-body {
-  height: 250px;
+  height: 290px;
   text-align: justify;
   text-justify: inter-word;
 
@@ -92,7 +92,8 @@ img {
   text-align: center;
   padding: 9%;
   display: flex;
-  background-color: #c6d2dc;
+  background-color: #76b2e5;
+  color: white;
   width: 50%;
 }
 

@@ -1,6 +1,10 @@
 <div *ngIf="stocksList">
-  <div class="container">
-    <table class="table table-striped ">
+  <div class="container mt-5 mb-5">
+    <div class="input-group mb-5">
+      <input type="text" class="form-control p-3 " placeholder="Rearch piece by part number"  aria-describedby="button-addon2">
+      <button class="btn " type="button" id="button-addon2">Rearch piece</button>
+    </div>
+    <table class="table table-striped table-responsive-sm ">
       <thead>
       <tr>
         <th>PartNumber</th>
