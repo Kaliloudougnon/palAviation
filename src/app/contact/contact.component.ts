@@ -10,22 +10,7 @@ import emailjs, {EmailJSResponseStatus} from '@emailjs/browser';
 export class ContactComponent implements OnInit {
   contactFormGroup!: FormGroup;
   templateParams!:any;
-  zoom = 12;
-  center!: google.maps.LatLngLiteral;
-  options: google.maps.MapOptions = {
-    mapTypeId: 'hybrid',
-    zoomControl: true,
-    scrollwheel: true,
-    disableDoubleClickZoom: true,
-    maxZoom:20,
-    minZoom: 8,
-  };
   constructor(private fb: FormBuilder) {
-      this.center = {
-        lat:  33.57373364158712,
-        lng: -7.588464576310154,
-      };
-    console.log(this.center)
 
   }
 
@@ -57,4 +42,5 @@ export class ContactComponent implements OnInit {
         console.log(error.text);
       });
   }
+
 }

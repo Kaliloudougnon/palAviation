@@ -43,105 +43,105 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 332220490,
+        partNumber: "332220490",
         description: "WASHER",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 332220850,
+        partNumber: "332220850",
         description: "WASHER",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 332220960,
+        partNumber: "332220960",
         description: "SUPPORT",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 332220970,
+        partNumber: "332220970",
         description: "TUBE",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 332221380,
+        partNumber: "332221380",
         description: "INLET GUIDE VANE",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 332221390,
+        partNumber: "332221390",
         description: "INLET GUIDE VANE",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 332222220,
+        partNumber: "332222220",
         description: "INLET GUIDE VAN",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 332222410,
+        partNumber: "332222410",
         description: "NUT",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 332227310,
+        partNumber: "332227310",
         description: "SUPPORT ASSY",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 332227330,
+        partNumber: "332227330",
         description: "CONTROL ROD ASSY",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 332260140,
+        partNumber: "332260140",
         description: "RING",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 332267150,
+        partNumber: "332267150",
         description: "SUPPORT",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 332267330,
+        partNumber: "332267330",
         description: "BRACKET",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 332400270,
+        partNumber: "332400270",
         description: "NUT",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 332400380,
+        partNumber: "332400380",
         description: "SPACER",
         conditionCode: "SV",
         quantity: 1,
@@ -1043,35 +1043,35 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 114079017,
+        partNumber: "114079017",
         description: "VALVE-SELECTOR,GEAR",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 114079017,
+        partNumber: "114079017",
         description: "VALVE-SELECTOR,GEAR",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 114087006,
+        partNumber: "114087006",
         description: "VALVE BY PASS DOOR",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 114095004,
+        partNumber: "114095004",
         description: "A320 LOCK STAY ACTUA",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 114122014,
+        partNumber: "114122014",
         description: "ACTUATOR, DOOR, MLG",
         conditionCode: "SV",
         quantity: 1,
@@ -1960,14 +1960,14 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 169924,
+        partNumber: "169924",
         description: "CLAMP",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 169966,
+        partNumber: "169966",
         description: "CLAMP",
         conditionCode: "SV",
         quantity: 1,
@@ -3374,7 +3374,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 25498,
+        partNumber: "25498",
         description: "GUIDE",
         conditionCode: "SV",
         quantity: 1,
@@ -3423,7 +3423,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 26007,
+        partNumber: "26007",
         description: "POTENTIOMETER",
         conditionCode: "SV",
         quantity: 1,
@@ -3479,7 +3479,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 26600,
+        partNumber: "26600",
         description: "Guide",
         conditionCode: "SV",
         quantity: 1,
@@ -4032,14 +4032,14 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 2980190000000,
+        partNumber: "2980190000000",
         description: "FAUCET - WATER",
         conditionCode: "OH",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 29840,
+        partNumber: "29840",
         description: "ADHESIVE",
         conditionCode: "SV",
         quantity: 1,
@@ -4137,7 +4137,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 30230,
+        partNumber: "30230",
         description: "ANTISKID ACCU",
         conditionCode: "SV",
         quantity: 1,
@@ -4186,7 +4186,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 3100013,
+        partNumber: "3100013",
         description: "SENSORS",
         conditionCode: "SV",
         quantity: 1,
@@ -4298,7 +4298,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 3199680,
+        partNumber: "3199680",
         description: "BRAKE TEMP MONITOR",
         conditionCode: "SV",
         quantity: 1,
@@ -4410,14 +4410,14 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 32152,
+        partNumber: "32152",
         description: "RING RTNR",
         conditionCode: "NS",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 32152,
+        partNumber: "32152",
         description: "RING RTNR",
         conditionCode: "NS",
         quantity: 1,
@@ -4452,7 +4452,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 322000,
+        partNumber: "322000",
         description: "TRANSDUCER",
         conditionCode: "SV",
         quantity: 1,
@@ -5439,7 +5439,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 340565,
+        partNumber: "340565",
         description: "VALVE",
         conditionCode: "SV",
         quantity: 1,
@@ -7595,70 +7595,70 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 3945122506,
+        partNumber: "3945122506",
         description: "ELAC (Elevator Aileron Computer)",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 3945122506,
+        partNumber: "3945122506",
         description: "ELAC (Elevator Aileron Computer)",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 3945122506,
+        partNumber: "3945122506",
         description: "ELAC (Elevator Aileron Computer)",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 3945128215,
+        partNumber: "3945128215",
         description: "ELAC-ELEVATOR AND AILERON COMPUTER",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 3945128215,
+        partNumber: "3945128215",
         description: "ELAC-ELEVATOR AND AILERON COMPUTER",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 3945128215,
+        partNumber: "3945128215",
         description: "ELAC-ELEVATOR AND AILERON COMPUTER",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 3945128216,
+        partNumber: "3945128216",
         description: "ELEVATOR AILERON COM",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 3945129100,
+        partNumber: "3945129100",
         description: "ELAC - ELEVATOR & AILERON COMPUTER",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 3957985114,
+        partNumber: "3957985114",
         description: "ENGINE INTERFACE UNIT",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 3957985114,
+        partNumber: "3957985114",
         description: "ENGINE INTERFACE UNIT",
         conditionCode: "SV",
         quantity: 1,
@@ -8099,14 +8099,14 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 40885,
+        partNumber: "40885",
         description: "VALVE CONTROL UNIT",
         conditionCode: "OH",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 40885,
+        partNumber: "40885",
         description: "VALVE CONTROL UNIT",
         conditionCode: "OH",
         quantity: 1,
@@ -8281,7 +8281,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 4205602,
+        partNumber: "4205602",
         description: "PUMP-ELECTRIC MOTOR",
         conditionCode: "SV",
         quantity: 1,
@@ -8316,28 +8316,28 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 4305990100,
+        partNumber: "4305990100",
         description: "SENSOR",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 4305990100,
+        partNumber: "4305990100",
         description: "SENSOR",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 4315542,
+        partNumber: "4315542",
         description: "RETRACTABLE LANDING LIGHT",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 4321561,
+        partNumber: "4321561",
         description: "LIGHT AY",
         conditionCode: "SV",
         quantity: 1,
@@ -8358,7 +8358,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 44933,
+        partNumber: "44933",
         description: "IGN EXCITER (ALT: 10-621630-1)",
         conditionCode: "SV",
         quantity: 1,
@@ -8379,21 +8379,21 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 4500055,
+        partNumber: "4500055",
         description: "Plate Assy",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 4500074,
+        partNumber: "4500074",
         description: "QUILL SHAFT",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 4500517,
+        partNumber: "4500517",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
@@ -8406,13 +8406,13 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 4501936,
+        partNumber: "4501936",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 4502123,
+        partNumber: "4502123",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
@@ -8432,20 +8432,20 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 4502474,
+        partNumber: "4502474",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 4503344,
+        partNumber: "4503344",
         description: "HOUSING ASSY, COMPRESSOR",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 4503366,
+        partNumber: "4503366",
         description: "I.D. PLATE",
         conditionCode: "SV",
         quantity: 1,
@@ -8473,27 +8473,27 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 4504071,
+        partNumber: "4504071",
         description: "INLET GUIDE VANE",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 4504742,
+        partNumber: "4504742",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 4506052,
+        partNumber: "4506052",
         description: "BRACKET",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 466090,
+        partNumber: "466090",
         description: "FIRE EXT",
         conditionCode: "OH",
         quantity: 1,
@@ -8640,14 +8640,14 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 4950079,
+        partNumber: "4950079",
         description: "CLAMP",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 4950565,
+        partNumber: "4950565",
         description: "CLAMP",
         conditionCode: "SV",
         quantity: 1,
@@ -8675,14 +8675,14 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 5006349,
+        partNumber: "5006349",
         description: "VALVE",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 5006349,
+        partNumber: "5006349",
         description: "VALVE",
         conditionCode: "SV",
         quantity: 1,
@@ -8710,7 +8710,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 521100,
+        partNumber: "521100",
         description: "GCU",
         conditionCode: "SV",
         quantity: 1,
@@ -8752,7 +8752,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 5653732,
+        partNumber: "5653732",
         description: "VALVE ASSY",
         conditionCode: "SV",
         quantity: 1,
@@ -8829,27 +8829,27 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 5908704,
+        partNumber: "5908704",
         description: "SPRING WAVE WASHER",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 5908953,
+        partNumber: "5908953",
         description: "SCREEN DRAIN",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 5909614,
+        partNumber: "5909614",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 5910228,
+        partNumber: "5910228",
         description: "RINGS",
         conditionCode: "SV",
         quantity: 1,
@@ -8926,21 +8926,21 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 601343,
+        partNumber: "601343",
         description: "TUBE",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 601847,
+        partNumber: "601847",
         description: "PLUG-MAGNETIC",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 603223,
+        partNumber: "603223",
         description: "SLIP TUBE",
         conditionCode: "SV",
         quantity: 1,
@@ -9038,7 +9038,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 6105,
+        partNumber: "6105",
         description: "FUSE",
         conditionCode: "SV",
         quantity: 1,
@@ -9269,28 +9269,28 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 624160,
+        partNumber: "624160",
         description: "COUPLING",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 624173,
+        partNumber: "624173",
         description: "COUPLING",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 624185,
+        partNumber: "624185",
         description: "TUBE",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 624229,
+        partNumber: "624229",
         description: "SPRING, COUPLING",
         conditionCode: "SV",
         quantity: 1,
@@ -9493,7 +9493,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 6510,
+        partNumber: "6510",
         description: "AIRSPEED SWITCH",
         conditionCode: "SV",
         quantity: 1,
@@ -9612,28 +9612,28 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 66950,
+        partNumber: "66950",
         description: "VALVE",
         conditionCode: "OH",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 66950,
+        partNumber: "66950",
         description: "VALVE",
         conditionCode: "OH",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 66950,
+        partNumber: "66950",
         description: "VALVE",
         conditionCode: "OH",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 66950,
+        partNumber: "66950",
         description: "VALVE",
         conditionCode: "OH",
         quantity: 1,
@@ -9927,7 +9927,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 71234,
+        partNumber: "71234",
         description: "HYDRAULIC RESERVOIR HAND PUMP",
         conditionCode: "OH",
         quantity: 1,
@@ -9941,49 +9941,49 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 71784,
+        partNumber: "71784",
         description: "HYDRAULIC VALVE MODULE",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 71998,
+        partNumber: "71998",
         description: "VALVE",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 71998,
+        partNumber: "71998",
         description: "VALVE",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 71998,
+        partNumber: "71998",
         description: "VALVE",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 71998,
+        partNumber: "71998",
         description: "VALVE",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 72071000,
+        partNumber: "72071000",
         description: "OVEN",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 72071000,
+        partNumber: "72071000",
         description: "OVEN",
         conditionCode: "SV",
         quantity: 1,
@@ -9997,7 +9997,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 7335,
+        partNumber: "7335",
         description: "LAMP",
         conditionCode: "NE",
         quantity: 1,
@@ -10151,7 +10151,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 751460,
+        partNumber: "751460",
         description: "ELEMENT-FILTER",
         conditionCode: "NE",
         quantity: 1,
@@ -10396,35 +10396,35 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 7552355,
+        partNumber: "7552355",
         description: "FILTER ASSY",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 7552355,
+        partNumber: "7552355",
         description: "FILTER ASSY",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 7552355,
+        partNumber: "7552355",
         description: "FILTER ASSY",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 756426,
+        partNumber: "756426",
         description: "GEAR SHAFT",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 756427,
+        partNumber: "756427",
         description: "START MOTOR GEAR",
         conditionCode: "SV",
         quantity: 1,
@@ -10438,120 +10438,120 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 756466,
+        partNumber: "756466",
         description: "OIL PUMP GEAR",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 756466,
+        partNumber: "756466",
         description: "OIL PUMP GEAR",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 756469,
+        partNumber: "756469",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 756664,
+        partNumber: "756664",
         description: "RETAINER",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 756665,
+        partNumber: "756665",
         description: "COVER",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 756668,
+        partNumber: "756668",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 756670,
+        partNumber: "756670",
         description: "SPACER",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 756671,
+        partNumber: "756671",
         description: "BEARING SUPPORT ASSY",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 756678,
+        partNumber: "756678",
         description: "PUMP SCAVENGE OIL",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 756678,
+        partNumber: "756678",
         description: "PUMP SCAVENGE OIL",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 756681,
+        partNumber: "756681",
         description: "CAP-FILTER",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 756687,
+        partNumber: "756687",
         description: "JET",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 756731,
+        partNumber: "756731",
         description: "SPRING",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 757290,
+        partNumber: "757290",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 757291,
+        partNumber: "757291",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 757292,
+        partNumber: "757292",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 757293,
+        partNumber: "757293",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 757307,
+        partNumber: "757307",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
@@ -10564,7 +10564,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 757366,
+        partNumber: "757366",
         description: "PLUG",
         conditionCode: "SV",
         quantity: 1,
@@ -10606,7 +10606,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 761951,
+        partNumber: "761951",
         description: "STARTER SHAFT",
         conditionCode: "SV",
         quantity: 1,
@@ -10648,7 +10648,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 762525,
+        partNumber: "762525",
         description: "SEAL",
         conditionCode: "SV",
         quantity: 1,
@@ -10914,7 +10914,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 7900064,
+        partNumber: "7900064",
         description: "TOILET",
         conditionCode: "OH",
         quantity: 1,
@@ -10949,7 +10949,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 793322,
+        partNumber: "793322",
         description: "PROBE",
         conditionCode: "SV",
         quantity: 1,
@@ -10970,7 +10970,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 8011612,
+        partNumber: "8011612",
         description: "PACKING",
         conditionCode: "NS",
         quantity: 1,
@@ -11642,7 +11642,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 902020,
+        partNumber: "902020",
         description: "FIRE DETECTOR",
         conditionCode: "SV",
         quantity: 1,
@@ -11712,7 +11712,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 940732,
+        partNumber: "940732",
         description: "STANDBY SYSTEM HYDRAULIC PUMP",
         conditionCode: "SV",
         quantity: 1,
@@ -11740,14 +11740,14 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 9508175,
+        partNumber: "9508175",
         description: "VENT FLOAT VALVE",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 9508175,
+        partNumber: "9508175",
         description: "VENT FLOAT VALVE",
         conditionCode: "SV",
         quantity: 1,
@@ -11768,21 +11768,21 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 9560158820,
+        partNumber: "9560158820",
         description: "WASHER",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 9560162060,
+        partNumber: "9560162060",
         description: "CLAMP",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 9560163900,
+        partNumber: "9560163900",
         description: "RING",
         conditionCode: "SV",
         quantity: 1,
@@ -11824,28 +11824,28 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 9615325060,
+        partNumber: "9615325060",
         description: "DISPLAY MANAGEMENT COMPUTER",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 9615325060,
+        partNumber: "9615325060",
         description: "DISPLAY MANAGEMENT COMPUTER",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 9615325060,
+        partNumber: "9615325060",
         description: "DISPLAY MANAGEMENT COMPUTER",
         conditionCode: "SV",
         quantity: 1,
         uoM: "EA"
       },
       {
-        partNumber: 9615325060,
+        partNumber: "9615325060",
         description: "DISPLAY MANAGEMENT COMPUTER",
         conditionCode: "SV",
         quantity: 1,
@@ -12209,7 +12209,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 971600,
+        partNumber: "971600",
         description: "POWER UNIT",
         conditionCode: "SV",
         quantity: 1,

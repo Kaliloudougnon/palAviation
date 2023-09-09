@@ -23,7 +23,7 @@ export class HomeComponent implements OnInit {
     },
     {
       icon: "bi bi-arrow-repeat",
-      header: "LOANS & REPAIR MANAGEMENT",
+      header: "LOANS & REPAIR ",
       text: "For many airlines component repair can be a stressful business. Dealing with workshops," +
         "              tackling tough timescales, negotiating deals and delivering the goods on",
       footer: ""

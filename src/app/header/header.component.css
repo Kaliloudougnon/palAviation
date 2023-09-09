@@ -28,8 +28,11 @@ video {
 }
 .carousel-item img{
   border-radius: 10%;
-  width: 80%;
+  width: 50%;
 
+}
+.carousel{
+  margin-left: 30%;
 }
 .box-left{
   margin:80px 10px 10px 40px;
