@@ -16,30 +16,33 @@ export class HomeComponent implements OnInit {
   services = [
     {
       icon: "bi bi-bar-chart",
-      header: "OUTRIGHT SALE",
-      text: "Some people say that size doesn’t matter, but they don’t have unlimited access to the world’s" +
-        "              largest available aircraft component inventory",
+      header: "Sales,Loans & Exchanges",
+      text: "SoSome people say that size doesn’t matter, but they don’t have unlimited access to the world’s largest" +
+        "available aircraft component inventory. " +
+        "We not only offer size, but speed and satisfaction too, with immediate...",
       footer: ""
     },
     {
       icon: "bi bi-arrow-repeat",
-      header: "LOANS & REPAIR ",
-      text: "For many airlines component repair can be a stressful business. Dealing with workshops," +
-        "              tackling tough timescales, negotiating deals and delivering the goods on",
+      header: "Repair Management ",
+      text: "Pal aviation aircraft component repairs each year and counting. You can be a vital component in Pal" +
+        "Aviation´s unbeatable Nose-to-Tail service - the fast, flexible repair solution." +
+        " When you use Pal Aviation for Repair Management, you’ll also benefit from...",
       footer: ""
     },
-    {
+  /*  {
       icon: "bi bi-speedometer2",
       header: "STANDARD EXCHANGE OR FLAT EXCHANGE",
       text: "Pal Aviation helping you save space and no need to maintain high cost units at your" +
         "              inventories. All the exchange units are provided",
       footer: ""
-    },
+    },*/
     {
       icon: "bi bi-people",
       header: "AOG SERVICE",
       text: "Our AOG team is available 24/7. We stock" +
-        "              thousands of line items of airworthy material that can always be dispatched within an hour.",
+        "thousands of line items of airworthy material that can always be dispatched within an hour." +
+        "  Please reach out anytime via phone or email for your...",
       footer: ""
     },
     /*{
@@ -53,7 +56,8 @@ export class HomeComponent implements OnInit {
       icon: "bi bi-house-gear",
       header: "LEASING",
       text: "Pal Aviation’s leasing expertise, and commitment to constantly increasing our pool, provides" +
-        "              you with a unique partner who can help to unlock...",
+        "              you with a unique partner who can help to unlock the value in surplus aviation assets either" +
+        "        through purchase...",
       footer: ""
     }
   ]

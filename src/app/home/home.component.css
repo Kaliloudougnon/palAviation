@@ -6,8 +6,9 @@ a {
   text-decoration: none;
   color: white;
 }
-.box-image img {
-  border-radius: 5px;
+.carousel-item img {
+  width:528px;
+  height:250px;
   box-shadow: 5px 5px 44px 0px rgba(0, 0, 0, 0.29);
 }
 .card-header {
@@ -75,6 +76,24 @@ h3{
   color: #76b2e5;
   text-transform: uppercase;
 }
+
+.animate-charcter {
+  animation: textclip  2s linear forwards;
+}
+
+@keyframes textclip {
+  0% {
+    transform: translateY(80%);
+  }
+}
+.animate-img-top {
+  animation: imgcliptop  2s linear forwards;
+}
+@keyframes imgcliptop {
+  0% {
+    transform: translateY(-80%);
+  }
+}
 @media (max-width: 990px) {
   .card-global {
     background-color: #ffffff;
@@ -98,5 +117,9 @@ h3{
 
   .box-image {
     margin-top: 15px;
+  }
+  .carousel-item img {
+    width:100%;
+    height:auto;
   }
 }

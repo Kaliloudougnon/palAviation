@@ -52,14 +52,6 @@ a{
     transform: translateY(80%);
   }
 }
-.animate-img-top {
-  animation: imgcliptop  2s linear forwards;
-}
-@keyframes imgcliptop {
-  0% {
-    transform: translateY(-80%);
-  }
-}
 h1{
   font-size: 70px;
 }
