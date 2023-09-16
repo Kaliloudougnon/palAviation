@@ -20,7 +20,8 @@ export class HomeComponent implements OnInit {
       text: "SoSome people say that size doesn’t matter, but they don’t have unlimited access to the world’s largest" +
         "available aircraft component inventory. " +
         "We not only offer size, but speed and satisfaction too, with immediate...",
-      footer: ""
+      footer: "",
+      more:"service#sales-section"
     },
     {
       icon: "bi bi-arrow-repeat",
@@ -28,7 +29,8 @@ export class HomeComponent implements OnInit {
       text: "Pal aviation aircraft component repairs each year and counting. You can be a vital component in Pal" +
         "Aviation´s unbeatable Nose-to-Tail service - the fast, flexible repair solution." +
         " When you use Pal Aviation for Repair Management, you’ll also benefit from...",
-      footer: ""
+      footer: "",
+      more:"service#repair-section"
     },
   /*  {
       icon: "bi bi-speedometer2",
@@ -43,7 +45,8 @@ export class HomeComponent implements OnInit {
       text: "Our AOG team is available 24/7. We stock" +
         "thousands of line items of airworthy material that can always be dispatched within an hour." +
         "  Please reach out anytime via phone or email for your...",
-      footer: ""
+      footer: "",
+      more:"service#aog-section"
     },
     /*{
       icon: "bi bi-shop",
@@ -58,7 +61,8 @@ export class HomeComponent implements OnInit {
       text: "Pal Aviation’s leasing expertise, and commitment to constantly increasing our pool, provides" +
         "              you with a unique partner who can help to unlock the value in surplus aviation assets either" +
         "        through purchase...",
-      footer: ""
+      footer: "",
+      more:"service#leasing-section"
     }
   ]
 }
