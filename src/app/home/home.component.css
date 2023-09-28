@@ -14,16 +14,15 @@ a {
 .card-header {
   background-color: #76b2e5;
   color: white;
-  height: 70px;
 }
 .card-body {
   height: 290px;
   text-align: justify;
   text-justify: inter-word;
-
 }
 .card-body div {
-  height: 160px;
+ height: 200px;
+  margin-bottom: 5px;
 }
 .card-footer {
   background-color: #76b2e5;
@@ -45,6 +44,7 @@ img {
   border-radius: 5px;
 }
 .style-d-fledx {
+  margin: 30px;
   display: flex;
   justify-content: center;
 }
@@ -95,6 +95,9 @@ h3{
   }
 }
 @media (max-width: 990px) {
+  section {
+    margin: 10% 5% 10% 5%;
+  }
   .card-global {
     background-color: #ffffff;
     border-radius: 5px;
@@ -103,6 +106,7 @@ h3{
   }
 
   .style-d-fledx {
+    margin: 0 0 20px 0;
     display: block;
   }
 
@@ -120,6 +124,9 @@ h3{
   }
   .carousel-item img {
     width:100%;
+    height:auto;
+  }
+  .card-body ,.card-body div {
     height:auto;
   }
 }

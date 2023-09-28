@@ -13,12 +13,12 @@
           </div>
         </div>
         <div class="mb-3">
-          <label  class="form-label">Email</label>
+          <label  class="form-label">Email <span>*</span></label>
           <input type="email" class="form-control" formControlName="email" placeholder="name@example.com">
         </div>
           <div class="mb-3 row">
             <div class="col-6">
-              <label  class="form-label"  >Country</label>
+              <label  class="form-label"  >Country <span>*</span></label>
               <input type="text" class="form-control" formControlName="country" placeholder="Country" >
             </div>
             <div class="col-6">
@@ -31,24 +31,26 @@
           <input type="email" class="form-control" formControlName="subject" placeholder="Subject">
         </div>
         <div class="mb-3">
-          <label  class="form-label">Your Message</label>
+          <label  class="form-label">Your Message <span>*</span></label>
           <textarea class="form-control" formControlName="message" rows="5"></textarea>
         </div>
+          <div *ngIf="isSend" class="alert alert-success alert-dismissible d-flex align-items-center fade show">
+            <i class="bi-check-circle-fill"></i>
+            <strong class="mx-2">Success!</strong> Your message has been sent successfully.
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+          </div>
         <div class="d-grid">
-          <button type="submit" class=" btn ">SUBMIT</button>
+          <button type="submit" class=" btn " [disabled]="!isValid()">SUBMIT</button>
         </div>
         </form>
       </div>
-    <div class=" col-lg-2 col-md-4 col-sm-12 m-5">
+    <div class=" col-lg-2 col-md-4 col-sm-12 ">
          <img src="assets/imgs/logo-pal-aviation4.png" alt="logo" class="">
     </div>
   </div>
-  <div class="  ">
-    <iframe src="http://maps.google.com/maps?q=33.57373364158712,-7.588464576310154&z=16&output=embed"
-            height="500"
-            width="100%"
-    >
-    </iframe>
+  <div class=" map ">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.104284696446!2d-7.621346425135165!3d33.59481724174662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d284a5a0e849%3A0xb2dffc40c39b06c7!2sPlace%20des%20Nations-Unies!5e1!3m2!1sfr!2sma!4v1695908804546!5m2!1sfr!2sma"
+            width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 </div>
 

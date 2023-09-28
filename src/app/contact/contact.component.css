@@ -10,6 +10,12 @@ input{
 label{
   font-weight: bold;
 }
+label span{
+  color: red;
+}
+.map{
+  margin: 10px;
+}
 img{
   width: 180%;
   margin-left: 20px;
@@ -18,5 +24,8 @@ img{
   img{
     width: 100%;
     margin: 5px;
+  }
+  .map{
+    margin: 0;
   }
 }

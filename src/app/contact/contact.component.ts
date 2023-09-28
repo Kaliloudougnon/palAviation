@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {FormBuilder, FormGroup} from '@angular/forms';
+import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 import emailjs, {EmailJSResponseStatus} from '@emailjs/browser';
 
 @Component({
@@ -10,6 +10,7 @@ import emailjs, {EmailJSResponseStatus} from '@emailjs/browser';
 export class ContactComponent implements OnInit {
   contactFormGroup!: FormGroup;
   templateParams!:any;
+  isSend: boolean=false;
   constructor(private fb: FormBuilder) {
 
   }
@@ -19,14 +20,16 @@ export class ContactComponent implements OnInit {
       firstName: this.fb.control(""),
       lastName: this.fb.control(""),
       subject: this.fb.control(""),
-      country: this.fb.control(""),
+      country: this.fb.control("",Validators.required),
       phone: this.fb.control(""),
-      email: this.fb.control(""),
-      message: this.fb.control(""),
+      email: this.fb.control("",Validators.required),
+      message: this.fb.control("",Validators.required),
     });
 
   }
-
+isValid(){
+    return this.contactFormGroup.valid;
+}
   sendEmail(e: Event) {
     this.templateParams = {
       from_name: this.contactFormGroup.value.firstName,
@@ -37,7 +40,7 @@ export class ContactComponent implements OnInit {
     };
     emailjs.send('service_taxhhwp', 'template_47aafjg', this.templateParams, "GP_r02lDCYQS2h2D6")
       .then((result: EmailJSResponseStatus) => {
-        console.log(result.text);
+        this.isSend=true;
       }, (error) => {
         console.log(error.text);
       });
