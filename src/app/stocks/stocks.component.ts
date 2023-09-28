@@ -10,23 +10,24 @@ import { StocksService } from '../stocks.service';
 export class StocksComponent implements OnInit {
   stocksList:Piece[]=[];
   searchForm!:FormGroup;
-  constructor( private stocks:StocksService,private fb:FormBuilder) { }
+  constructor( private stocks:StocksService,private fb:FormBuilder) {
+
+  }
 
   ngOnInit(): void {
     this.searchForm=this.fb.group(
       {
         keyWord:this.fb.control("")
       }
-    )
-    this.stocksList=this.stocks.stockList.splice(0,15);
+    );
+    for (let i=0;i<15;i++)
+    this.stocksList.push(this.stocks.stockList[i]);
   }
 
   search() {
     this.stocksList=[];
-    console.log(this.searchForm.value.keyWord)
     this.stocks.stockList.forEach((c: Piece)=>{
-      console.log(c.partNumber)
-      if (c.partNumber.includes(this.searchForm.value.keyWord)){
+      if (c.partNumber.includes(this.searchForm.value.keyWord.trim())){
         this.stocksList.push(c);
         this.stocksList=this.stocksList.splice(0,15);
       }

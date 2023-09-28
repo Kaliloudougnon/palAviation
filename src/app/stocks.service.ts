@@ -8,20 +8,6 @@ export class StocksService {
   constructor() {
     this.stockList=  [
       {
-        partNumber: "002A0016-31",
-        description: "Elevator Assy - LH",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "002A0016-32",
-        description: "Elevator and Tab Assy - RH",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
         partNumber: "0123FA2",
         description: "FLOW SYSTEM CALIBRATOR SENSOR",
         conditionCode: "SV",
@@ -6734,7 +6720,7 @@ export class StocksService {
         uoM: "EA"
       },
       {
-        partNumber: 387,
+        partNumber: "387",
         description: "LAMP = 10 PKG",
         conditionCode: "NS",
         quantity: 1,
@@ -12534,6 +12520,20 @@ export class StocksService {
         partNumber: "AR4714-7",
         description: "DOOR STRIKE, ELECTRICALLY OPERATED",
         conditionCode: "SV",
+        quantity: 1,
+        uoM: "EA"
+      },
+      {
+        partNumber: "002A0016-32",
+        description: "Elevator and Tab Assy - RH",
+        conditionCode: "OH",
+        quantity: 1,
+        uoM: "EA"
+      },
+      {
+        partNumber: "002A0016-31",
+        description: "Elevator Assy - LH",
+        conditionCode: "OH",
         quantity: 1,
         uoM: "EA"
       },
