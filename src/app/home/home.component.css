@@ -80,7 +80,10 @@ h3{
 .animate-charcter {
   animation: textclip  2s linear forwards;
 }
-
+#carouselExampleInterval3 img{
+  width:650px;
+  height:350px;
+}
 @keyframes textclip {
   0% {
     transform: translateY(80%);
@@ -128,5 +131,9 @@ h3{
   }
   .card-body ,.card-body div {
     height:auto;
+  }
+  #carouselExampleInterval3 img{
+    width:100%;
+    height:100%;
   }
 }
