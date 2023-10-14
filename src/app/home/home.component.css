@@ -1,7 +1,6 @@
 section {
   margin: 10%;
 }
-
 a {
   text-decoration: none;
   color: white;
@@ -17,8 +16,7 @@ a {
 }
 .card-body {
   height: 290px;
-  text-align: justify;
-  text-justify: inter-word;
+  word-break: break-all;
 }
 .card-body div {
  height: 200px;
@@ -83,6 +81,8 @@ h3{
 #carouselExampleInterval3 img{
   width:650px;
   height:350px;
+  border-radius: 50%;
+
 }
 @keyframes textclip {
   0% {
