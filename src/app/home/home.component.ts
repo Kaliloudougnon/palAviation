@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit {
         " available aircraft component inventory. " +
         " We not only offer size, but speed and satisfaction too, with immediate...",
       footer: "",
-      more:"service#sales-section"
+      more:"ourService#sales-section"
     },
     {
       icon: "bi bi-arrow-repeat",
@@ -30,7 +30,7 @@ export class HomeComponent implements OnInit {
         " Aviation´s unbeatable Nose-to-Tail service - the fast, flexible repair solution." +
         " When you use Pal Aviation for Repair Management, you’ll also benefit from...",
       footer: "",
-      more:"service#repair-section"
+      more:"ourService#repair-section"
     },
     {
       icon: "bi bi-people",
@@ -39,7 +39,7 @@ export class HomeComponent implements OnInit {
         " thousands of line items of airworthy material that can always be dispatched within an hour." +
         "  Please reach out anytime via phone or email for your...",
       footer: "",
-      more:"service#aog-section"
+      more:"ourService#aog-section"
     },
     {
       icon: "bi bi-house-gear",
@@ -48,7 +48,7 @@ export class HomeComponent implements OnInit {
         "              you with a unique partner who can help to unlock the value in surplus aviation assets either" +
         "        through purchase...",
       footer: "",
-      more:"service#leasing-section"
+      more:"ourService#leasing-section"
     }
   ]
 }

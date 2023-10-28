@@ -8,9 +8,9 @@ import { StocksComponent } from './stocks/stocks.component';
 
 const routes: Routes = [
   {path:"about",component:AboutComponent},
-  {path: "home",component: HomeComponent},
+  {path: "accueil",component: HomeComponent},
   {path: "",component: HomeComponent},
-  {path: "service",component: OurServiceComponent},
+  {path: "ourService",component: OurServiceComponent},
   {path: "stocks",component: StocksComponent},
   {path: "contact",component: ContactComponent}
 ];
