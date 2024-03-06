@@ -23,7 +23,8 @@ nav {
   color: #07365d;
 }
 .navbar-brand img {
-  width: 25%;
+ border-radius: 50%;
+  width: 15%;
 }
 .marge {
   margin-right: 10%;
@@ -73,7 +74,7 @@ nav {
   }
 
   .navbar-brand img {
-    width: 75%;
+    width: 50%;
   }
 
 }
