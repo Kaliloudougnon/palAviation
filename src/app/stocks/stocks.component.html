@@ -1,3 +1,8 @@
+<div class="video-wrapper">
+  <video  playsinline autoplay [muted]="true"  loop>
+    <source src="assets/videos/videoStocks.mp4" type="video/mp4">
+  </video>
+</div>
 <div *ngIf="stocksList">
   <div class="container mt-5 mb-5">
     <form [formGroup]="searchForm" (ngSubmit)="search()">
@@ -14,18 +19,16 @@
           <th>Description</th>
           <th>Condition Code</th>
           <th>Quantity</th>
-          <th>UoM</th>
         </tr>
         </thead>
         <tbody>
         <tr *ngFor="let piece of stocksList">
-          <td>    {{piece.partNumber}}</td>
-          <td>    {{piece.description}} </td>
+          <td>    {{piece.PN}}</td>
+          <td>    {{piece.Description}} </td>
           <td>
-            {{piece.conditionCode}}</td>
-          <td>    {{piece.quantity}} </td>
-          <td>
-            {{piece.uoM}}</td>
+            {{piece.Condition}}</td>
+          <td>    {{piece.Quantity}} </td>
+
         </tr>
         </tbody>
       </table>

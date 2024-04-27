@@ -17,8 +17,9 @@ label span{
   margin: 10px;
 }
 img{
-  width: 180%;
+  width: 200%;
   margin-left: 20px;
+  margin-top: 10rem;
 }
 @media (max-width: 990px) {
   img{

@@ -27,7 +27,7 @@ export class StocksComponent implements OnInit {
   search() {
     this.stocksList=[];
     this.stocks.stockList.forEach((c: Piece)=>{
-      if (c.partNumber.includes(this.searchForm.value.keyWord.trim())){
+      if (c.PN.includes(this.searchForm.value.keyWord.trim())){
         this.stocksList.push(c);
         this.stocksList=this.stocksList.splice(0,15);
       }

@@ -7,7 +7,7 @@ body{
   font-weight: 500 !important;
 }
 footer{
-  background-color: #171212 !important;
+  background-color: black !important;
   font-family: Lato, sans-serif;
   color: white;
   padding: 20px;
@@ -17,3 +17,45 @@ footer{
   color: white !important;
 }
 
+video {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  width: 100%;
+  play-during: auto;
+}
+.video-wrapper {
+  width: 100%;
+  height:750px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.animate-charcter {
+  margin-top: 50px;
+  animation: textclip  2s linear forwards;
+}
+
+.header{
+  position: relative;
+  color: white;
+}
+.header button{
+  padding: 10px 30px 10px 30px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: black;
+}
+@media (max-width:990px) {
+  .video-wrapper {
+    width: 100%;
+    height:900px;
+  }
+  video {
+    height: 90%;
+  }
+}

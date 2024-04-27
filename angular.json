@@ -51,8 +51,7 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
-              "outputHashing": "none",
-              "baseHref": "https://kaliloudougnon.github.io/palAviation/"
+              "outputHashing": "none"
             },
             "development": {
               "buildOptimizer": false,

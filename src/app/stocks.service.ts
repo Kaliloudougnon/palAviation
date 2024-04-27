@@ -6,12543 +6,10546 @@ import { Injectable } from '@angular/core';
 export class StocksService {
  stockList:any;
   constructor() {
-    this.stockList=  [
+    this.stockList= [
       {
-        partNumber: "0123FA2",
-        description: "FLOW SYSTEM CALIBRATOR SENSOR",
-        conditionCode: "SV",
-        quantity: 4,
-        uoM: "EA"
+        "PN": "002A0016-31",
+        "Description": "Elevator Assy - LH",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "019-012-001",
-        description: "XMTR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "002A0016-32",
+        "Description": "Elevator and Tab Assy - RH",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "024147-000",
-        description: "BATTERY MAIN - M6",
-        conditionCode: "OH",
-        quantity: 2,
-        uoM: "EA"
+        "PN": "0123FA2",
+        "Description": "FLOW SYSTEM CALIBRATOR SENSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "332220490",
-        description: "WASHER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "019-012-001",
+        "Description": "XMTR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "332220850",
-        description: "WASHER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "024147-000",
+        "Description": "BATTERY MAIN - M6",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "332220960",
-        description: "SUPPORT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "332220490",
+        "Description": "WASHER",
+        "Condition": "SV",
+        "Quantity": 2
       },
       {
-        partNumber: "332220970",
-        description: "TUBE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "332220850",
+        "Description": "WASHER",
+        "Condition": "SV",
+        "Quantity": 2
       },
       {
-        partNumber: "332221380",
-        description: "INLET GUIDE VANE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "332220960",
+        "Description": "SUPPORT",
+        "Condition": "SV",
+        "Quantity": 2
       },
       {
-        partNumber: "332221390",
-        description: "INLET GUIDE VANE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "332220970",
+        "Description": "TUBE",
+        "Condition": "SV",
+        "Quantity": 2
       },
       {
-        partNumber: "332222220",
-        description: "INLET GUIDE VAN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "332221380",
+        "Description": "INLET GUIDE VANE",
+        "Condition": "SV",
+        "Quantity": 2
       },
       {
-        partNumber: "332222410",
-        description: "NUT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "332221390",
+        "Description": "INLET GUIDE VANE",
+        "Condition": "SV",
+        "Quantity": 2
       },
       {
-        partNumber: "332227310",
-        description: "SUPPORT ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "332222220",
+        "Description": "INLET GUIDE VAN",
+        "Condition": "SV",
+        "Quantity": 2
       },
       {
-        partNumber: "332227330",
-        description: "CONTROL ROD ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "332222410",
+        "Description": "NUT",
+        "Condition": "SV",
+        "Quantity": 2
       },
       {
-        partNumber: "332260140",
-        description: "RING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "332227310",
+        "Description": "SUPPORT ASSY",
+        "Condition": "SV",
+        "Quantity": 2
       },
       {
-        partNumber: "332267150",
-        description: "SUPPORT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "332227330",
+        "Description": "CONTROL ROD ASSY",
+        "Condition": "SV",
+        "Quantity": 2
       },
       {
-        partNumber: "332267330",
-        description: "BRACKET",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "332260140",
+        "Description": "RING",
+        "Condition": "SV",
+        "Quantity": 2
       },
       {
-        partNumber: "332400270",
-        description: "NUT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "332267150",
+        "Description": "SUPPORT",
+        "Condition": "SV",
+        "Quantity": 2
       },
       {
-        partNumber: "332400380",
-        description: "SPACER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "332267330",
+        "Description": "BRACKET",
+        "Condition": "SV",
+        "Quantity": 2
       },
       {
-        partNumber: "045-250-025",
-        description: "BOOMSET",
-        conditionCode: "SV",
-        quantity: 2,
-        uoM: "EA"
+        "PN": "332400270",
+        "Description": "NUT",
+        "Condition": "SV",
+        "Quantity": 2
       },
       {
-        partNumber: "045-250-025",
-        description: "BOOMSET",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "332400380",
+        "Description": "SPACER",
+        "Condition": "SV",
+        "Quantity": 2
       },
       {
-        partNumber: "064-50000-2000",
-        description: "VHF DATA RADIO",
-        conditionCode: "SV",
-        quantity: 3,
-        uoM: "EA"
+        "PN": "045-250-025",
+        "Description": "BOOMSET",
+        "Condition": "SV",
+        "Quantity": 2
       },
       {
-        partNumber: "064-50000-2000",
-        description: "VHF DATA RADIO",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "064-50000-2000",
+        "Description": "VHF DATA RADIO",
+        "Condition": "SV",
+        "Quantity": 2
       },
       {
-        partNumber: "064-50000-2000",
-        description: "VHF DATA RADIO",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "064-50002-0101",
+        "Description": "8.33 VHF COMM, ARINC",
+        "Condition": "SV",
+        "Quantity": 2
       },
       {
-        partNumber: "064-50002-0101",
-        description: "8.33 VHF COMM, ARINC",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "066-01127-1101",
+        "Description": "TRA 67A ATC TRANSPONDER, MODE 'S'",
+        "Condition": "SV",
+        "Quantity": 2
       },
       {
-        partNumber: "066-01127-1101",
-        description: "TRA 67A ATC TRANSPONDER, MODE 'S'",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "066-01127-1301",
+        "Description": "TRANSPONDER",
+        "Condition": "SV",
+        "Quantity": 2
       },
       {
-        partNumber: "066-01127-1101",
-        description: "TRA 67A ATC TRANSPONDER, MODE 'S'",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "066-01127-1602",
+        "Description": "TRANSPONDER MODE S",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "066-01127-1101",
-        description: "TRA 67A ATC TRANSPONDER, MODE 'S'",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "066-50008-0405",
+        "Description": "TRANSCEIVER-WX RADAR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "066-01127-1301",
-        description: "TRANSPONDER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "066-50008-0406",
+        "Description": "RADAR TRANSCEIVER RTA-4B",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "066-01127-1301",
-        description: "TRANSPONDER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "066-50014-0101",
+        "Description": "RCVR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "066-01127-1602",
-        description: "TRANSPONDER MODE S",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "066-50014-0101",
+        "Description": "RCVR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "066-50008-0405",
-        description: "TRANSCEIVER-WX RADAR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "066-50029-1101",
+        "Description": "MULTI-MODE RCVR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "066-50008-0405",
-        description: "TRANSCEIVER-WX RADAR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "071-50001-8102",
+        "Description": "ANTENNA, TCAS DIRECTIONAL",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "066-50008-0405",
-        description: "TRANSCEIVER-WX RADAR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "080-20325-01",
+        "Description": "TRANSFORMER, RECTIFIER 50 AMP",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "066-50008-0406",
-        description: "RADAR TRANSCEIVER RTA-4B",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "080-20325-01",
+        "Description": "TRANSFORMER, RECTIFIER 50 AMP",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "0871DP4",
+        "Description": "DETECTOR, ICE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "088259-04644",
+        "Description": "ACCUMULATOR POWER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1001002-2",
+        "Description": "RADOME, ASSY",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "10-1004-2",
+        "Description": "SIGN",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "10-1004-2",
+        "Description": "SIGN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "10-1004-3",
+        "Description": "SIGN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "101651-303",
+        "Description": "Slide\/Raft RH\/LH FWD\/AFT B767",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "103642-3",
+        "Description": "VALVE-PRESSURE RELIEF",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "10-60450-1",
+        "Description": "RELAY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "106-1-1100-02",
+        "Description": "ACTUATOR - APU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "10-621630-1",
+        "Description": "EXCITER IGNITION (CL'A')",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "10-631045-3",
+        "Description": "IGNITION EXCITER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "107492-6",
+        "Description": "REGULATOR-BLEED AIR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1091A0000-01",
+        "Description": "INJECTOR WATER",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "109382-36-1",
+        "Description": "VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1103070-120",
+        "Description": "DECODER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1106-3AB",
+        "Description": "OBSERVER SEAT - RH",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1111A0000-01",
+        "Description": "3\/2 SOLENOID VALVE",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "11197-5",
+        "Description": "DETECTOR",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "112T4607-5",
+        "Description": "DOOR ASSY",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "113A1150-1",
+        "Description": "FITTING ASSY",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "113A1150-2",
+        "Description": "FITTING",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "113A2610-2",
+        "Description": "",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "113A4300-2",
+        "Description": "SPOILER",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "113A4600-1",
+        "Description": "Spoiler Assy NO 6",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "113A9104-1",
+        "Description": "BEAM ASSY",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "113A9365-4",
+        "Description": "ACCESS COVER",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "113T1249-1",
+        "Description": "ROD ASSY.",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "113T2276-1",
+        "Description": "TRACK ASSY",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "113T3144-11",
+        "Description": "DOOR",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "113T3144-3",
+        "Description": "FLAP FOOTBALL PANEL",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1140-0110-34",
+        "Description": "STICK AY",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1140-0183-6",
+        "Description": "STICK AY",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "066-50014-0101",
-        description: "RCVR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "114079017",
+        "Description": "VALVE-SELECTOR,GEAR",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "066-50029-1101",
-        description: "MULTI-MODE RCVR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "114087006",
+        "Description": "VALVE BY PASS DOOR",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "071-50001-8102",
-        description: "ANTENNA, TCAS DIRECTIONAL",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "114095004",
+        "Description": "A320 LOCK STAY ACTUA",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "071-50001-8102",
-        description: "ANTENNA, TCAS DIRECTIONAL",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "114122014",
+        "Description": "ACTUATOR, DOOR, MLG",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "080-20325-01",
-        description: "TRANSFORMER, RECTIFIER 50 AMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "114A7531-201",
+        "Description": "SLAT TRACK #3 OR #6 0\/B",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "080-20325-01",
-        description: "TRANSFORMER, RECTIFIER 50 AMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "114A7542-201",
+        "Description": "TRACK ASSY, #4 OR #5 I\/B",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "080-20325-01",
-        description: "TRANSFORMER, RECTIFIER 50 AMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "114A7542-5",
+        "Description": "TRACK AY",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "080-20325-01",
-        description: "TRANSFORMER, RECTIFIER 50 AMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "114T0202-104",
+        "Description": "DOOR ASSY-SLAT TRACK RH",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "080-20325-01",
-        description: "TRANSFORMER, RECTIFIER 50 AMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1150002-1",
+        "Description": "SENSOR",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "080-20325-01",
-        description: "TRANSFORMER, RECTIFIER 50 AMP",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1150250-1",
+        "Description": "SENSOR",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "080-20325-01",
-        description: "TRANSFORMER, RECTIFIER 50 AMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1150980-2",
+        "Description": "SENSOR",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "080-20325-01",
-        description: "TRANSFORMER, RECTIFIER 50 AMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1151864-1",
+        "Description": "CONTRLLR",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "080-20325-01",
-        description: "TRANSFORMER, RECTIFIER 50 AMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1158000-21",
+        "Description": "VALVE-REFUEL",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "080-20325-01",
-        description: "TRANSFORMER, RECTIFIER 50 AMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "115A2710-17",
+        "Description": "PANEL ASSY",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "080-20325-01",
-        description: "TRANSFORMER, RECTIFIER 50 AMP",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "115A2950-81",
+        "Description": "TURNBUCKLE",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "080-20325-01",
-        description: "TRANSFORMER, RECTIFIER 50 AMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "116941-5",
+        "Description": "HEATER",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "080-20325-01",
-        description: "TRANSFORMER, RECTIFIER 50 AMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1173T211",
+        "Description": "SWITCH, OVERHEAT SENSOR",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "080-20325-01",
-        description: "TRANSFORMER, RECTIFIER 50 AMP",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "11-811538-1",
+        "Description": "PRECOOLER EXCHANGER",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "080-20325-01",
-        description: "TRANSFORMER, RECTIFIER 50 AMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "121664-8",
+        "Description": "ACTUATOR-BALLSCREW",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "080-20325-01",
-        description: "TRANSFORMER, RECTIFIER 50 AMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "121666-13",
+        "Description": "ACTUATOR-BALLSCREW MASTER",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "080-20325-01",
-        description: "TRANSFORMER, RECTIFIER 50 AMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "125329B-4",
+        "Description": "ADAPTER",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "0871DP4",
-        description: "DETECTOR, ICE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "125334D-2",
+        "Description": "FUEL VALVE BODY ASSY - LH TANK",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "0871DP4",
-        description: "DETECTOR, ICE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1267-501",
+        "Description": "LIGHT ASSY",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "088259-04644",
-        description: "ACCUMULATOR POWER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1303153-101",
+        "Description": "LCD MONITOR",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "1001002-2",
-        description: "RADOME, ASSY",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1303910-101",
+        "Description": "MONITOR, RETRACTOR, LCD-10.4 INCH",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "10-1004-2",
-        description: "SIGN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1303A0000-04",
+        "Description": "FLOW CONTROL VALVE",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "10-1004-2",
-        description: "SIGN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1318M50G03",
+        "Description": "LINK-CONNECTING ACTUATION RING IGV",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "10-1004-2",
-        description: "SIGN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1319M17P02",
+        "Description": "SEAL-ROTATING HPT REAR",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "10-1004-2",
-        description: "SIGN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1320A0000-02",
+        "Description": "VALVE, TRIM AIR",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "10-1004-2",
-        description: "SIGN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1385M33G03",
+        "Description": "ARM ASSY-VANE ACTUATION CPRSR STTR STG 1",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "10-1004-2",
-        description: "SIGN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "13TX-0115-A",
+        "Description": "SURFACE POSITION XMTR",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "10-1004-2",
-        description: "SIGN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "140-025-1",
+        "Description": "TRANSDUCER",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "10-1004-3",
-        description: "SIGN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "140-025-1",
+        "Description": "TRANSDUCER",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "101651-303",
-        description: "SlideRaft RHLH FWDAFT B767",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "140-025-2",
+        "Description": "TRANSDUCER ASSY, WHEEL SPEED",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "103642-3",
-        description: "VALVE-PRESSURE RELIEF",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "141A4800-2",
+        "Description": "WINDSHIELD ASSY",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "103642-3",
-        description: "VALVE-PRESSURE RELIEF",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "141A5810-121",
+        "Description": "PANEL ASSY",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "10-60450-1",
-        description: "RELAY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "142-147",
+        "Description": "ANTISKID\/AUTOBRAKE CONTROL UNIT - HYTROL",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "10-60450-1",
-        description: "RELAY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "14220-316",
+        "Description": "RING, FLUSH",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "106-1-1100-02",
-        description: "ACTUATOR - APU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "14330-085-2",
+        "Description": "SPACER",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "106-1-1100-02",
-        description: "ACTUATOR - APU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "14330-190",
+        "Description": "FLUSH CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "10-621630-1",
-        description: "EXCITER IGNITION (CL'A')",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "14330-230",
+        "Description": "ORBITAL FLUSH VALVE ASSY",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "10-631045-3",
-        description: "IGNITION EXCITER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "143D6354G2",
+        "Description": "THRUST MODE SELECT PANEL",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "10-631045-3",
-        description: "IGNITION EXCITER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "14400-316",
+        "Description": "RING ASSY, FLUSH",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "10-631045-3",
-        description: "IGNITION EXCITER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "14400-323",
+        "Description": "ELBOW ASSEMBLY",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "10-631045-3",
-        description: "IGNITION EXCITER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "14400-323-1",
+        "Description": "ELBOW ASSY",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "107492-6",
-        description: "REGULATOR-BLEED AIR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "144-183-000-021",
+        "Description": "SENSOR-VIBRATION BEARING NO.1",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "1091A0000-01",
-        description: "INJECTOR WATER",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "146A6110-28",
+        "Description": "DOOR ASSY-AFT CARGO",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "109382-36-1",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "148A7170-3",
+        "Description": "ACCESS DOOR ASSY",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "109382-36-1",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1498M46P01",
+        "Description": "RING-RETAINER HPT REAR",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "109382-36-1",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "14R02-8C",
+        "Description": "RING",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "109382-36-1",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "152305-1",
+        "Description": "ACTUATOR",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "109382-36-1",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1523M37P02",
+        "Description": "SHIELD-BOLT HPT NOZ SPRT",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "109382-36-1",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1523M71G07",
+        "Description": "SHIELD-HEAT HPT STATOR FWD",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "109382-36-1",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1544100-7",
+        "Description": "FLAPERON POWER CONTROL UNIT",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "109382-36-1",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1544300-3",
+        "Description": "PCU",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "109382-36-1",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1552-002-19",
+        "Description": "PRESSURE REGULATOR",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "109382-36-1",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1559A9900-01",
+        "Description": "HP MANIFOLD",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "1103070-120",
-        description: "DECODER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1567A0000-01",
+        "Description": "SELECTOR VALVE",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "1103070-120",
-        description: "DECODER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "15800-019-1",
+        "Description": "VACUUM TOILET ASSY",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "1106-3AB",
-        description: "OBSERVER SEAT - RH",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "15800-019-2",
+        "Description": "TOILET ASSY",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "1111A0000-01",
-        description: "32 SOLENOID VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "15800-029-3",
+        "Description": "TOILET ASSY",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "11197-5",
-        description: "DETECTOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "15800-029-4",
+        "Description": "TOILET ASSY",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "11197-5",
-        description: "DETECTOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "15800-176",
+        "Description": "ELBOW, BOWL",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "112T4607-5",
-        description: "DOOR ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "15800-202",
+        "Description": "HOUSING",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "113A1150-1",
-        description: "FITTING ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "15800-203",
+        "Description": "END CAP",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "113A1150-2",
-        description: "FITTING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "15800-206",
+        "Description": "HANDLE-PUSH PULL",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "113A2610-2",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "15800-217",
+        "Description": "PLATE",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "113A4300-2",
-        description: "SPOILER",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "15800-331",
+        "Description": "Flush Ring",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "113A4600-1",
-        description: "Spoiler Assy NO 6",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "15800-352",
+        "Description": "BRACKET, HOUSING SUPPORT",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "113A9104-1",
-        description: "BEAM ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "15800-359-4",
+        "Description": "SPRING",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "113A9365-4",
-        description: "ACCESS COVER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "15800-359-7",
+        "Description": "SPRING",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "113T1249-1",
-        description: "ROD ASSY.",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "15801-040",
+        "Description": "FLUSH CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "113T2276-1",
-        description: "TRACK ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "15801-202",
+        "Description": "HOUSING, ASSEMBLY",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "113T3144-11",
-        description: "DOOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "158300-101",
+        "Description": "ACTUATOR-AILERON AUT",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "113T3144-3",
-        description: "FLAP FOOTBALL PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "160550-1",
+        "Description": "OIL TEMP. CONTROL VALVE",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "1140-0110-34",
-        description: "STICK AY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "161A1100-14",
+        "Description": "RH Main Landing Gear",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "1140-0183-6",
-        description: "STICK AY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "161A1100-19",
+        "Description": "LH Main Landing Gear",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "1140-0183-6",
-        description: "STICK AY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "161T1145-4",
+        "Description": "BOGIE PIVOT PIN",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "1140-0183-6",
-        description: "STICK AY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "161T2032-1",
+        "Description": "LOCK SPINDLE",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "114079017",
-        description: "VALVE-SELECTOR,GEAR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "161T6021-1",
+        "Description": "UPPER DRAG STRUT NUT",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "114079017",
-        description: "VALVE-SELECTOR,GEAR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "162700-100",
+        "Description": "Elevator Fuel Computer",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "114087006",
-        description: "VALVE BY PASS DOOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "162A1100-5",
+        "Description": "NOSE LANDING GEAR",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "114095004",
-        description: "A320 LOCK STAY ACTUA",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "162A3105-1",
+        "Description": "PUSHROD ASSY",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "114122014",
-        description: "ACTUATOR, DOOR, MLG",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "162BL902",
+        "Description": "CABIN TEMP IND.",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "114A7531-201",
-        description: "SLAT TRACK #3 OR #6 0B",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "162BL903",
+        "Description": "INDICATOR-DUCT\/CABIN TEMP",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "114A7542-201",
-        description: "TRACK ASSY, #4 OR #5 IB",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "162T1138-1",
+        "Description": "CYLDR ASSY",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "114A7542-5",
-        description: "TRACK AY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "162T1408-3",
+        "Description": "PIN",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "114T0202-104",
-        description: "DOOR ASSY-SLAT TRACK RH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "162T2007-1",
+        "Description": "PIN",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "1150002-1",
-        description: "SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "162T3027-1",
+        "Description": "ARM ASSY",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "1150002-1",
-        description: "SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "162T3029-1",
+        "Description": "CRANK ASSY",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "1150250-1",
-        description: "SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "162T5004-1",
+        "Description": "PIN-NOSE LDG FWD SPRT BEAM",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "1150250-1",
-        description: "SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "162T5005-2",
+        "Description": "PIN-NOSE LDG AFT SPRT BEAM",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "1150980-2",
-        description: "SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "162T5006-1",
+        "Description": "PIN-NOSE LDG GR SPRT LINK",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "1150980-2",
-        description: "SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "165W01020",
+        "Description": "PUMP, HYDRAULIC, MOTOR DRIVEN",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "1151864-1",
-        description: "CONTRLLR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "16800-01-00",
+        "Description": "SEAT, 3RD",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "1158000-21",
-        description: "VALVE-REFUEL",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "169924",
+        "Description": "CLAMP",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "115A2710-17",
-        description: "PANEL ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "169966",
+        "Description": "CLAMP",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "115A2950-81",
-        description: "TURNBUCKLE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "171497-05-01",
+        "Description": "FLIGHT MANAGEMENT COMPUTER",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "116941-5",
-        description: "HEATER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1721F4",
+        "Description": "CONTINUOUS LEVEL SENSOR",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "1173T211",
-        description: "SWITCH, OVERHEAT SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "173A0103-8",
+        "Description": "RUDDER ASSY",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "1173T211",
-        description: "SWITCH, OVERHEAT SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1742F9",
+        "Description": "LCM UNIT",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "1173T211",
-        description: "SWITCH, OVERHEAT SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1784M36G01",
+        "Description": "SUPPORT-SHROUD NOZZLE",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "1173T211",
-        description: "SWITCH, OVERHEAT SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "179366-1",
+        "Description": "PLUG-MAGNETIC",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "11-811538-1",
-        description: "PRECOOLER EXCHANGER",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1808M56G01",
+        "Description": "SEAL-STATIONARY HPT INR STATOR",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "121664-8",
-        description: "ACTUATOR-BALLSCREW",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "181893-2",
+        "Description": "INDICATOR, WATER SEPERATOR",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "121666-13",
-        description: "ACTUATOR-BALLSCREW MASTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "18-2141-3",
+        "Description": "TRANSMITTER, HYDRAULIC PRESSURE",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "125329B-4",
-        description: "ADAPTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1827T100-7",
+        "Description": "ACTUATOR",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "125329B-4",
-        description: "ADAPTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "183010-4",
+        "Description": "WATER SEPARATOR",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "125329B-4",
-        description: "ADAPTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "183010-4",
+        "Description": "WATER SEPARATOR",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "125329B-4",
-        description: "ADAPTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1834M59G02",
+        "Description": "ARM ASSY-VANE ACTUATION CPRSR STTR IGV",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "125329B-4",
-        description: "ADAPTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "183A8100-5",
+        "Description": "LH ELEVATOR TAB",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "125329B-4",
-        description: "ADAPTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1-899-29",
+        "Description": "PROXIMITY SENSOR",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "125329B-4",
-        description: "ADAPTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1905A0000-01",
+        "Description": "SAFETY VALVE, L\/G",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "125334D-2",
-        description: "FUEL VALVE BODY ASSY - LH TANK",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1\/1\/1907",
+        "Description": "BALLAST",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "1267-501",
-        description: "LIGHT ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "194274-4",
+        "Description": "HEAT EXCHANGER(REHEATER)",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "1303153-101",
-        description: "LCD MONITOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "194276-5",
+        "Description": "CONDENSER",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "1303910-101",
-        description: "MONITOR, RETRACTOR, LCD-10.4 INCH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1B1000-1GS",
+        "Description": "STATIC INVERTER",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "1303910-101",
-        description: "MONITOR, RETRACTOR, LCD-10.4 INCH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1G390",
+        "Description": "SWITCH ASSY",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "1303A0000-04",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1U1065-2",
+        "Description": "COMPENSATOR ASSY-CARTRIDGE",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "1303A0000-04",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2002M15P01",
+        "Description": "RETAINER-BLADE HPT RTR REAR",
+        "Condition": "OH",
+        "Quantity": 3
       },
       {
-        partNumber: "1303A0000-04",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2010A04H04-24",
+        "Description": "KEY",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "1318M50G03",
-        description: "LINK-CONNECTING ACTUATION RING IGV",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2013-1A",
+        "Description": "BATTERY ASSEMBLY",
+        "Condition": "SV",
+        "Quantity": 3
       },
       {
-        partNumber: "1319M17P02",
-        description: "SEAL-ROTATING HPT REAR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "20202-01",
+        "Description": "FUEL COMPENSATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "1320A0000-02",
-        description: "VALVE, TRIM AIR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2022432-4",
+        "Description": "ACTUATOR, RAM AIR DOOR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "1320A0000-02",
-        description: "VALVE, TRIM AIR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2022494-2",
+        "Description": "ACTUATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "1320A0000-02",
-        description: "VALVE, TRIM AIR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2022522-2",
+        "Description": "ACTUATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "1385M33G03",
-        description: "ARM ASSY-VANE ACTUATION CPRSR STTR STG 1",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2041220-0424",
+        "Description": "CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "13TX-0115-A",
-        description: "SURFACE POSITION XMTR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2041223-0414",
+        "Description": "WXR CONTROL PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "140-025-1",
-        description: "TRANSDUCER",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2041231-3622",
+        "Description": "VOR\/MARK. RECEIVER,RVA36A",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "140-025-1",
-        description: "TRANSDUCER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2041444-0404",
+        "Description": "ANTENNA DRIVE UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "140-025-2",
-        description: "TRANSDUCER ASSY, WHEEL SPEED",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2041446-0401",
+        "Description": "PLANAR ARRAY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "141A4800-2",
-        description: "WINDSHIELD ASSY",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2041683-7507",
+        "Description": "ADF ANTENNA",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "141A5810-121",
-        description: "PANEL ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2045081-1",
+        "Description": "STUD",
+        "Condition": "NS",
+        "Quantity": 1
       },
       {
-        partNumber: "142-147",
-        description: "ANTISKIDAUTOBRAKE CONTROL UNIT - HYTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2056B0000-01",
+        "Description": "PLENUM",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "14220-316",
-        description: "RING, FLUSH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2056B0000-01",
+        "Description": "PLENUM",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "14330-085-2",
-        description: "SPACER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2056C0000-01",
+        "Description": "CHAMBER-AIR PLENUM",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "14330-190",
-        description: "FLUSH CONTROL UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2061-15-1",
+        "Description": "INDICATOR - FLAP POSITION",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "14330-230",
-        description: "ORBITAL FLUSH VALVE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2067631-5332",
+        "Description": "ALTIMETER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "143D6354G2",
-        description: "THRUST MODE SELECT PANEL",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2070499-0101",
+        "Description": "INDICATOR, IND MOUNT TRAY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "14400-316",
-        description: "RING ASSY, FLUSH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "20791-02AB",
+        "Description": "CABIN PRESSURE CONTROLLER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "14400-323",
-        description: "ELBOW ASSEMBLY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2080M35G04",
+        "Description": "NOZZLE-HPT STATOR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "14400-323-1",
-        description: "ELBOW ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2086M14G02",
+        "Description": "NOZZLE-HPT STATOR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "14400-323-1",
-        description: "ELBOW ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2117388-6",
+        "Description": "CABIN PRESSURE CONTROLLER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "144-183-000-021",
-        description: "SENSOR-VIBRATION BEARING NO.1",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2118966-221",
+        "Description": "APU ECU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "146A6110-28",
-        description: "DOOR ASSY-AFT CARGO",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2118966-222",
+        "Description": "APU ECU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "148A7170-3",
-        description: "ACCESS DOOR ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "211C223-175",
+        "Description": "SWITCH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "1498M46P01",
-        description: "RING-RETAINER HPT REAR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "211C223-297",
+        "Description": "SWITCH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "14R02-8C",
-        description: "RING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "211C223-518",
+        "Description": "PRESSURE SWITCH",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "14R02-8C",
-        description: "RING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "211C223-527",
+        "Description": "PRESSURE SWITCH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "152305-1",
-        description: "ACTUATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2123M56P01",
+        "Description": "ELECTRONIC   CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "152305-1",
-        description: "ACTUATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "212A1212-3",
+        "Description": "DUCT ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "1523M37P02",
-        description: "SHIELD-BOLT HPT NOZ SPRT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "212A2621-7",
+        "Description": "DUCT ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "1523M71G07",
-        description: "SHIELD-HEAT HPT STATOR FWD",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "212A2811-2",
+        "Description": "DUCT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "1544100-7",
-        description: "FLAPERON POWER CONTROL UNIT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "212T3008-12",
+        "Description": "FIRE BLANKET",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "1544100-7",
-        description: "FLAPERON POWER CONTROL UNIT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "213A1201-15",
+        "Description": "A\/C BAY DUCT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "1544300-3",
-        description: "PCU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "213T1003-17",
+        "Description": "TUBE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "1552-002-19",
-        description: "PRESSURE REGULATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "213T3111-2",
+        "Description": "DUCT ASSY.",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "1559A9900-01",
-        description: "HP MANIFOLD",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "214C50-2",
+        "Description": "CABIN ALTITUDE WARNING SWITCH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "1567A0000-01",
-        description: "SELECTOR VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "214T2477-3",
+        "Description": "DUCT ASSY.",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "15800-019-1",
-        description: "VACUUM TOILET ASSY",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "21520-1",
+        "Description": "RECIRCULATING FAN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "15800-019-2",
-        description: "TOILET ASSY",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "21520-1",
+        "Description": "RECIRCULATING FAN",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "15800-029-3",
-        description: "TOILET ASSY",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2156-604A",
+        "Description": "SMOKE DETECTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "15800-029-4",
-        description: "TOILET ASSY",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2156-756",
+        "Description": "DETECTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "15800-176",
-        description: "ELBOW, BOWL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2-1740-1",
+        "Description": "BRAKE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "15800-202",
-        description: "HOUSING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "21C1-3-22",
+        "Description": "PRESSURE SWITCH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "15800-203",
-        description: "END CAP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "21SN04-23F",
+        "Description": "SWITCH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "15800-206",
-        description: "HANDLE-PUSH PULL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2204018-1",
+        "Description": "MOUNT BRACKET",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "15800-206",
-        description: "HANDLE-PUSH PULL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2204074-1",
+        "Description": "PLATE AY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "15800-206",
-        description: "HANDLE-PUSH PULL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2204087-1",
+        "Description": "ROD",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "15800-217",
-        description: "PLATE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2204088-1",
+        "Description": "SEAL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "15800-331",
-        description: "Flush Ring",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2204118-3",
+        "Description": "SHIM",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "15800-352",
-        description: "BRACKET, HOUSING SUPPORT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2206400-2",
+        "Description": "AIR CYCLE MACHINE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "15800-352",
-        description: "BRACKET, HOUSING SUPPORT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2215627-2",
+        "Description": "DIFFUSER",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "15800-359-4",
-        description: "SPRING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2215629-1",
+        "Description": "PLENUM ASSY",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "15800-359-7",
-        description: "SPRING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2215632-1",
+        "Description": "PLENUM",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "15801-040",
-        description: "FLUSH CONTROL UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2215632-2",
+        "Description": "PLENUM ASSY",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "15801-202",
-        description: "HOUSING, ASSEMBLY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2227000-61C1",
+        "Description": "DFDAU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "158300-101",
-        description: "ACTUATOR-AILERON AUT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2233000-816-1",
+        "Description": "DIGITAL FLIGHT DATA ACQUISITION UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "160550-1",
-        description: "OIL TEMP. CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2234320-01-01",
+        "Description": "FDIMU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "161A1100-14",
-        description: "RH Main Landing Gear",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "22715-000-02",
+        "Description": "NLG DOOR ACTUATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "161A1100-19",
-        description: "LH Main Landing Gear",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2293B020000",
+        "Description": "VALVE-CHECK",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "161T1145-4",
-        description: "BOGIE PIVOT PIN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2313M-347-4",
+        "Description": "WINDSHEILD WIPER MOTOR CONVERTER L\/H",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "161T1145-4",
-        description: "BOGIE PIVOT PIN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "233A3202-5",
+        "Description": "FUEL CONTROL PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "161T2032-1",
-        description: "LOCK SPINDLE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "233A3203-1",
+        "Description": "ENGINE CONTROL MODULE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "161T6021-1",
-        description: "UPPER DRAG STRUT NUT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "233A3204-1",
+        "Description": "MODULE APU CONTROL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "162700-100",
-        description: "Elevator Fuel Computer",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "233A3206-2",
+        "Description": "PANEL DISPLAY SELECT INSTR - P5-28",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "162700-100",
-        description: "Elevator Fuel Computer",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "233A3207-4",
+        "Description": "MOD-DOOR WARNING ANNUNCIATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "162A1100-5",
-        description: "NOSE LANDING GEAR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "233N3201-11",
+        "Description": "PANEL AY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "162A1100-5",
-        description: "NOSE LANDING GEAR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "233T3239-8",
+        "Description": "PANEL AY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "162A1100-5",
-        description: "NOSE LANDING GEAR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "233T3242-1301",
+        "Description": "EEC CONT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "162A3105-1",
-        description: "PUSHROD ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "233T7210-6",
+        "Description": "PANEL AY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "162BL902",
-        description: "CABIN TEMP IND.",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "233W6201-5",
+        "Description": "MODULE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "162BL903",
-        description: "INDICATOR-DUCTCABIN TEMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "233W6203-5",
+        "Description": "MODULE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "162BL903",
-        description: "INDICATOR-DUCTCABIN TEMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "234-511-9059",
+        "Description": "COUPLING CLP",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "162T1138-1",
-        description: "CYLDR ASSY",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "234-517-9005",
+        "Description": "COUPLING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "162T1408-3",
-        description: "PIN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "241-246-022-004",
+        "Description": "MONITOR ENGINE VIBRATION",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "162T2007-1",
-        description: "PIN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "241-251-000-121",
+        "Description": "UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "162T3027-1",
-        description: "ARM ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "241-280-051-012",
+        "Description": "CONDITIONER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "162T3029-1",
-        description: "CRANK ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "241-280-056-014",
+        "Description": "AVM",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "162T5004-1",
-        description: "PIN-NOSE LDG FWD SPRT BEAM",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2-418-05",
+        "Description": "TRANSFORMER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "162T5005-2",
-        description: "PIN-NOSE LDG AFT SPRT BEAM",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "24E507040G01",
+        "Description": "HEATER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "162T5006-1",
-        description: "PIN-NOSE LDG GR SPRT LINK",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "251A1240-3",
+        "Description": "POWER CONT.- SPOILER AILERON CONTROL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "165W01020",
-        description: "PUMP, HYDRAULIC, MOTOR DRIVEN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "251A1240-5",
+        "Description": "ACTUATOR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "165W01020",
-        description: "PUMP, HYDRAULIC, MOTOR DRIVEN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "251A2420-5",
+        "Description": "VALVE ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "165W01020",
-        description: "PUMP, HYDRAULIC, MOTOR DRIVEN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "251A2420-7",
+        "Description": "CONTROL VALVE ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "165W01020",
-        description: "PUMP, HYDRAULIC, MOTOR DRIVEN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "251A2430-25",
+        "Description": "TAB MECH ASSY-ELEVATORCONTROLS LH",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "165W01020",
-        description: "PUMP, HYDRAULIC, MOTOR DRIVEN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "251A2430-26",
+        "Description": "TAB MECH ASSY-ELEVATORCONTROLS RH",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "165W01020",
-        description: "PUMP, HYDRAULIC, MOTOR DRIVEN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "251A4510-14",
+        "Description": "ACTUATOR, STAB TRIM",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "165W01020",
-        description: "PUMP, HYDRAULIC, MOTOR DRIVEN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "251T0100-311",
+        "Description": "SHAFT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "16800-01-00",
-        description: "SEAT, 3RD",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "251T0100-323",
+        "Description": "ROD ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "169924",
-        description: "CLAMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "251T0100-353",
+        "Description": "ROD ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "169966",
-        description: "CLAMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "252CA01C1-02Y1",
+        "Description": "CONTACTOR THREE POLE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "171497-05-01",
-        description: "FLIGHT MANAGEMENT COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "252T2171-1",
+        "Description": "TRUNNION",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "171497-05-01",
-        description: "FLIGHT MANAGEMENT COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "25498",
+        "Description": "GUIDE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "171497-05-01",
-        description: "FLIGHT MANAGEMENT COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "256T3210-4",
+        "Description": "ACTUATOR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "171497-05-01",
-        description: "FLIGHT MANAGEMENT COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "256T3250-4",
+        "Description": "TRAILING EDGE FLAP ROTARY ACTUATOR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "1721F4",
-        description: "CONTINUOUS LEVEL SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "26007",
+        "Description": "POTENTIOMETER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "173A0103-8",
-        description: "RUDDER ASSY",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2607825-2",
+        "Description": "WHEEL ASSY",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "1742F9",
-        description: "LCM UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2613128-1",
+        "Description": "WHEEL HALF ASSEMBLY      OUTBOARD(SERVIC",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "1742F9",
-        description: "LCM UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2615001-1",
+        "Description": "WHEEL",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "1784M36G01",
-        description: "SUPPORT-SHROUD NOZZLE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2624-82",
+        "Description": "ELT ANTENNA",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "179366-1",
-        description: "PLUG-MAGNETIC",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "263BC101-3",
+        "Description": "BATTERY CHARGER 777",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "1808M56G01",
-        description: "SEAL-STATIONARY HPT INR STATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "26600",
+        "Description": "Guide",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "181893-2",
-        description: "INDICATOR, WATER SEPERATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "273A1401-2",
+        "Description": "NLG LOCK MANIFOLD ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "18-2141-3",
-        description: "TRANSMITTER, HYDRAULIC PRESSURE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "273A3610-4",
+        "Description": "DAMPER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "18-2141-3",
-        description: "TRANSMITTER, HYDRAULIC PRESSURE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2-7462-3",
+        "Description": "VALVE-AUTO BRAKE SHUTTLE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "18-2141-3",
-        description: "TRANSMITTER, HYDRAULIC PRESSURE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "27550-1",
+        "Description": "OXYGEN SHUTOFF VALVE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "18-2141-3",
-        description: "TRANSMITTER, HYDRAULIC PRESSURE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2-7680-1",
+        "Description": "FUSE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "18-2141-3",
-        description: "TRANSMITTER, HYDRAULIC PRESSURE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2-7680-2",
+        "Description": "HYDRAULIC FUSE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "18-2141-3",
-        description: "TRANSMITTER, HYDRAULIC PRESSURE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2-7681-2",
+        "Description": "HYDRAULIC FUSE, NLG EXTEND",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "1827T100-7",
-        description: "ACTUATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2780536-101",
+        "Description": "VALVE HEAT CARGO",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "183010-4",
-        description: "WATER SEPARATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2-7892-2",
+        "Description": "CARGO DOOR SNUBBER",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "183010-4",
-        description: "WATER SEPARATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2790583-104",
+        "Description": "VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "183010-4",
-        description: "WATER SEPARATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2-8020-1",
+        "Description": "FUSE HYDRAULIC T\/R PRESS",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "1834M59G02",
-        description: "ARM ASSY-VANE ACTUATION CPRSR STTR IGV",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2-8020-27",
+        "Description": "FUSE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "183A8100-5",
-        description: "LH ELEVATOR TAB",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2-8020-28",
+        "Description": "FUSE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "1-899-29",
-        description: "PROXIMITY SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2-8020-5",
+        "Description": "HYDRAULIC FUSE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "1-899-29",
-        description: "PROXIMITY SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2-8041-1",
+        "Description": "HYDRAULIC FUSE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "1-899-29",
-        description: "PROXIMITY SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "282900-1013",
+        "Description": "ACTUATOR ASSY RUDDER",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "1-899-29",
-        description: "PROXIMITY SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "283200-1007",
+        "Description": "POWER CONTROL ACTUATOR, O\/B AILERON",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "1905A0000-01",
-        description: "SAFETY VALVE, LG",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "284A6809-28",
+        "Description": "SPUD",
+        "Condition": "NS",
+        "Quantity": 1
       },
       {
-        partNumber: "111907",
-        description: "BALLAST",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "284A6829-7",
+        "Description": "SHROUD CLEAR COVER",
+        "Condition": "NS",
+        "Quantity": 1
       },
       {
-        partNumber: "194274-4",
-        description: "HEAT EXCHANGER(REHEATER)",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "284A6830-12",
+        "Description": "SHROUD ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "194276-5",
-        description: "CONDENSER",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "284T0052-3",
+        "Description": "RADOME 767",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "194276-5",
-        description: "CONDENSER",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "284T0736-8",
+        "Description": "FEEDLINE ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "1B1000-1GS",
-        description: "STATIC INVERTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285A1200-2",
+        "Description": "FSEU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "1G390",
-        description: "SWITCH ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285A1300-1",
+        "Description": "ENGINE ACCESSORY UNIT MODULE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "1U1065-2",
-        description: "COMPENSATOR ASSY-CARTRIDGE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285A1600-6",
+        "Description": "PSEU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2002M15P01",
-        description: "RETAINER-BLADE HPT RTR REAR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285A1840-8",
+        "Description": "MODULE ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2010A04H04-24",
-        description: "KEY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285N0028-21",
+        "Description": "CARD-FIRE DETECTION",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2013-1A",
-        description: "BATTERY ASSEMBLY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285N0412-3",
+        "Description": "HANDSET",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "20202-01",
-        description: "FUEL COMPENSATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285N0412-4",
+        "Description": "HANDSET",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2022432-4",
-        description: "ACTUATOR, RAM AIR DOOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285T0012-110",
+        "Description": "UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2022494-2",
-        description: "ACTUATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285T0017-103",
+        "Description": "MODULE POWER SUPPLY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2022494-2",
-        description: "ACTUATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285T0017-104",
+        "Description": "MODULE, POWER SUPPLY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2022494-2",
-        description: "ACTUATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285T0022-36",
+        "Description": "PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2022522-2",
-        description: "ACTUATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285T0032-15",
+        "Description": "PC AY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2041220-0424",
-        description: "CONTROL UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285T0034-28",
+        "Description": "PRINTED CIRCUIT ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2041220-0424",
-        description: "CONTROL UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285T0259-19",
+        "Description": "PCA",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2041220-0424",
-        description: "CONTROL UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285T0458-11",
+        "Description": "PC ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2041223-0414",
-        description: "WXR CONTROL PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285T0852-1",
+        "Description": "FDAS KEYPAD",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2041231-3622",
-        description: "VORMARK. RECEIVER,RVA36A",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285T0855-1",
+        "Description": "FLIGHT DECK DOOR ACCESS CONTROL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2041444-0404",
-        description: "ANTENNA DRIVE UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285T0855-5",
+        "Description": "MODULE, FDAS CONTROLLER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2041444-0404",
-        description: "ANTENNA DRIVE UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285W0015-102",
+        "Description": "GENERATOR CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2041444-0404",
-        description: "ANTENNA DRIVE UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285W0026-2",
+        "Description": "PASSENGER ADDRESS MODULE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2041446-0401",
-        description: "PLANAR ARRAY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285W0027-101",
+        "Description": "ZONE MANAGEMENT UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2041446-0401",
-        description: "PLANAR ARRAY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285W0038-101",
+        "Description": "UNIT, POWER SUPPLY, PREREGULATOR, 777-200",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2041446-0401",
-        description: "PLANAR ARRAY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285W0114-2",
+        "Description": "RTP",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2041683-7507",
-        description: "ADF ANTENNA",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "287A6115-5",
+        "Description": "BRACKET ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2041683-7507",
-        description: "ADF ANTENNA",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "28823-7",
+        "Description": "COMPRESSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2045081-1",
-        description: "STUD",
-        conditionCode: "NS",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "28B545-9",
+        "Description": "GENERATOR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2056B0000-01",
-        description: "PLENUM",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2920033-103",
+        "Description": "VALVE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2056B0000-01",
-        description: "PLENUM",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "293W3172-3",
+        "Description": "ACTUATOR ASSY-D\/LOCK",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2056B0000-01",
-        description: "PLENUM",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "293W3922-3",
+        "Description": "ACTUATOR ASSY, MLG DOOR UPLOCK",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2056C0000-01",
-        description: "CHAMBER-AIR PLENUM",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "295W1701-1",
+        "Description": "STEERING ACTUATOR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2061-15-1",
-        description: "INDICATOR - FLAP POSITION",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2960035-101",
+        "Description": "VALVE, MOT OPR, 2 WAY",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2067631-5332",
-        description: "ALTIMETER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2960036-101",
+        "Description": "VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2070499-0101",
-        description: "INDICATOR, IND MOUNT TRAY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2980190000000",
+        "Description": "FAUCET - WATER",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "20791-02AB",
-        description: "CABIN PRESSURE CONTROLLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "29840",
+        "Description": "ADHESIVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "20791-02AB",
-        description: "CABIN PRESSURE CONTROLLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2LA005308-05",
+        "Description": "WING STROBE LIGHT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2080M35G04",
-        description: "NOZZLE-HPT STATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2LA455010-00",
+        "Description": "ANTI COLLISION LIGHT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2080M35G04",
-        description: "NOZZLE-HPT STATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3000-46-24",
+        "Description": "SWITCH_CMM 21-43-01",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2080M35G04",
-        description: "NOZZLE-HPT STATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "30042-0000-0402",
+        "Description": "FUEL LEVEL SENSING UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2080M35G04",
-        description: "NOZZLE-HPT STATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "30042-0000-0501",
+        "Description": "CONTROL UNIT-LEVEL,SENSIN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2080M35G04",
-        description: "NOZZLE-HPT STATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "30100022-33",
+        "Description": "EXTINGUISHER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2080M35G04",
-        description: "NOZZLE-HPT STATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "301-298-211-0",
+        "Description": "REAR ROTATING LABYRINTH",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2080M35G04",
-        description: "NOZZLE-HPT STATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "30136-0106",
+        "Description": "WATER TANK QTY.TRANSMITTER",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2080M35G04",
-        description: "NOZZLE-HPT STATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "30136-0108",
+        "Description": "XMTR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2080M35G04",
-        description: "NOZZLE-HPT STATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "301-475-207-6",
+        "Description": "BAFFLE-OIL BRG 1",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2080M35G04",
-        description: "NOZZLE-HPT STATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "301-544-407-0",
+        "Description": "TUBE ASSY-OIL NO.2 BRG",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2080M35G04",
-        description: "NOZZLE-HPT STATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "30-1685-2",
+        "Description": "ANTI COLLISION LIGHT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2080M35G04",
-        description: "NOZZLE-HPT STATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "30-1883-5",
+        "Description": "FLOODLIGHT",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2080M35G04",
-        description: "NOZZLE-HPT STATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "30230",
+        "Description": "ANTISKID ACCU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2086M14G02",
-        description: "NOZZLE-HPT STATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "30-2506-3",
+        "Description": "LIGHT AY STROBE ANTICOL BTM",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2086M14G02",
-        description: "NOZZLE-HPT STATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "30-2581-3",
+        "Description": "HALOGEN LOGO LIGHT - POST M330-33-2001",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2086M14G02",
-        description: "NOZZLE-HPT STATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "304486-12",
+        "Description": "ELECTRONIC CONTROL BOX",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2086M14G02",
-        description: "NOZZLE-HPT STATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "305-136-803-0",
+        "Description": "SHAFT ASSY-RADIAL DRIVE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2086M14G02",
-        description: "NOZZLE-HPT STATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "305RAA1",
+        "Description": "AUTOTHROTTLE SERVOMOTOR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2086M14G02",
-        description: "NOZZLE-HPT STATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3100013",
+        "Description": "SENSORS",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2086M14G02",
-        description: "NOZZLE-HPT STATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "31073-110",
+        "Description": "AILERON SERVO CONTROL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2086M14G02",
-        description: "NOZZLE-HPT STATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "311A2090-1",
+        "Description": "PIN FUSE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2117388-6",
-        description: "CABIN PRESSURE CONTROLLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "311A2091-1",
+        "Description": "PIN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2118966-221",
-        description: "APU ECU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "311A2095-1",
+        "Description": "END CAP",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2118966-222",
-        description: "APU ECU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "311A2095-2",
+        "Description": "CAP",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2118966-222",
-        description: "APU ECU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "311A2095-4",
+        "Description": "END CAP",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "211C223-175",
-        description: "SWITCH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "314-2200-11",
+        "Description": "FAN COWL RH",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "211C223-297",
-        description: "SWITCH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "314-2200-3",
+        "Description": "FAN COWL LH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "211C223-518",
-        description: "PRESSURE SWITCH",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "315A1811-1",
+        "Description": "NUT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "211C223-527",
-        description: "PRESSURE SWITCH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "315A2800-2",
+        "Description": "T\/R ACTUATOR ASSY",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2123M56P01",
-        description: "ELECTRONIC   CONTROL UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "315A2801-5",
+        "Description": "ACTUATOR ASSY",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2123M56P01",
-        description: "ELECTRONIC   CONTROL UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3199680",
+        "Description": "BRAKE TEMP MONITOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "212A1212-3",
-        description: "DUCT ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "320522-17",
+        "Description": "VALVE OUTLINE,SOLENOID",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "212A2621-7",
-        description: "DUCT ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "320548-1",
+        "Description": "VALVE, SOLENOID",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "212A2811-2",
-        description: "DUCT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "320548-2",
+        "Description": "SOLENOID VALVE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "212T3008-12",
-        description: "FIRE BLANKET",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "320-549-005-0",
+        "Description": "SENSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "213A1201-15",
-        description: "AC BAY DUCT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "321200M02",
+        "Description": "BRAKE SPEED TRANSDUCER UNIT",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "213T1003-17",
-        description: "TUBE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "321200M02",
+        "Description": "BRAKE SPEED TRANSDUCER UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "213T3111-2",
-        description: "DUCT ASSY.",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3213754-1",
+        "Description": "VALVE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "213T3111-2",
-        description: "DUCT ASSY.",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3213754-1",
+        "Description": "VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "214C50-2",
-        description: "CABIN ALTITUDE WARNING SWITCH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3214552-5",
+        "Description": "VALVE, PRESS REG. & SHUT OFF",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "214C50-2",
-        description: "CABIN ALTITUDE WARNING SWITCH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "321464-5-1",
+        "Description": "VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "214C50-2",
-        description: "CABIN ALTITUDE WARNING SWITCH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3214862-1",
+        "Description": "VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "214C50-2",
-        description: "CABIN ALTITUDE WARNING SWITCH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": 32152,
+        "Description": "RING RTNR",
+        "Condition": "NS",
+        "Quantity": 1
       },
       {
-        partNumber: "214T2477-3",
-        description: "DUCT ASSY.",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3215618-4",
+        "Description": "VALVE-ANTI ICE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "21520-1",
-        description: "RECIRCULATING FAN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3217-200",
+        "Description": "VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "21520-1",
-        description: "RECIRCULATING FAN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3218KGB01",
+        "Description": "SENSOR-N2 SPEED",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "21520-1",
-        description: "RECIRCULATING FAN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "321942-1-1",
+        "Description": "VALVE - 35 DEG FLOW CONTR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "21520-1",
-        description: "RECIRCULATING FAN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": 322000,
+        "Description": "TRANSDUCER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "21520-1",
-        description: "RECIRCULATING FAN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3236761-5",
+        "Description": "HOUSING ASSEMBLY, BALLSCREW",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "21520-1",
-        description: "RECIRCULATING FAN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "325-027-303-0",
+        "Description": "HARNESS, MW0315",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "21520-1",
-        description: "RECIRCULATING FAN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "325-045-301-0",
+        "Description": "HARNESS",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "21520-1",
-        description: "RECIRCULATING FAN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3250-80",
+        "Description": "BALLAST UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "21520-1",
-        description: "RECIRCULATING FAN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "327155-3",
+        "Description": "ANTI ICE VALVE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "21520-1",
-        description: "RECIRCULATING FAN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3283086-32",
+        "Description": "LOCK, BRAKE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "21520-1",
-        description: "RECIRCULATING FAN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3289562-5",
+        "Description": "VALVE, PRECOOLER CONTROL",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "21520-1",
-        description: "RECIRCULATING FAN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3289562-6",
+        "Description": "PRECOOLER CONTROL VALVE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "21520-1",
-        description: "RECIRCULATING FAN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3290888-2",
+        "Description": "VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "21520-1",
-        description: "RECIRCULATING FAN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3291184-2",
+        "Description": "VALVE-AIR TRANSIENT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2156-604A",
-        description: "SMOKE DETECTOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3291238-2",
+        "Description": "VALVE, SURGE CONTROL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2156-756",
-        description: "DETECTOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3291238-2",
+        "Description": "VALVE, SURGE CONTROL",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2-1740-1",
-        description: "BRAKE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3291432-1",
+        "Description": "VALVE, APU LOAD CONTROL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2-1740-1",
-        description: "BRAKE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "330TS08Y",
+        "Description": "FIRE   PANEL-ENGINE APU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2-1740-1",
-        description: "BRAKE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "331-0006-01",
+        "Description": "VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2-1740-1",
-        description: "BRAKE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "335-108-701-0",
+        "Description": "SLIDE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2-1740-1",
-        description: "BRAKE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "335-192-203-0",
+        "Description": "VANE, BOOSTER ASSEMBLY, STAGE 2",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "21C1-3-22",
-        description: "PRESSURE SWITCH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "saus-53",
+        "Description": "INDICATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "21SN04-23F",
-        description: "SWITCH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "336-009-801-0",
+        "Description": "SEAL-ROTATING OIL NO.4 BRG",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2204018-1",
-        description: "MOUNT BRACKET",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "337-542-9210",
+        "Description": "FILTER ELEMENT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2204074-1",
-        description: "PLATE AY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-002-219-0",
+        "Description": "BLADE-STG2 (WIDE)",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2204087-1",
-        description: "ROD",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-002-319-0",
+        "Description": "BLADE-STG3 (WIDE)",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2204088-1",
-        description: "SEAL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-002-419-0",
+        "Description": "BLADE-STG4 (WIDE)",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2204088-1",
-        description: "SEAL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-002-543-0",
+        "Description": "BLADE-STG5 (WIDE)",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2204088-1",
-        description: "SEAL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-003-106-0",
+        "Description": "VANE ASSY-FAN BSTR STG 1",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2204118-3",
-        description: "SHIM",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-003-306-0",
+        "Description": "VANE ASSY-FAN BSTR STG3",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2206400-2",
-        description: "AIR CYCLE MACHINE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-003-404-0",
+        "Description": "VANE, BOOSTER ASSEMBLY, STAGE 4",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2215627-2",
-        description: "DIFFUSER",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-010-601-0",
+        "Description": "SHAFT ASSY-FAN",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2215629-1",
-        description: "PLENUM ASSY",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-062-701-0",
+        "Description": "TUBE-OIL NO.1 BRG SCAV",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2215632-1",
-        description: "PLENUM",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-068-111-0",
+        "Description": "PANEL ASSY-ACOUSTICAL AFT",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2215632-1",
-        description: "PLENUM",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-068-411-0",
+        "Description": "PANEL ASSY-ACOUSTICAL AFT",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2215632-2",
-        description: "PLENUM ASSY",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-078-804-0",
+        "Description": "PANEL ASSY-ACOUSTICAL FWD",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2227000-61C1",
-        description: "DFDAU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-079-504-0",
+        "Description": "PANEL ASSY-ACOUSTICAL FWD",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2233000-816-1",
-        description: "DIGITAL FLIGHT DATA ACQUISITION UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-108-503-0",
+        "Description": "BLADE-LPT STG 4",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2234320-01-01",
-        description: "FDIMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-108-608-0",
+        "Description": "NOZZLE-SEGMENT STG 1",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "22715-000-02",
-        description: "NLG DOOR ACTUATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-108-708-0",
+        "Description": "NOZZLE-SEGMENT STG 1",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2293B020000",
-        description: "VALVE-CHECK",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-109-109-0",
+        "Description": "VANE, LPT, STAGE 2 (5BP)",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2313M-347-4",
-        description: "WINDSHEILD WIPER MOTOR CONVERTER LH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-109-151-0",
+        "Description": "VANE, LPT, STAGE 2 (5BP)",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2313M-347-4",
-        description: "WINDSHEILD WIPER MOTOR CONVERTER LH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-109-251-0",
+        "Description": "VANE, LPT, STAGE 2 (5BP)",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "233A3202-5",
-        description: "FUEL CONTROL PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-109-309-0",
+        "Description": "VANE, LPT, STAGE 2 (5BP)",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "233A3203-1",
-        description: "ENGINE CONTROL MODULE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-109-705-0",
+        "Description": "VANE, LPT, STAGE 3 (5BP)",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "233A3204-1",
-        description: "MODULE APU CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-110-103-0",
+        "Description": "NOZZLE SEG-STG 4",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "233A3204-1",
-        description: "MODULE APU CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-110-203-0",
+        "Description": "NOZZLE SEG-STG 4",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "233A3204-1",
-        description: "MODULE APU CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-111-502-0",
+        "Description": "RING 1-ROTATING",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "233A3206-2",
-        description: "PANEL DISPLAY SELECT INSTR - P5-28",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-111-701-0",
+        "Description": "RING 3-ROTATING",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "233A3207-4",
-        description: "MOD-DOOR WARNING ANNUNCIATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-112-707-0",
+        "Description": "AIRSEAL, LPT OUTER STATIONARY, STAGE 2",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "233N3201-11",
-        description: "PANEL AY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-116-102-0",
+        "Description": "BLADE-LPT STG 4",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "233N3201-11",
-        description: "PANEL AY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-116-103-0",
+        "Description": "BLADE, LPT, STAGE 4",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "233T3239-8",
-        description: "PANEL AY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-116-702-0",
+        "Description": "SHIELD",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "233T3242-1301",
-        description: "EEC CONT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-121-602-0",
+        "Description": "SEAL-SEG STG 4",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "233T7210-6",
-        description: "PANEL AY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "338-121-701-0",
+        "Description": "PLATE-RETAINING",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "233T7210-6",
-        description: "PANEL AY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3399104-1",
+        "Description": "PILOT VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "233W6201-5",
-        description: "MODULE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3399106-2",
+        "Description": "REGULATOR VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "233W6203-5",
-        description: "MODULE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "340-001-028-0",
+        "Description": "BLADE, FAN, STAGE 1",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "234-511-9059",
-        description: "COUPLING CLP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "340-001-028-0",
+        "Description": "BLADE, FAN, STAGE 1",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "234-511-9059",
-        description: "COUPLING CLP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "340-002-602-0",
+        "Description": "FAIRING, FAN",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "234-517-9005",
-        description: "COUPLING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "340-058-303-0",
+        "Description": "VANE, BOOSTER ASSEMBLY, STAGE 3",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "234-517-9005",
-        description: "COUPLING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": 340565,
+        "Description": "VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "241-246-022-004",
-        description: "MONITOR ENGINE VIBRATION",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "34100005-1",
+        "Description": "ENGINE FIRE EXTINGUISHING BOTTLE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "241-246-022-004",
-        description: "MONITOR ENGINE VIBRATION",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3415-131P",
+        "Description": "RING, RETAINER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "241-251-000-121",
-        description: "UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3415-181SP",
+        "Description": "RINGS",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "241-280-051-012",
-        description: "CONDITIONER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3415-275SP",
+        "Description": "RINGS",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "241-280-056-014",
-        description: "AVM",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3415-406SP",
+        "Description": "RINGS",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2-418-05",
-        description: "TRANSFORMER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "341E030000",
+        "Description": "SOLENOID THERMOSTAT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2-418-05",
-        description: "TRANSFORMER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "342B050000",
+        "Description": "THERMOSTAT, CONTROL",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2-418-05",
-        description: "TRANSFORMER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "34600049-1",
+        "Description": "FIRE BOTTLE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2-418-05",
-        description: "TRANSFORMER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "35000-00-01",
+        "Description": "CLOCK-DIGITAL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "24E507040G01",
-        description: "HEATER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "35008-307",
+        "Description": "MODULE OVERHEAT",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "251A1240-3",
-        description: "POWER CONT.- SPOILER AILERON CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3505582-65",
+        "Description": "AIR TURBINE ENGINE STARTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "251A1240-5",
-        description: "ACTUATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3505582-65",
+        "Description": "AIR TURBINE ENGINE STARTER",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "251A2420-5",
-        description: "VALVE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3505920-8",
+        "Description": "ADU",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "251A2420-7",
-        description: "CONTROL VALVE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "35-0D5-1003",
+        "Description": "LOUDSPEAKER-AMPLI.,COCKPI",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "251A2430-25",
-        description: "TAB MECH ASSY-ELEVATORCONTROLS LH",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "350E053020909",
+        "Description": "FLIGHT WARNING COMPUTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "251A2430-26",
-        description: "TAB MECH ASSY-ELEVATORCONTROLS RH",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "35-0L0-1002-05",
+        "Description": "ECAM CONTROL PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "251A4510-14",
-        description: "ACTUATOR, STAB TRIM",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "35-0L5-1005-08",
+        "Description": "BCL-BATTERY CHARGE LIMITER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "251T0100-311",
-        description: "SHAFT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3510-0044-07",
+        "Description": "COFFEE MAKER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "251T0100-323",
-        description: "ROD ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3530000-1",
+        "Description": "SENSOR-FUEL LEVEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "251T0100-323",
-        description: "ROD ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "35EN24-4",
+        "Description": "LIMIT SWITCH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "251T0100-323",
-        description: "ROD ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3617331-1",
+        "Description": "ADAPTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "251T0100-323",
-        description: "ROD ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3617406-1",
+        "Description": "MAST DRAIN BRACKET",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "251T0100-353",
-        description: "ROD ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3617560-1",
+        "Description": "AFT OIL COOLER BRACKET",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "252CA01C1-02Y1",
-        description: "CONTACTOR THREE POLE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3617906-1",
+        "Description": "RETAINER OIL TUBE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "252T2171-1",
-        description: "TRUNNION",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "362-021-002",
+        "Description": "INDICATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "252T2171-1",
-        description: "TRUNNION",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1\/1\/3720",
+        "Description": "FIRE DETECTION UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "25498",
-        description: "GUIDE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "372-079-002",
+        "Description": "STABILIZER POSITION INDICATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "256T3210-4",
-        description: "ACTUATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3800702-1",
+        "Description": "AUXILIARY POWER UNIT 131-9(B)",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "256T3210-4",
-        description: "ACTUATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3810684-2",
+        "Description": "VANE, INLET GUIDE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "256T3210-4",
-        description: "ACTUATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3810794-2",
+        "Description": "GEAR SEGMENT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "256T3250-4",
-        description: "TRAILING EDGE FLAP ROTARY ACTUATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3810808-3",
+        "Description": "IGV HOUSING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "256T3250-4",
-        description: "TRAILING EDGE FLAP ROTARY ACTUATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3810875-1",
+        "Description": "COVER INL GD",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "256T3250-4",
-        description: "TRAILING EDGE FLAP ROTARY ACTUATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3810889-5",
+        "Description": "UPPER INLET PLENUM",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "26007",
-        description: "POTENTIOMETER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3810900-4",
+        "Description": "FAN EXIT DUCT",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2607825-2",
-        description: "WHEEL ASSY",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3810905-1",
+        "Description": "INLET DUCT ASSEMBLY-COMPOSITE, UPPER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2613128-1",
-        description: "WHEEL HALF ASSEMBLY      OUTBOARD(SERVIC",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3810929-3",
+        "Description": "FAN INLET DUCT",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2615001-1",
-        description: "WHEEL",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "381800-1005",
+        "Description": "ACTUATOR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2615001-1",
-        description: "WHEEL",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3822400-5",
+        "Description": "COMPRESSOR ROTOR, DRIVEN",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2624-82",
-        description: "ELT ANTENNA",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3822400-5",
+        "Description": "COMPRESSOR ROTOR, DRIVEN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2624-82",
-        description: "ELT ANTENNA",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3822423-1",
+        "Description": "COMPRESSOR BEARING NUT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "263BC101-3",
-        description: "BATTERY CHARGER 777",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3822504-3",
+        "Description": "SHAFT, TURBINE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "26600",
-        description: "Guide",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3822510-2",
+        "Description": "SHAFT, MATCHED SET, COMPRESSOR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "273A1401-2",
-        description: "NLG LOCK MANIFOLD ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3822510-2",
+        "Description": "SHAFT, MATCHED SET, COMPRESSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "273A3610-4",
-        description: "DAMPER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3822529-4",
+        "Description": "DRIVEN COMPRESSOR COUPLING SHAFT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "273A3610-4",
-        description: "DAMPER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3822666-2",
+        "Description": "BEARING, BALL, DUPLEX (CERAMIC)",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "273A3610-4",
-        description: "DAMPER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3826282-2",
+        "Description": "2ND STAGE DIFFUSER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2-7462-3",
-        description: "VALVE-AUTO BRAKE SHUTTLE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3826928-2",
+        "Description": "ROD END BEARING",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "27550-1",
-        description: "OXYGEN SHUTOFF VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3826928-2",
+        "Description": "ROD END BEARING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "27550-1",
-        description: "OXYGEN SHUTOFF VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3826994-2",
+        "Description": "COVER, IGV",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "27550-1",
-        description: "OXYGEN SHUTOFF VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3827054-2",
+        "Description": "DRIVEN COMPRESSOR DIFFUSER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2-7680-1",
-        description: "FUSE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3827067-1",
+        "Description": "LOAD COMPRESSOR HEAT SHIELD",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2-7680-2",
-        description: "HYDRAULIC FUSE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3827075-2",
+        "Description": "WASHER SPR CPRSN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2-7681-2",
-        description: "HYDRAULIC FUSE, NLG EXTEND",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3827165-2",
+        "Description": "CLEVIS ASSEMBLY",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2-7681-2",
-        description: "HYDRAULIC FUSE, NLG EXTEND",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3827165-2",
+        "Description": "CLEVIS ASSEMBLY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2780536-101",
-        description: "VALVE HEAT CARGO",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3827203-1",
+        "Description": "BOLT ENG CPRSR DIFF",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2780536-101",
-        description: "VALVE HEAT CARGO",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3827265-8",
+        "Description": "BEARING HOUSING",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2-7892-2",
-        description: "CARGO DOOR SNUBBER",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3827265-8",
+        "Description": "BEARING HOUSING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2790583-104",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3827324-3",
+        "Description": "SUPPORT, STATIONARY SEAL, AIR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2-8020-1",
-        description: "FUSE HYDRAULIC TR PRESS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3827324-3",
+        "Description": "SUPPORT, STATIONARY SEAL, AIR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2-8020-1",
-        description: "FUSE HYDRAULIC TR PRESS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3827385-2",
+        "Description": "COMPRESSOR BEARING RETAINER PLATE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2-8020-27",
-        description: "FUSE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3827401-1",
+        "Description": "DESWIRL, ENGINE COMPRESSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2-8020-28",
-        description: "FUSE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3827405-3",
+        "Description": "ROD- ACTUATOR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2-8020-5",
-        description: "HYDRAULIC FUSE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3827405-4",
+        "Description": "ACTUATOR ROD",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2-8020-5",
-        description: "HYDRAULIC FUSE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3827405-4",
+        "Description": "ACTUATOR ROD",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2-8041-1",
-        description: "HYDRAULIC FUSE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3827426-3",
+        "Description": "HOUSING, BEARING, DRIVEN COMPRESSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "282900-1013",
-        description: "ACTUATOR ASSY RUDDER",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3830187-3",
+        "Description": "FUEL NOZZLE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "283200-1007",
-        description: "POWER CONTROL ACTUATOR, OB AILERON",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3830416-1",
+        "Description": "FUEL NOZZLE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "283200-1007",
-        description: "POWER CONTROL ACTUATOR, OB AILERON",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3830461-5",
+        "Description": "SHROUD",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "284A6809-28",
-        description: "SPUD",
-        conditionCode: "NS",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3840170-2",
+        "Description": "SHAFT, COUPLING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "284A6829-7",
-        description: "SHROUD CLEAR COVER",
-        conditionCode: "NS",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3840171-2",
+        "Description": "SHAFT COUPLING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "284A6830-12",
-        description: "SHROUD ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3840172-1",
+        "Description": "AFT BEARING SHAFT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "284T0052-3",
-        description: "RADOME 767",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3840243-1",
+        "Description": "ROLLER BEARING SPACER RING",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "284T0052-3",
-        description: "RADOME 767",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3840243-1",
+        "Description": "ROLLER BEARING SPACER RING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "284T0052-3",
-        description: "RADOME 767",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3840244-1",
+        "Description": "TIESHAFT NUT",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "284T0736-8",
-        description: "FEEDLINE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3840244-1",
+        "Description": "TIESHAFT NUT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "285A1200-2",
-        description: "FSEU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3844018-1",
+        "Description": "STATOR ASSY 3STG",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "285A1200-2",
-        description: "FSEU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3844573-2",
+        "Description": "RING SPRT STTR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "285A1300-1",
-        description: "ENGINE ACCESSORY UNIT MODULE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3844575-2",
+        "Description": "1ST STAGE SHROUD SEGMENT TURBINE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "285A1300-1",
-        description: "ENGINE ACCESSORY UNIT MODULE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3844579-2",
+        "Description": "RING SHROUD SUPPORT",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "285A1600-6",
-        description: "PSEU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3844582-1",
+        "Description": "2ND STAGE STATOR SEAL WELDMENT",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "285A1840-8",
-        description: "MODULE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3844587-4",
+        "Description": "RING, CONTAINMENT",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "285N0028-21",
-        description: "CARD-FIRE DETECTION",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3844587-4",
+        "Description": "RING, CONTAINMENT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "285N0412-3",
-        description: "HANDSET",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3844595-2",
+        "Description": "SEAL SHRD SEG",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "285N0412-4",
-        description: "HANDSET",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3844619-3",
+        "Description": "INNER TRANSITION LINER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "285T0012-110",
-        description: "UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3844619-3",
+        "Description": "INNER TRANSITION LINER",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "285T0017-103",
-        description: "MODULE POWER SUPPLY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3844760-2",
+        "Description": "1ST STAGE TURBINE NOZZLE SEGMENT",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "285T0017-103",
-        description: "MODULE POWER SUPPLY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3844766-4",
+        "Description": "COMBUSTOR CASE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "285T0017-103",
-        description: "MODULE POWER SUPPLY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3844766-4",
+        "Description": "COMBUSTOR CASE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "285T0017-103",
-        description: "MODULE POWER SUPPLY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3844776-3",
+        "Description": "2ND STAGE TURBINE STATOR BAFFLE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "285T0017-103",
-        description: "MODULE POWER SUPPLY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3844861-3",
+        "Description": "SIDE THERMAL INSULATION BLANKET",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "285T0017-104",
-        description: "MODULE, POWER SUPPLY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3844861-4",
+        "Description": "SIDE THERMAL INSULATION BLANKET",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "285T0022-36",
-        description: "PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3844861-7",
+        "Description": "AFT SIDE THERMAL INSULATION BLANKET",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "285T0022-36",
-        description: "PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3844861-9",
+        "Description": "SIDE THERMAL INSULATION BLANKET",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "285T0032-15",
-        description: "PC AY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3844861-9",
+        "Description": "SIDE THERMAL INSULATION BLANKET",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "285T0034-28",
-        description: "PRINTED CIRCUIT ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3844864-1",
+        "Description": "2ND STAGE STATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "285T0259-19",
-        description: "PCA",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3844907-1",
+        "Description": "HOUSING ASSEMBLY, TURBINE BEARING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "285T0259-19",
-        description: "PCA",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3844917-1",
+        "Description": "RETAINER BEARING",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "285T0458-11",
-        description: "PC ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3850100-5",
+        "Description": "HOUSING EDUCTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "285T0852-1",
-        description: "FDAS KEYPAD",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3850104-3",
+        "Description": "CAP, EXHAUST",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "285T0852-1",
-        description: "FDAS KEYPAD",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3850104-4",
+        "Description": "CAP, EXHAUST",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "285T0855-1",
-        description: "FLIGHT DECK DOOR ACCESS CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3861046-1",
+        "Description": "GENERATOR GEARSHAFT",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "285T0855-5",
-        description: "MODULE, FDAS CONTROLLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3861046-1",
+        "Description": "GENERATOR GEARSHAFT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "285W0015-102",
-        description: "GENERATOR CONTROL UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3861047-1",
+        "Description": "HIGH SPEED PINION GEARSHAFT",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "285W0015-102",
-        description: "GENERATOR CONTROL UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3862218-1",
+        "Description": "HOUSING ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "285W0026-2",
-        description: "PASSENGER ADDRESS MODULE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3863150-1",
+        "Description": "RETAINER BRG",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "285W0027-101",
-        description: "ZONE MANAGEMENT UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3863167-1",
+        "Description": "LUBRICATING NOZZLE ASSY.",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "285W0027-101",
-        description: "ZONE MANAGEMENT UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3863167-1",
+        "Description": "LUBRICATING NOZZLE ASSY.",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "285W0038-101",
-        description: "UNIT, POWER SUPPLY, PREREGULATOR, 777-200",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3863344-3",
+        "Description": "OIL PICKUP TUBE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "285W0114-2",
-        description: "RTP",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3863349-1",
+        "Description": "ROLLER OIL FILL CAP",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "287A6115-5",
-        description: "BRACKET ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3863396-2",
+        "Description": "LUBE MANIFOLD",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "28823-7",
-        description: "COMPRESSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3863396-2",
+        "Description": "LUBE MANIFOLD",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "28B545-9",
-        description: "GENERATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3863397-1",
+        "Description": "RETAINER BRG",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2920033-103",
-        description: "VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3863426-3",
+        "Description": "GEARBOX MATCHED HOUSING ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "293W3172-3",
-        description: "ACTUATOR ASSY-DLOCK",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3863541-2",
+        "Description": "OIL PICKUP TUBE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "293W3922-3",
-        description: "ACTUATOR ASSY, MLG DOOR UPLOCK",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3863541-2",
+        "Description": "OIL PICKUP TUBE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "293W3922-3",
-        description: "ACTUATOR ASSY, MLG DOOR UPLOCK",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3868027-1",
+        "Description": "SHAFT, QUILL",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "295W1701-1",
-        description: "STEERING ACTUATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": 387,
+        "Description": "LAMP = 10 PKG",
+        "Condition": "NS",
+        "Quantity": 1
       },
       {
-        partNumber: "295W1701-1",
-        description: "STEERING ACTUATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3870205-1",
+        "Description": "GEARSHAFT CLUSTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2960035-101",
-        description: "VALVE, MOT OPR, 2 WAY",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3870208-1",
+        "Description": "IDLE GEAR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2960036-101",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3870208-1",
+        "Description": "IDLE GEAR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2980190000000",
-        description: "FAUCET - WATER",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3870213-7",
+        "Description": "STARTER ADAPTER",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "29840",
-        description: "ADHESIVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3870245-1",
+        "Description": "AFT MOUNT BRACKET",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "2LA005308-05",
-        description: "WING STROBE LIGHT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3870245-1",
+        "Description": "AFT MOUNT BRACKET",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "2LA455010-00",
-        description: "ANTI COLLISION LIGHT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3870246-1",
+        "Description": "BRACKET GRND HDLG AFT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3000-46-24",
-        description: "SWITCH_CMM 21-43-01",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3870246-1",
+        "Description": "BRACKET GRND HDLG AFT",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "30042-0000-0402",
-        description: "FUEL LEVEL SENSING UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3870248-1",
+        "Description": "HOIST BRACKET",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "30042-0000-0501",
-        description: "CONTROL UNIT-LEVEL,SENSIN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3870248-1",
+        "Description": "HOIST BRACKET",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "30100022-33",
-        description: "EXTINGUISHER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3876132-12",
+        "Description": "LEAD, ELECTRICAL IGNITER PLUG",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "301-298-211-0",
-        description: "REAR ROTATING LABYRINTH",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3876225-2",
+        "Description": "SENSOR, INLET",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "30136-0106",
-        description: "WATER TANK QTY.TRANSMITTER",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3880971-1",
+        "Description": "FITTING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "30136-0108",
-        description: "XMTR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3881684-2",
+        "Description": "TUBE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "301-475-207-6",
-        description: "BAFFLE-OIL BRG 1",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3881684-2",
+        "Description": "TUBE",
+        "Condition": "NS",
+        "Quantity": 1
       },
       {
-        partNumber: "301-544-407-0",
-        description: "TUBE ASSY-OIL NO.2 BRG",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3881685-2",
+        "Description": "TUBE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "30-1685-2",
-        description: "ANTI COLLISION LIGHT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3881708-3",
+        "Description": "TUBE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "30-1883-5",
-        description: "FLOODLIGHT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3881763-1",
+        "Description": "OIL COOLER RETURN TUBE ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "30230",
-        description: "ANTISKID ACCU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3881764-1",
+        "Description": "OIL COOLER SUPPLY TUBE ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "30-2506-3",
-        description: "LIGHT AY STROBE ANTICOL BTM",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3881826-2",
+        "Description": "SCAVENGE TUBE ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "30-2581-3",
-        description: "HALOGEN LOGO LIGHT - POST M330-33-2001",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3881826-2",
+        "Description": "SCAVENGE TUBE ASSY",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "30-2581-3",
-        description: "HALOGEN LOGO LIGHT - POST M330-33-2001",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3881827-1",
+        "Description": "TUBE ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "304486-12",
-        description: "ELECTRONIC CONTROL BOX",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3881828-1",
+        "Description": "TUBE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "305-136-803-0",
-        description: "SHAFT ASSY-RADIAL DRIVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3881836-1",
+        "Description": "TURBINE BEARING SUPPLY TUBE ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "305RAA1",
-        description: "AUTOTHROTTLE SERVOMOTOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3883830-1",
+        "Description": "FLOW DIVIDER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3100013",
-        description: "SENSORS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3883837-1",
+        "Description": "MANIFOLD, FUEL, SECONDARY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "31073-110",
-        description: "AILERON SERVO CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3883846-2",
+        "Description": "TUBE, APU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "311A2090-1",
-        description: "PIN FUSE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3883848-3",
+        "Description": "TUBE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "311A2090-1",
-        description: "PIN FUSE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3883895-1",
+        "Description": "TUBE- IGV RETURN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "311A2090-1",
-        description: "PIN FUSE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3883897-1",
+        "Description": "TUBE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "311A2090-1",
-        description: "PIN FUSE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3883920-1",
+        "Description": "TUBE- MANIFOLD SUPPLY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "311A2091-1",
-        description: "PIN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3883952-1",
+        "Description": "TUBE ASSEMBLY, SCV-IGV SUPPLY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "311A2095-1",
-        description: "END CAP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3883953-1",
+        "Description": "TUBE ASSEMBLY, SCV-IGV RETURN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "311A2095-1",
-        description: "END CAP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3883954-1",
+        "Description": "FUEL SUPPLY TUBE ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "311A2095-2",
-        description: "CAP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3883954-2",
+        "Description": "TUBE ASSY, METAL - FUEL SUPPLY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "311A2095-4",
-        description: "END CAP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3883957-1",
+        "Description": "FCU DRAIN TUBE ASSY.",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "314-2200-11",
-        description: "FAN COWL RH",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3883958-1",
+        "Description": "IGVA DRAIN TUBE ASSY.",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "314-2200-3",
-        description: "FAN COWL LH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3883959-1",
+        "Description": "LOAD COMPRESSOR DRAIN TUBE ASSY.",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "315A1811-1",
-        description: "NUT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3884971-1",
+        "Description": "TOTAL PRESSURE PROBE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "315A2800-2",
-        description: "TR ACTUATOR ASSY",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3884971-1",
+        "Description": "TOTAL PRESSURE PROBE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "315A2801-5",
-        description: "ACTUATOR ASSY",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3884980-3",
+        "Description": "TUBE- P STATIC",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3199680",
-        description: "BRAKE TEMP MONITOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3884983-3",
+        "Description": "TUBE ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "320522-17",
-        description: "VALVE OUTLINE,SOLENOID",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3884984-3",
+        "Description": "TUBE ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "320548-1",
-        description: "VALVE, SOLENOID",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3884988-1",
+        "Description": "DUCT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "320548-1",
-        description: "VALVE, SOLENOID",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3885003-2",
+        "Description": "DUCT-SURGE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "320548-2",
-        description: "SOLENOID VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3885007-1",
+        "Description": "COMPRESSOR DISCHARGE DUCT",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "320-549-005-0",
-        description: "SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3885007-2",
+        "Description": "COMPRESSOR DISCHARGE DUCT",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "321200M02",
-        description: "BRAKE SPEED TRANSDUCER UNIT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3885007-2",
+        "Description": "COMPRESSOR DISCHARGE DUCT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "321200M02",
-        description: "BRAKE SPEED TRANSDUCER UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3885010-1",
+        "Description": "GEARBOX VENT TUBE ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3213754-1",
-        description: "VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3885011-1",
+        "Description": "TOTAL PRESSURE TUBE ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3213754-1",
-        description: "VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3885012-1",
+        "Description": "STATIC PRESSURE TUBE ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3213754-1",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3886188-3",
+        "Description": "IGV ACTUATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3214552-5",
-        description: "VALVE, PRESS REG. & SHUT OFF",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3886188-3",
+        "Description": "IGV ACTUATOR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "321464-5-1",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3888394-221204",
+        "Description": "ELECTRONIC CONTROL BOX",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "321464-5-1",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3888448-1",
+        "Description": "HARNESS",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "321464-5-1",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3888449-1",
+        "Description": "WIRING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3214862-1",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3888449-2",
+        "Description": "WIRING HARNESS APU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "32152",
-        description: "RING RTNR",
-        conditionCode: "NS",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "38E93-5",
+        "Description": "ANTI ICING VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "32152",
-        description: "RING RTNR",
-        conditionCode: "NS",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3910032-104",
+        "Description": "VALVE AY",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3215618-4",
-        description: "VALVE-ANTI ICE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "392678-3-1",
+        "Description": "VALVE, TURBOFAN CONTROL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3217-200",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "392678-3-1",
+        "Description": "VALVE, TURBOFAN CONTROL",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3218KGB01",
-        description: "SENSOR-N2 SPEED",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3930007-105",
+        "Description": "VALVE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "321942-1-1",
-        description: "VALVE - 35 DEG FLOW CONTR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": 3945122506,
+        "Description": "ELAC (Elevator Aileron Computer)",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "322000",
-        description: "TRANSDUCER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": 3945128215,
+        "Description": "ELAC-ELEVATOR AND AILERON COMPUTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3236761-5",
-        description: "HOUSING ASSEMBLY, BALLSCREW",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": 3945128216,
+        "Description": "ELEVATOR AILERON COM",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "325-027-303-0",
-        description: "HARNESS, MW0315",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": 3945129100,
+        "Description": "ELAC - ELEVATOR & AILERON COMPUTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "325-027-303-0",
-        description: "HARNESS, MW0315",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": 3957985114,
+        "Description": "ENGINE INTERFACE UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "325-045-301-0",
-        description: "HARNESS",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "396442-1",
+        "Description": "FLOW CONTROL VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3250-80",
-        description: "BALLAST UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "397728-3-1",
+        "Description": "VALVE, S\/O",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3250-80",
-        description: "BALLAST UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "40-0070-2",
+        "Description": "LIGHT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3250-80",
-        description: "BALLAST UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "400-605",
+        "Description": "SENSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "327155-3",
-        description: "ANTI ICE VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "40340-10011",
+        "Description": "VALVE AY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3283086-32",
-        description: "LOCK, BRAKE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4039892-904",
+        "Description": "INDICATOR ALTIMETER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3289562-5",
-        description: "VALVE, PRECOOLER CONTROL",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4040800-911",
+        "Description": "COMPUTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3289562-6",
-        description: "PRECOOLER CONTROL VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "saus-46",
+        "Description": "777 APU STAND",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3290888-2",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "40520-30019",
+        "Description": "CYLINDER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3291184-2",
-        description: "VALVE-AIR TRANSIENT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4052500-927",
+        "Description": "COMPUTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3291238-2",
-        description: "VALVE, SURGE CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4055900-914",
+        "Description": "SYMBOL GENERATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3291238-2",
-        description: "VALVE, SURGE CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4063-19972-01AA",
+        "Description": "VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3291238-2",
-        description: "VALVE, SURGE CONTROL",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4071400-904",
+        "Description": "ADM",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3291432-1",
-        description: "VALVE, APU LOAD CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4073770-902",
+        "Description": "PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "330TS08Y",
-        description: "FIRE   PANEL-ENGINE APU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4073870-901",
+        "Description": "AIMS DISPLAY SELECT PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "331-0006-01",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4073970-901",
+        "Description": "DEVICE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "335-108-701-0",
-        description: "SLIDE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4073970-951",
+        "Description": "CONTROL DEVICE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "335-192-203-0",
-        description: "VANE, BOOSTER ASSEMBLY, STAGE 2",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "407EED1-1",
+        "Description": "INDICATR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "saus-53",
-        description: "INDICATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4081600-930",
+        "Description": "ELECTRONIC DISPLAY UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "saus-53",
-        description: "INDICATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4082499-902",
+        "Description": "FLIGHT CONTROL COMPUTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "saus-53",
-        description: "INDICATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4082499-903",
+        "Description": "COMPUTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "saus-53",
-        description: "INDICATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4082730-901",
+        "Description": "EFIS CONTROL PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "saus-53",
-        description: "INDICATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": 40885,
+        "Description": "VALVE CONTROL UNIT",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "336-009-801-0",
-        description: "SEAL-ROTATING OIL NO.4 BRG",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4091900-941",
+        "Description": "B777 DIGITAL DISPLAY UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "337-542-9210",
-        description: "FILTER ELEMENT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4100362-1",
+        "Description": "MOTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-002-219-0",
-        description: "BLADE-STG2 (WIDE)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4101002-11",
+        "Description": "TRANSFER UNIT-HYD POWER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-002-319-0",
-        description: "BLADE-STG3 (WIDE)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4101002-11",
+        "Description": "TRANSFER UNIT-HYD POWER",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "338-002-419-0",
-        description: "BLADE-STG4 (WIDE)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4101002-9",
+        "Description": "POWER TRANSFER UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-002-543-0",
-        description: "BLADE-STG5 (WIDE)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4-1071-100",
+        "Description": "CHIP DETECTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-003-106-0",
-        description: "VANE ASSY-FAN BSTR STG 1",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "413T1024-2",
+        "Description": "LATCH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-003-306-0",
-        description: "VANE ASSY-FAN BSTR STG3",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "416-0001-9",
+        "Description": "COFFEE MAKER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-003-404-0",
-        description: "VANE, BOOSTER ASSEMBLY, STAGE 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "416-00318-003",
+        "Description": "WHC-WINDOW HEAT COMPUTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-010-601-0",
-        description: "SHAFT ASSY-FAN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "416-1001-23",
+        "Description": "COFFEE MAKER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-062-701-0",
-        description: "TUBE-OIL NO.1 BRG SCAV",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "416A1401-22",
+        "Description": "BRACKET ASSY - MEGAPHONE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-068-111-0",
-        description: "PANEL ASSY-ACOUSTICAL AFT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "417A2508-9",
+        "Description": "WATER TANK ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-068-111-0",
-        description: "PANEL ASSY-ACOUSTICAL AFT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "417T3052-147",
+        "Description": "OUTBD PSU",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "338-068-111-0",
-        description: "PANEL ASSY-ACOUSTICAL AFT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "417T3052-33",
+        "Description": "PSU ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-068-111-0",
-        description: "PANEL ASSY-ACOUSTICAL AFT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "417T3055-344B",
+        "Description": "SPACER PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-068-411-0",
-        description: "PANEL ASSY-ACOUSTICAL AFT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "417T3057-42",
+        "Description": "PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-068-411-0",
-        description: "PANEL ASSY-ACOUSTICAL AFT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4188-00",
+        "Description": "STATIC INVERTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-068-411-0",
-        description: "PANEL ASSY-ACOUSTICAL AFT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "419300-1003",
+        "Description": "DUAL INPUT RUDDER PCU ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-078-804-0",
-        description: "PANEL ASSY-ACOUSTICAL FWD",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "41SG118-2",
+        "Description": "XDCR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-078-804-0",
-        description: "PANEL ASSY-ACOUSTICAL FWD",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": 4205602,
+        "Description": "PUMP-ELECTRIC MOTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-079-504-0",
-        description: "PANEL ASSY-ACOUSTICAL FWD",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4-273-03",
+        "Description": "TRU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-079-504-0",
-        description: "PANEL ASSY-ACOUSTICAL FWD",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "42-935-2",
+        "Description": "ANTISKID CONTROL UNIT - M0162",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-108-503-0",
-        description: "BLADE-LPT STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4305990100",
+        "Description": "SENSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-108-608-0",
-        description: "NOZZLE-SEGMENT STG 1",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4315542",
+        "Description": "RETRACTABLE LANDING LIGHT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-108-608-0",
-        description: "NOZZLE-SEGMENT STG 1",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4321561",
+        "Description": "LIGHT AY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-108-608-0",
-        description: "NOZZLE-SEGMENT STG 1",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4345-003",
+        "Description": "LAMP STUD",
+        "Condition": "NS",
+        "Quantity": 1
       },
       {
-        partNumber: "338-108-708-0",
-        description: "NOZZLE-SEGMENT STG 1",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "436-2",
+        "Description": "DETECTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-108-708-0",
-        description: "NOZZLE-SEGMENT STG 1",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "44933",
+        "Description": "IGN EXCITER (ALT: 10-621630-1)",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-108-708-0",
-        description: "NOZZLE-SEGMENT STG 1",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4500003K",
+        "Description": "ELECTRONIC CONTROL BOX",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-109-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4500003L",
+        "Description": "ELECTRONIC CONTROL B",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-109-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4500055",
+        "Description": "Plate Assy",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-109-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4500074",
+        "Description": "QUILL SHAFT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-109-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4500517",
+        "Description": "",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-109-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "450-1-3100-00",
+        "Description": "SWITCH-PRESSURE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-109-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4501936",
+        "Description": "",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-109-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4502123",
+        "Description": "",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-109-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "450-2-3100-00",
+        "Description": "SWITCH-PRESSURE",
+        "Condition": "NE",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-109-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "450-2-3100-00",
+        "Description": "SWITCH-PRESSURE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-151-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4502474",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-151-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4503344",
+        "Description": "HOUSING ASSY, COMPRESSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-151-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4503366",
+        "Description": "I.D. PLATE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-151-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "45-0351-1",
+        "Description": "LIGHT LANDING LH RETRACT - LH",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-151-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "45-0351-4",
+        "Description": "LIGHT LANDING RH RETRACT - RH",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-151-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "45-0351-5",
+        "Description": "LIGHT ASSY",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-151-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4504071",
+        "Description": "INLET GUIDE VANE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-151-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4504742",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-151-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4506052",
+        "Description": "BRACKET",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-251-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "466090",
+        "Description": "FIRE EXT",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-251-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "47145-147",
+        "Description": "THS ACTUATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-251-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "47215920BB00",
+        "Description": "PROBE HEAT COMPUTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-251-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "473475-3",
+        "Description": "BOTTLE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-251-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "473597-5",
+        "Description": "SMOKE DETECTOR TYPE II",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-251-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "473955-1",
+        "Description": "CARGO FIRE DETECTION MODULE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-251-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "476W2220-9N",
+        "Description": "CRADLE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-251-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "488550-10-01",
+        "Description": "ACTUATOR CONTROL ELECTRONICS UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-309-0",
-        description: "VANE, LPT, STAGE 2 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "49-170-11",
+        "Description": "SLAT\/FLAP CONTROL COMPUTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-705-0",
-        description: "VANE, LPT, STAGE 3 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "49-177-12",
+        "Description": "PRIMARY FLIGHT COMPUTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-705-0",
-        description: "VANE, LPT, STAGE 3 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4950079",
+        "Description": "CLAMP",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-705-0",
-        description: "VANE, LPT, STAGE 3 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4950565",
+        "Description": "CLAMP",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-705-0",
-        description: "VANE, LPT, STAGE 3 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4950689-3",
+        "Description": "SEGMENT-HEAT BLANKET",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-705-0",
-        description: "VANE, LPT, STAGE 3 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4950689-4",
+        "Description": "SEGMENT-HEAT BLANKET",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-705-0",
-        description: "VANE, LPT, STAGE 3 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "5006284A",
+        "Description": "HOUSING",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-705-0",
-        description: "VANE, LPT, STAGE 3 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "5006349",
+        "Description": "VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-705-0",
-        description: "VANE, LPT, STAGE 3 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "503CA04F2-02Y00",
+        "Description": "CONTACTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-705-0",
-        description: "VANE, LPT, STAGE 3 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "510846-1",
+        "Description": "STATOR ALTERNATOR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-705-0",
-        description: "VANE, LPT, STAGE 3 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "5145-1-64",
+        "Description": "AUDIO SELECTOR PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-705-0",
-        description: "VANE, LPT, STAGE 3 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "521100",
+        "Description": "GCU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-705-0",
-        description: "VANE, LPT, STAGE 3 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "5-211S614-80",
+        "Description": "PACKING (Alt: 5-211E600-7 & 5-211)",
+        "Condition": "NS",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-705-0",
-        description: "VANE, LPT, STAGE 3 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "522-0700-023",
+        "Description": "GLIDE SLOPE ANTENNA",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-705-0",
-        description: "VANE, LPT, STAGE 3 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "548376-6",
+        "Description": "CABIN TEMPERATURE CONTROLLER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-705-0",
-        description: "VANE, LPT, STAGE 3 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "56090-24",
+        "Description": "PIN, QUICK RELEASE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-705-0",
-        description: "VANE, LPT, STAGE 3 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "5653732",
+        "Description": "VALVE ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-705-0",
-        description: "VANE, LPT, STAGE 3 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "568-1-29117-002",
+        "Description": "PUMP, FUEL OVERRIDE\/JETTISON",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "338-109-705-0",
-        description: "VANE, LPT, STAGE 3 (5BP)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "56A621",
+        "Description": "BLADE ASSY OF-LPC 1STG",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "338-110-103-0",
-        description: "NOZZLE SEG-STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "57186-10",
+        "Description": "HYDRAULIC PUMP",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-110-103-0",
-        description: "NOZZLE SEG-STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "572756-1",
+        "Description": "THERMAL OVERHEAT SWITCH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-110-103-0",
-        description: "NOZZLE SEG-STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "572757-1",
+        "Description": "THERMAL OVERHEAT SWITCH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-110-103-0",
-        description: "NOZZLE SEG-STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "5-89354-3149",
+        "Description": "NO1 WINDOW LH",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "338-110-103-0",
-        description: "NOZZLE SEG-STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "5908704",
+        "Description": "SPRING WAVE WASHER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-110-103-0",
-        description: "NOZZLE SEG-STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "5908953",
+        "Description": "SCREEN DRAIN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-110-103-0",
-        description: "NOZZLE SEG-STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "5909614",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-110-103-0",
-        description: "NOZZLE SEG-STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "5910228",
+        "Description": "RINGS",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-110-103-0",
-        description: "NOZZLE SEG-STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "5938214-1",
+        "Description": "SEGMENT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-110-103-0",
-        description: "NOZZLE SEG-STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "5956814-503N",
+        "Description": "WHEEL ASSY-NOSE STEERING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-110-103-0",
-        description: "NOZZLE SEG-STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "59600-5003",
+        "Description": "HYD SOL VALVE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "338-110-103-0",
-        description: "NOZZLE SEG-STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "5965440-5501",
+        "Description": "RESERVOIR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-110-103-0",
-        description: "NOZZLE SEG-STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "600-154-1251",
+        "Description": "RELAY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-110-103-0",
-        description: "NOZZLE SEG-STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "600700-00-501",
+        "Description": "HOT AIR TRIM VALVE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "338-110-103-0",
-        description: "NOZZLE SEG-STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "601343",
+        "Description": "TUBE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-110-103-0",
-        description: "NOZZLE SEG-STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "601847",
+        "Description": "PLUG-MAGNETIC",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-110-103-0",
-        description: "NOZZLE SEG-STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "603223",
+        "Description": "SLIP TUBE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-110-103-0",
-        description: "NOZZLE SEG-STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "60-3368-7M",
+        "Description": "STROBE POWER SUPPLY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-110-103-0",
-        description: "NOZZLE SEG-STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "60-3368-9",
+        "Description": "PWR SPLY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-110-103-0",
-        description: "NOZZLE SEG-STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "60-4791-3",
+        "Description": "POWER SUPPLY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-110-103-0",
-        description: "NOZZLE SEG-STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "605457-8",
+        "Description": "FAN ASSEMBLY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-110-203-0",
-        description: "NOZZLE SEG-STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "606707-1",
+        "Description": "EXHAUST FAN",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "338-111-502-0",
-        description: "RING 1-ROTATING",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "607510-2",
+        "Description": "TEMPERATURE CONTROL BOX",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-111-701-0",
-        description: "RING 3-ROTATING",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "60-755100-5",
+        "Description": "FUEL PUMP",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-112-707-0",
-        description: "AIRSEAL, LPT OUTER STATIONARY, STAGE 2",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "60B40026-20",
+        "Description": "AUTO TRANSFORMER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-116-102-0",
-        description: "BLADE-LPT STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6105",
+        "Description": "FUSE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-116-103-0",
-        description: "BLADE, LPT, STAGE 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "617166-1",
+        "Description": "AIR TEMP SENSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-116-702-0",
-        description: "SHIELD",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "62-0101-123",
+        "Description": "RAIL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-121-602-0",
-        description: "SEAL-SEG STG 4",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "622-4593-505",
+        "Description": "UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "338-121-701-0",
-        description: "PLATE-RETAINING",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "622-5001-109",
+        "Description": "R.D.M.I. TYPE NO. RDMI-743",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3399104-1",
-        description: "PILOT VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "622-5001-504",
+        "Description": "INDICATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3399104-1",
-        description: "PILOT VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "622-5045-202",
+        "Description": "GENERATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3399106-2",
-        description: "REGULATOR VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "622-5048-104",
+        "Description": "PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "340-001-028-0",
-        description: "BLADE, FAN, STAGE 1",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "622-5048-341",
+        "Description": "PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "340-001-028-0",
-        description: "BLADE, FAN, STAGE 1",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "622-5132-130",
+        "Description": "WEATHER RADAR TRANSCEIVER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "340-001-028-0",
-        description: "BLADE, FAN, STAGE 1",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "622-5136-201",
+        "Description": "ANTENNA MOUNT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "340-001-028-0",
-        description: "BLADE, FAN, STAGE 1",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "622-5137-601",
+        "Description": "WEATHER RADAR ANTENNA",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "340-001-028-0",
-        description: "BLADE, FAN, STAGE 1",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "622-5219-004",
+        "Description": "ASSY-VHF COMM L & R",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "340-002-602-0",
-        description: "FAIRING, FAN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "622-5220-020",
+        "Description": "VOR\/MARKER RECEIVER,700",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "340-058-303-0",
-        description: "VANE, BOOSTER ASSEMBLY, STAGE 3",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "622-5222-102",
+        "Description": "A.D.F RECEIVER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "340565",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "622-6089-102",
+        "Description": "ALERT PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "34100005-1",
-        description: "ENGINE FIRE EXTINGUISHING BOTTLE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "622-6831-002",
+        "Description": "PANEL VHF",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3415-131P",
-        description: "RING, RETAINER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "622-7878-201",
+        "Description": "AIR TRAFFIC CONTROL TRANSPONDER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3415-181SP",
-        description: "RINGS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "624014-1",
+        "Description": "TEMPERATURE SENSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3415-275SP",
-        description: "RINGS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "624016-1",
+        "Description": "DUCT AIR TEMP SENSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3415-406SP",
-        description: "RINGS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "624016-2",
+        "Description": "SENSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "341E030000",
-        description: "SOLENOID THERMOSTAT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "624018-1",
+        "Description": "SENSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "341E030000",
-        description: "SOLENOID THERMOSTAT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "624160",
+        "Description": "COUPLING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "341E030000",
-        description: "SOLENOID THERMOSTAT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "624173",
+        "Description": "COUPLING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "342B050000",
-        description: "THERMOSTAT, CONTROL",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "624185",
+        "Description": "TUBE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "34600049-1",
-        description: "FIRE BOTTLE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "624229",
+        "Description": "SPRING, COUPLING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "35000-00-01",
-        description: "CLOCK-DIGITAL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "625878-1",
+        "Description": "SWITCH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "35008-307",
-        description: "MODULE OVERHEAT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "625928-2",
+        "Description": "SENSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3505582-65",
-        description: "AIR TURBINE ENGINE STARTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "625928-3",
+        "Description": "SENSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3505582-65",
-        description: "AIR TURBINE ENGINE STARTER",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "625946-8",
+        "Description": "CONTRLLR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3505920-8",
-        description: "ADU",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "641121-1",
+        "Description": "DUCT ZONE OVERHEAT SWITCH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "35-0D5-1003",
-        description: "LOUDSPEAKER-AMPLI.,COCKPI",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "641172-1",
+        "Description": "SWITCH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "350E053020909",
-        description: "FLIGHT WARNING COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "64141-580-1",
+        "Description": "STANDBY BAROMETRIC ALTIMETER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "35-0L0-1002-05",
-        description: "ECAM CONTROL PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "64300-100",
+        "Description": "HEADSET AIRMAN 750",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "35-0L5-1005-08",
-        description: "BCL-BATTERY CHARGE LIMITER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "64300-200",
+        "Description": "AIRMAN 750 HEADSET",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3510-0044-07",
-        description: "COFFEE MAKER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6430A",
+        "Description": "VARIABLE POWER TRANSFORMER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3530000-1",
-        description: "SENSOR-FUEL LEVEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "645405-2",
+        "Description": "FAN-RECIRCULATION",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "35EN24-4",
-        description: "LIMIT SWITCH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "64882-206-1",
+        "Description": "PRESSURE INDICATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3617331-1",
-        description: "ADAPTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "649-781-775-0",
+        "Description": "SCREW",
+        "Condition": "NS",
+        "Quantity": 1
       },
       {
-        partNumber: "3617331-1",
-        description: "ADAPTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "650-784-038-0",
+        "Description": "RING-SELF LOCKING",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3617406-1",
-        description: "MAST DRAIN BRACKET",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6510",
+        "Description": "AIRSPEED SWITCH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3617406-1",
-        description: "MAST DRAIN BRACKET",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "65-16323-34",
+        "Description": "WINDSHIELD,  ASSY R\/H #3",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3617560-1",
-        description: "AFT OIL COOLER BRACKET",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "65-17821-18",
+        "Description": "ASSY, MODULAR PACKAGE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3617560-1",
-        description: "AFT OIL COOLER BRACKET",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "65-17821-18",
+        "Description": "ASSY, MODULAR PACKAGE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3617560-1",
-        description: "AFT OIL COOLER BRACKET",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "65-17821-20",
+        "Description": "PRESSURE MODULAR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3617906-1",
-        description: "RETAINER OIL TUBE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "65-17821-20",
+        "Description": "PRESSURE MODULAR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "362-021-002",
-        description: "INDICATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "65-44562-1",
+        "Description": "BARREL ASSY.",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "113720",
-        description: "FIRE DETECTION UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "65-44681-16",
+        "Description": "VALVE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "113720",
-        description: "FIRE DETECTION UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "65-44741-8",
+        "Description": "BLOCKING VALVE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "372-079-002",
-        description: "STABILIZER POSITION INDICATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "65-45166-25",
+        "Description": "ROD ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "372-079-002",
-        description: "STABILIZER POSITION INDICATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "65-45792-6",
+        "Description": "PANE",
+        "Condition": "NS",
+        "Quantity": 1
       },
       {
-        partNumber: "3800702-1",
-        description: "AUXILIARY POWER UNIT 131-9(B)",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "65-52810-64",
+        "Description": "UNIT AY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3810684-2",
-        description: "VANE, INLET GUIDE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "66950",
+        "Description": "VALVE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3810684-2",
-        description: "VANE, INLET GUIDE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6730C010000",
+        "Description": "VALVE-FAN AIR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3810794-2",
-        description: "GEAR SEGMENT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6732A010000",
+        "Description": "VALVE FAN AIR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3810794-2",
-        description: "GEAR SEGMENT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6740B050000",
+        "Description": "OVER PRESSURE VALVE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3810808-3",
-        description: "IGV HOUSING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6752-311-20",
+        "Description": "CIRCUIT BREAKER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3810875-1",
-        description: "COVER INL GD",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6752-311-50",
+        "Description": "CIRCUIT BREAKER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3810875-1",
-        description: "COVER INL GD",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "676-3291-002",
+        "Description": "PLUG",
+        "Condition": "NS",
+        "Quantity": 1
       },
       {
-        partNumber: "3810889-5",
-        description: "UPPER INLET PLENUM",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6773E010000",
+        "Description": "VALVE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3810900-4",
-        description: "FAN EXIT DUCT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6773E010000",
+        "Description": "VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3810900-4",
-        description: "FAN EXIT DUCT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6774E010000",
+        "Description": "VALVE - BLEED AIR PRESSURE REG.",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3810905-1",
-        description: "INLET DUCT ASSEMBLY-COMPOSITE, UPPER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "69-17791-3",
+        "Description": "ARM",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3810929-3",
-        description: "FAN INLET DUCT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "69-37291-8",
+        "Description": "ROD",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "381800-1005",
-        description: "ACTUATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "69-37317-300",
+        "Description": "HYDRAULIC PUMP MODULE AY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3822400-5",
-        description: "COMPRESSOR ROTOR, DRIVEN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "69-37324-18",
+        "Description": "CABIN AIR TEMP MODULE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3822400-5",
-        description: "COMPRESSOR ROTOR, DRIVEN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "69-37369-24",
+        "Description": "MODULE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3822400-5",
-        description: "COMPRESSOR ROTOR, DRIVEN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "69-37369-300",
+        "Description": "MOD-GROUND PROXIMITY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3822400-5",
-        description: "COMPRESSOR ROTOR, DRIVEN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "69-55179-78",
+        "Description": "LIGHT DIMMER UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3822423-1",
-        description: "COMPRESSOR BEARING NUT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "69-71002-12",
+        "Description": "LEVER ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3822423-1",
-        description: "COMPRESSOR BEARING NUT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "69-73614-47",
+        "Description": "MODULE, POWER MANAGEMENT CONTROL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3822504-3",
-        description: "SHAFT, TURBINE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "69-73713-17",
+        "Description": "NAV MODULE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3822510-2",
-        description: "SHAFT, MATCHED SET, COMPRESSOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "69-76436-9",
+        "Description": "MODULE,STAB TRIM FLT. DECK DOOR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3822510-2",
-        description: "SHAFT, MATCHED SET, COMPRESSOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "69-78214-4",
+        "Description": "AURAL WARNING MODULE ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3822510-2",
-        description: "SHAFT, MATCHED SET, COMPRESSOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "70507-2",
+        "Description": "VALVE AY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3822510-2",
-        description: "SHAFT, MATCHED SET, COMPRESSOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "70507-3",
+        "Description": "VALVE AY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3822510-2",
-        description: "SHAFT, MATCHED SET, COMPRESSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "7121-19971-01AC",
+        "Description": "CONTROLLER-CABIN PRESSURE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3822510-2",
-        description: "SHAFT, MATCHED SET, COMPRESSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "7123-19973-03AC",
+        "Description": "CABIN PRESSURE SELECTOR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3822510-2",
-        description: "SHAFT, MATCHED SET, COMPRESSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "7123-19973-03AC",
+        "Description": "CABIN PRESSURE SELECTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3822529-4",
-        description: "DRIVEN COMPRESSOR COUPLING SHAFT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "71234",
+        "Description": "HYDRAULIC RESERVOIR HAND PUMP",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3822666-2",
-        description: "BEARING, BALL, DUPLEX (CERAMIC)",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "716TS06Y",
+        "Description": "NW.STRG.HANDWHEEL SMTR.UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3826282-2",
-        description: "2ND STAGE DIFFUSER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "71784",
+        "Description": "HYDRAULIC VALVE MODULE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3826928-2",
-        description: "ROD END BEARING",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "71998",
+        "Description": "VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3826928-2",
-        description: "ROD END BEARING",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "72071000",
+        "Description": "OVEN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3826928-2",
-        description: "ROD END BEARING",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "72GP39-4",
+        "Description": "XMTR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3826928-2",
-        description: "ROD END BEARING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "7335",
+        "Description": "LAMP",
+        "Condition": "NE",
+        "Quantity": 1
       },
       {
-        partNumber: "3826928-2",
-        description: "ROD END BEARING",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "734-15610-03",
+        "Description": "PDU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3826994-2",
-        description: "COVER, IGV",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "737-0010-633",
+        "Description": "737NG WINGLET",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3827054-2",
-        description: "DRIVEN COMPRESSOR DIFFUSER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "737-0010-634",
+        "Description": "737NG WINGLET",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3827067-1",
-        description: "LOAD COMPRESSOR HEAT SHIELD",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "737-8618-1",
+        "Description": "LIGHTPLATE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3827067-1",
-        description: "LOAD COMPRESSOR HEAT SHIELD",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "740119H",
+        "Description": "INTEGRATED DRIVE GENERATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3827075-2",
-        description: "WASHER SPR CPRSN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "740120C",
+        "Description": "GCU-GENERATOR CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3827075-2",
-        description: "WASHER SPR CPRSN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "740121A",
+        "Description": "GROUND POWER CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3827165-2",
-        description: "CLEVIS ASSEMBLY",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "74-20",
+        "Description": "HALON EXTINGUISHER-FIRE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3827165-2",
-        description: "CLEVIS ASSEMBLY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "743-0304-001",
+        "Description": "REPRODUCER, TAPE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3827165-2",
-        description: "CLEVIS ASSEMBLY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "745-3000-515",
+        "Description": "INLET COWL",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3827203-1",
-        description: "BOLT ENG CPRSR DIFF",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "745-4000-503",
+        "Description": "FAN COWL LH (ENGINE RH)",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3827203-1",
-        description: "BOLT ENG CPRSR DIFF",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "746923E",
+        "Description": "ELEC GENE INTERFACE UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3827265-8",
-        description: "BEARING HOUSING",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "746A0000-06",
+        "Description": "VALVE-TRIM AIR PRESSURE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3827265-8",
-        description: "BEARING HOUSING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "748A0000-08",
+        "Description": "VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3827324-3",
-        description: "SUPPORT, STATIONARY SEAL, AIR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "751460",
+        "Description": "ELEMENT-FILTER",
+        "Condition": "NE",
+        "Quantity": 1
       },
       {
-        partNumber: "3827324-3",
-        description: "SUPPORT, STATIONARY SEAL, AIR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "7517900-10012",
+        "Description": "ACSS TCAS",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3827324-3",
-        description: "SUPPORT, STATIONARY SEAL, AIR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "7517900-10020",
+        "Description": "RT-950 TCAS COMPUTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3827324-3",
-        description: "SUPPORT, STATIONARY SEAL, AIR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "7519200-920",
+        "Description": "CMU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3827385-2",
-        description: "COMPRESSOR BEARING RETAINER PLATE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "7519200-921",
+        "Description": "CMU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3827385-2",
-        description: "COMPRESSOR BEARING RETAINER PLATE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "7552355",
+        "Description": "FILTER ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3827401-1",
-        description: "DESWIRL, ENGINE COMPRESSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "756426",
+        "Description": "GEAR SHAFT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3827401-1",
-        description: "DESWIRL, ENGINE COMPRESSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "756427",
+        "Description": "START MOTOR GEAR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3827405-3",
-        description: "ROD- ACTUATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "756461-1",
+        "Description": "COVER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3827405-4",
-        description: "ACTUATOR ROD",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "756466",
+        "Description": "OIL PUMP GEAR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3827405-4",
-        description: "ACTUATOR ROD",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "756469",
+        "Description": "",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3827405-4",
-        description: "ACTUATOR ROD",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "756664",
+        "Description": "RETAINER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3827405-4",
-        description: "ACTUATOR ROD",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "756665",
+        "Description": "COVER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3827426-3",
-        description: "HOUSING, BEARING, DRIVEN COMPRESSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "756668",
+        "Description": "",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3830187-3",
-        description: "FUEL NOZZLE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "756670",
+        "Description": "SPACER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3830416-1",
-        description: "FUEL NOZZLE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "756671",
+        "Description": "BEARING SUPPORT ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3830416-1",
-        description: "FUEL NOZZLE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "756678",
+        "Description": "PUMP SCAVENGE OIL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3830416-1",
-        description: "FUEL NOZZLE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "756681",
+        "Description": "CAP-FILTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3830416-1",
-        description: "FUEL NOZZLE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "756687",
+        "Description": "JET",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3830416-1",
-        description: "FUEL NOZZLE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "756731",
+        "Description": "SPRING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3830416-1",
-        description: "FUEL NOZZLE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "757290",
+        "Description": "",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3830416-1",
-        description: "FUEL NOZZLE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "757291",
+        "Description": "",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3830416-1",
-        description: "FUEL NOZZLE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "757292",
+        "Description": "",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3830416-1",
-        description: "FUEL NOZZLE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "757293",
+        "Description": "",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3830416-1",
-        description: "FUEL NOZZLE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "757307",
+        "Description": "",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3830416-1",
-        description: "FUEL NOZZLE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "757333-2",
+        "Description": "WASHER FLAT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3830416-1",
-        description: "FUEL NOZZLE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "757366",
+        "Description": "PLUG",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3830416-1",
-        description: "FUEL NOZZLE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "759C0000-02",
+        "Description": "CONTROLLER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3830416-1",
-        description: "FUEL NOZZLE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "759D0000-02",
+        "Description": "CONTROLLER-PACK",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3830461-5",
-        description: "SHROUD",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "761574B",
+        "Description": "INTEGRATED DRIVE GENERATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3840170-2",
-        description: "SHAFT, COUPLING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "761951",
+        "Description": "STARTER SHAFT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3840171-2",
-        description: "SHAFT COUPLING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "762080-1",
+        "Description": "SAFETY VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3840171-2",
-        description: "SHAFT COUPLING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "762185F",
+        "Description": "GENERATOR CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3840172-1",
-        description: "AFT BEARING SHAFT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "762185H",
+        "Description": "GENERATOR CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3840243-1",
-        description: "ROLLER BEARING SPACER RING",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "762187F",
+        "Description": "BUS POWER CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3840243-1",
-        description: "ROLLER BEARING SPACER RING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "762525",
+        "Description": "SEAL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3840243-1",
-        description: "ROLLER BEARING SPACER RING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "763810-6",
+        "Description": "CABIN PRESSURE CONTROLLER",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3840244-1",
-        description: "TIESHAFT NUT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "763810-6",
+        "Description": "CABIN PRESSURE CONTROLLER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3840244-1",
-        description: "TIESHAFT NUT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "763A0000-03",
+        "Description": "TEMP. SENSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3840244-1",
-        description: "TIESHAFT NUT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "766A0000-01",
+        "Description": "SENSOR-TEMPERATURE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844018-1",
-        description: "STATOR ASSY 3STG",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "77-109-12",
+        "Description": "XMTR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844573-2",
-        description: "RING SPRT STTR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "773856-15",
+        "Description": "VALVE AY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844575-2",
-        description: "1ST STAGE SHROUD SEGMENT TURBINE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "773A0000-01",
+        "Description": "SENSOR-TEMPERATURE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844579-2",
-        description: "RING SHROUD SUPPORT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "775A0000-08",
+        "Description": "CONTROLLER-ZONE TEMP",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844579-2",
-        description: "RING SHROUD SUPPORT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "775D0000-01",
+        "Description": "ZONE CONTROLLER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844582-1",
-        description: "2ND STAGE STATOR SEAL WELDMENT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "780B0000-01",
+        "Description": "SENSOR UNIT, FLAP\/SLAT COMMAND",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3844587-4",
-        description: "RING, CONTAINMENT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "780B0000-01",
+        "Description": "SENSOR UNIT, FLAP\/SLAT COMMAND",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844587-4",
-        description: "RING, CONTAINMENT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "78169-02",
+        "Description": "MOD ASSY",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3844587-4",
-        description: "RING, CONTAINMENT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "785-002-8",
+        "Description": "BMC-BLEED MONITORING COMPUTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844595-2",
-        description: "SEAL SHRD SEG",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "785002-9",
+        "Description": "BLEED MONITORING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844619-3",
-        description: "INNER TRANSITION LINER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "785840-4",
+        "Description": "BLEED MONITOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844619-3",
-        description: "INNER TRANSITION LINER",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "78695-1",
+        "Description": "SNUBBER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844760-2",
-        description: "1ST STAGE TURBINE NOZZLE SEGMENT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "786A0000-06",
+        "Description": "CONT UNIT POWER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844760-2",
-        description: "1ST STAGE TURBINE NOZZLE SEGMENT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "786A0000-12",
+        "Description": "POWER CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844760-2",
-        description: "1ST STAGE TURBINE NOZZLE SEGMENT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "7900064",
+        "Description": "TOILET",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3844760-2",
-        description: "1ST STAGE TURBINE NOZZLE SEGMENT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "790424-4",
+        "Description": "VALVE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3844760-2",
-        description: "1ST STAGE TURBINE NOZZLE SEGMENT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "792-6140-001",
+        "Description": "HF ANTENNA COUPLER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844760-2",
-        description: "1ST STAGE TURBINE NOZZLE SEGMENT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "792A0000-07",
+        "Description": "ACTUATOR-FLAP,NO.2",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844766-4",
-        description: "COMBUSTOR CASE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "793322",
+        "Description": "PROBE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844766-4",
-        description: "COMBUSTOR CASE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "796-809-6A",
+        "Description": "CADENSICON",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844766-4",
-        description: "COMBUSTOR CASE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "796-815-01-02",
+        "Description": "PRESELECTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844766-4",
-        description: "COMBUSTOR CASE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8011612",
+        "Description": "PACKING",
+        "Condition": "NS",
+        "Quantity": 1
       },
       {
-        partNumber: "3844766-4",
-        description: "COMBUSTOR CASE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "801307-00",
+        "Description": "OXYGEN CYLINDER (115 CU FT)",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844776-3",
-        description: "2ND STAGE TURBINE STATOR BAFFLE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "801A50-0005A",
+        "Description": "C-SEAL",
+        "Condition": "NE",
+        "Quantity": 1
       },
       {
-        partNumber: "3844861-3",
-        description: "SIDE THERMAL INSULATION BLANKET",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "80-207-01",
+        "Description": "SENSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844861-3",
-        description: "SIDE THERMAL INSULATION BLANKET",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8055515-4507",
+        "Description": "PTA-45B DATA PRINTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844861-4",
-        description: "SIDE THERMAL INSULATION BLANKET",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "810200-3",
+        "Description": "CTC",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844861-4",
-        description: "SIDE THERMAL INSULATION BLANKET",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "810208-7",
+        "Description": "HEAT EXCHANGER",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3844861-7",
-        description: "AFT SIDE THERMAL INSULATION BLANKET",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "810209-11",
+        "Description": "AIR CYCLE MACHINE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844861-7",
-        description: "AFT SIDE THERMAL INSULATION BLANKET",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "810221-2",
+        "Description": "VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844861-9",
-        description: "SIDE THERMAL INSULATION BLANKET",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "810230-4",
+        "Description": "SENSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844861-9",
-        description: "SIDE THERMAL INSULATION BLANKET",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "810505-3",
+        "Description": "ACIPS",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844861-9",
-        description: "SIDE THERMAL INSULATION BLANKET",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "810601-3",
+        "Description": "VALVE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3844864-1",
-        description: "2ND STAGE STATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "810A0000-04",
+        "Description": "SERVOCONTROL-RUDDER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844907-1",
-        description: "HOUSING ASSEMBLY, TURBINE BEARING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "810A0000-05",
+        "Description": "RUDDER SERVO CONTROL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3844917-1",
-        description: "RETAINER BEARING",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "813500-401",
+        "Description": "ACTUATOR ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3850100-5",
-        description: "HOUSING EDUCTOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "813500-401",
+        "Description": "ACTUATOR ASSY",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3850104-3",
-        description: "CAP, EXHAUST",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "813500-409",
+        "Description": "ACTUATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3850104-4",
-        description: "CAP, EXHAUST",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "816420-3",
+        "Description": "Engine Data Interface Unit",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3861046-1",
-        description: "GENERATOR GEARSHAFT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8195-33",
+        "Description": "SNUBBER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3861046-1",
-        description: "GENERATOR GEARSHAFT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-0006-104",
+        "Description": "COMPUTER ASSY - AUTO PILOT FLIGHT DIRECTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3861046-1",
-        description: "GENERATOR GEARSHAFT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-0006-105",
+        "Description": "AUTOPILOT FLIGHT DIRECTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3861046-1",
-        description: "GENERATOR GEARSHAFT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-0297-001",
+        "Description": "RECEIVER VOR\/MB",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3861047-1",
-        description: "HIGH SPEED PINION GEARSHAFT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-0297-020",
+        "Description": "RECEIVER, VOR\/MB",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3861047-1",
-        description: "HIGH SPEED PINION GEARSHAFT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-0299-001",
+        "Description": "ADF RECEIVER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3861047-1",
-        description: "HIGH SPEED PINION GEARSHAFT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-0329-001",
+        "Description": "DISTANCE MEASURING EQUIPMENT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3862218-1",
-        description: "HOUSING ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-0330-001",
+        "Description": "RECEIVER-TRANSMITTER, HF",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3863150-1",
-        description: "RETAINER BRG",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-0334-020",
+        "Description": "RADIO ALTIMETER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3863167-1",
-        description: "LUBRICATING NOZZLE ASSY.",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-0336-001",
+        "Description": "TRANSPONDER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3863167-1",
-        description: "LUBRICATING NOZZLE ASSY.",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-0447-101",
+        "Description": "KEYBOARD",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3863344-3",
-        description: "OIL PICKUP TUBE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-0693-003",
+        "Description": "TRANSCEIVER VHF",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3863349-1",
-        description: "ROLLER OIL FILL CAP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-0726-020",
+        "Description": "VOR\/MARKER RECEIVER,700A",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3863396-2",
-        description: "LUBE MANIFOLD",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-0726-120",
+        "Description": "VOR RECEIVER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3863396-2",
-        description: "LUBE MANIFOLD",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-0990-003",
+        "Description": "TRANSCEIVER, HF",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3863397-1",
-        description: "RETAINER BRG",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-0990-004",
+        "Description": "HF TRANSCEIVER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3863426-3",
-        description: "GEARBOX MATCHED HOUSING ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-1047-002",
+        "Description": "TRANSCEIVER VHF COM",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3863541-2",
-        description: "OIL PICKUP TUBE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-1047-003",
+        "Description": "TRANSCEIVER VHF COM",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3863541-2",
-        description: "OIL PICKUP TUBE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-1047-030",
+        "Description": "VHF-900 COMMUNICATIONS TRANSCEIVER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3868027-1",
-        description: "SHAFT, QUILL",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-1152-002",
+        "Description": "GLOBAL LANDING UNIT TYPE NO. GLU-920",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3868027-1",
-        description: "SHAFT, QUILL",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-1152-122",
+        "Description": "GLU-920 GLOBAL LANDING UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "387",
-        description: "LAMP = 10 PKG",
-        conditionCode: "NS",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-1250-002",
+        "Description": "TRANSCEIVER VHF COM",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3870205-1",
-        description: "GEARSHAFT CLUSTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-1293-321",
+        "Description": "TCAS",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3870208-1",
-        description: "IDLE GEAR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-1338-002",
+        "Description": "TRANSPONDER                                      ",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3870208-1",
-        description: "IDLE GEAR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-1338-021",
+        "Description": "TRANSPONDER-ATC",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3870208-1",
-        description: "IDLE GEAR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-1338-205",
+        "Description": "ATC TRANSPONDER       737",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3870213-7",
-        description: "STARTER ADAPTER",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-2911-002",
+        "Description": "TCAS II TRANSMITTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3870213-7",
-        description: "STARTER ADAPTER",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "83000-05602",
+        "Description": "UNIT, WINDOW HEAT CONTROL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3870245-1",
-        description: "AFT MOUNT BRACKET",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "83000-05604",
+        "Description": "WINDOW HEAT CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3870245-1",
-        description: "AFT MOUNT BRACKET",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8-344-02",
+        "Description": "SENSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3870245-1",
-        description: "AFT MOUNT BRACKET",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8-344-03",
+        "Description": "SENSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3870245-1",
-        description: "AFT MOUNT BRACKET",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "861CAB-0001",
+        "Description": "ATTACK SENSOR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3870246-1",
-        description: "BRACKET GRND HDLG AFT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8-678-03",
+        "Description": "PSCU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3870246-1",
-        description: "BRACKET GRND HDLG AFT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "87232323V00",
+        "Description": "SENSOR-DUCT TEMPERATURE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3870248-1",
-        description: "HOIST BRACKET",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "87292325V04",
+        "Description": "AVNCS EQPT VENT COMPUTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3870248-1",
-        description: "HOIST BRACKET",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "87292325V06",
+        "Description": "AVIONICS EQT VENTIL CPT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3870248-1",
-        description: "HOIST BRACKET",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "87292325V07",
+        "Description": "COMPUTER EQUIPMENT VENTILATION",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3870248-1",
-        description: "HOIST BRACKET",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8-736-05",
+        "Description": "POWER SUPPLY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3876132-12",
-        description: "LEAD, ELECTRICAL IGNITER PLUG",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "89-01-07000",
+        "Description": "HANDSET-COCKPIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3876225-2",
-        description: "SENSOR, INLET",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "89-01-07122",
+        "Description": "HANDSET, CABIN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3880971-1",
-        description: "FITTING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8910-332",
+        "Description": "FUEL RETURN VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3881684-2",
-        description: "TUBE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8921082G5",
+        "Description": "LAVATORY WATER HEATER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3881684-2",
-        description: "TUBE",
-        conditionCode: "NS",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "899-156-612",
+        "Description": "SENSOR, WASTE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3881685-2",
-        description: "TUBE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8AS193",
+        "Description": "SWITCH",
+        "Condition": "NS",
+        "Quantity": 1
       },
       {
-        partNumber: "3881685-2",
-        description: "TUBE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8DJ339WAG1",
+        "Description": "IND",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3881708-3",
-        description: "TUBE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8ES005045-00",
+        "Description": "PSU-POWER SUPPLY UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3881708-3",
-        description: "TUBE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8ES005304-00",
+        "Description": "POWER SUPPLY UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3881763-1",
-        description: "OIL COOLER RETURN TUBE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8ES005309-00",
+        "Description": "SUPPLY UNIT-POWER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3881764-1",
-        description: "OIL COOLER SUPPLY TUBE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8ES455012-00",
+        "Description": "POWER SUPPLY UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3881764-1",
-        description: "OIL COOLER SUPPLY TUBE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8TC19AAR1",
+        "Description": "T3 SENSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3881826-2",
-        description: "SCAVENGE TUBE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8TJ167GHH1",
+        "Description": "TRANSMITTER-FUEL FLOW",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3881826-2",
-        description: "SCAVENGE TUBE ASSY",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "901950-02",
+        "Description": "FIRE DETECTION CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3881826-2",
-        description: "SCAVENGE TUBE ASSY",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "902020",
+        "Description": "FIRE DETECTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3881827-1",
-        description: "TUBE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9024-15704-03",
+        "Description": "VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3881827-1",
-        description: "TUBE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9024-15704-2",
+        "Description": "SAFETY VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3881828-1",
-        description: "TUBE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9027-20010",
+        "Description": "SELECTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3881828-1",
-        description: "TUBE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9043110-16",
+        "Description": "LEAD ASSY-IGNITION",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3881836-1",
-        description: "TURBINE BEARING SUPPLY TUBE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "924-09",
+        "Description": "KIT, SPARES FLOW DIVIDER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3881836-1",
-        description: "TURBINE BEARING SUPPLY TUBE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "924D100-1",
+        "Description": "ACTR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3881836-1",
-        description: "TURBINE BEARING SUPPLY TUBE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "925010-101",
+        "Description": "DIU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3883830-1",
-        description: "FLOW DIVIDER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "931D100-3",
+        "Description": "PDU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3883837-1",
-        description: "MANIFOLD, FUEL, SECONDARY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "937E202G2",
+        "Description": "COMPUTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3883837-1",
-        description: "MANIFOLD, FUEL, SECONDARY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "940732",
+        "Description": "STANDBY SYSTEM HYDRAULIC PUMP",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3883846-2",
-        description: "TUBE, APU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "941V100",
+        "Description": "AIR SHUT OFF VALVE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3883848-3",
-        description: "TUBE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "94830-05",
+        "Description": "BRACKET, FORWARD",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3883895-1",
-        description: "TUBE- IGV RETURN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9508175",
+        "Description": "VENT FLOAT VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3883895-1",
-        description: "TUBE- IGV RETURN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9523M11G03",
+        "Description": "RETAINER",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3883897-1",
-        description: "TUBE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9523M12G01",
+        "Description": "RETAINER-BLADE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3883920-1",
-        description: "TUBE- MANIFOLD SUPPLY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9560158820",
+        "Description": "WASHER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3883920-1",
-        description: "TUBE- MANIFOLD SUPPLY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9560162060",
+        "Description": "CLAMP",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3883952-1",
-        description: "TUBE ASSEMBLY, SCV-IGV SUPPLY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9560163900",
+        "Description": "RING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3883952-1",
-        description: "TUBE ASSEMBLY, SCV-IGV SUPPLY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9599-607-12352",
+        "Description": "RADIO ALTIMITER ANTENNA",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3883952-1",
-        description: "TUBE ASSEMBLY, SCV-IGV SUPPLY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9599-607-12352",
+        "Description": "RADIO ALTIMITER ANTENNA",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3883953-1",
-        description: "TUBE ASSEMBLY, SCV-IGV RETURN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9599-607-14942",
+        "Description": "TRANSCEIVER-RADIO ALTI.",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3883953-1",
-        description: "TUBE ASSEMBLY, SCV-IGV RETURN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "96153250-32",
+        "Description": "DMC",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3883953-1",
-        description: "TUBE ASSEMBLY, SCV-IGV RETURN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9615325060",
+        "Description": "DISPLAY MANAGEMENT COMPUTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3883954-1",
-        description: "FUEL SUPPLY TUBE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "963A0000-02",
+        "Description": "VALVE-TRIM AIR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3883954-1",
-        description: "FUEL SUPPLY TUBE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "964-0401-016",
+        "Description": "DATALOADER                                        ",
+        "Condition": "NS",
+        "Quantity": 1
       },
       {
-        partNumber: "3883954-2",
-        description: "TUBE ASSY, METAL - FUEL SUPPLY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "964-0453-011",
+        "Description": "HF ANTENNA COUPLER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3883957-1",
-        description: "FCU DRAIN TUBE ASSY.",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "965-0648-004",
+        "Description": "GPWC",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3883957-1",
-        description: "FCU DRAIN TUBE ASSY.",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "965-0976-003-206-206",
+        "Description": "EGPWS",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3883958-1",
-        description: "IGVA DRAIN TUBE ASSY.",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "965-0976-003-232-232",
+        "Description": "EGPWS",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3883959-1",
-        description: "LOAD COMPRESSOR DRAIN TUBE ASSY.",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "965-0976-020-218-218",
+        "Description": "EGPWS",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3883959-1",
-        description: "LOAD COMPRESSOR DRAIN TUBE ASSY.",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "965-1676-002",
+        "Description": "MARK V EGPWS",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3883959-1",
-        description: "LOAD COMPRESSOR DRAIN TUBE ASSY.",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "967-0212-002",
+        "Description": "DIGITAL FLIGHT DATA ACQUISITION UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3884971-1",
-        description: "TOTAL PRESSURE PROBE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "969291-1",
+        "Description": "SHAFT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3884971-1",
-        description: "TOTAL PRESSURE PROBE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9700-C1A-BF23A",
+        "Description": "O2 BOTTLE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3884971-1",
-        description: "TOTAL PRESSURE PROBE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9700-C1A-F23AN",
+        "Description": "PORTABLE OXYGEN CYL.",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3884980-3",
-        description: "TUBE- P STATIC",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9700-G2A-BF10A",
+        "Description": "PORTABLE OXYGEN BOTTLE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3884980-3",
-        description: "TUBE- P STATIC",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "971600",
+        "Description": "POWER UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3884983-3",
-        description: "TUBE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "972C10-2",
+        "Description": "VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3884984-3",
-        description: "TUBE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "980-4700-003",
+        "Description": "FLIGHT DATA RECORDER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3884984-3",
-        description: "TUBE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "980-4700-042",
+        "Description": "SSFDR-SOLID STATE FLIGHT DATA RECORDER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3884988-1",
-        description: "DUCT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "980-6022-001",
+        "Description": "COCKPIT VOICE RECORDER, SOLID STATE MEMORY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3884988-1",
-        description: "DUCT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "980-9900-001",
+        "Description": "AUDIO VIDEO REPRODUC UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3885003-2",
-        description: "DUCT-SURGE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9992M65G08",
+        "Description": "SHROUD ASSY-CPRSR STTR STG 1",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3885007-1",
-        description: "COMPRESSOR DISCHARGE DUCT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9A APU STAND",
+        "Description": "APU Stand",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3885007-2",
-        description: "COMPRESSOR DISCHARGE DUCT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "A1-18-1030",
+        "Description": "LIGHT SHIELD",
+        "Condition": "NS",
+        "Quantity": 1
       },
       {
-        partNumber: "3885007-2",
-        description: "COMPRESSOR DISCHARGE DUCT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "A12SA",
+        "Description": "MEGAPHONE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3885007-2",
-        description: "COMPRESSOR DISCHARGE DUCT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "A1650-191",
+        "Description": "WATER HOSE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3885007-2",
-        description: "COMPRESSOR DISCHARGE DUCT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "A25313002",
+        "Description": "VALVE BRAKE SELECTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3885010-1",
-        description: "GEARBOX VENT TUBE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "A25315-1",
+        "Description": "VALVE-PARKING BRAKE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3885010-1",
-        description: "GEARBOX VENT TUBE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "A25434006-3000",
+        "Description": "BRAKE DUAL DISTRIBUTION VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3885010-1",
-        description: "GEARBOX VENT TUBE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "A25434006-3000",
+        "Description": "BRAKE DUAL DISTRIBUTION VALVE",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3885011-1",
-        description: "TOTAL PRESSURE TUBE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "A25461-104",
+        "Description": "AUTO SELECTOR NOR BRK SYS",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3885012-1",
-        description: "STATIC PRESSURE TUBE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "A420-062894-01",
+        "Description": "Solenoid",
+        "Condition": "NS",
+        "Quantity": 1
       },
       {
-        partNumber: "3885012-1",
-        description: "STATIC PRESSURE TUBE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "A800100-3",
+        "Description": "FIRE EXTINGUISHER - LAVATORY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3886188-3",
-        description: "IGV ACTUATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "AC69576",
+        "Description": "VALVE SOLENOID MAKE-UP AIR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3886188-3",
-        description: "IGV ACTUATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "ACP2788AB04",
+        "Description": "ACP-AUDIO CONTROL PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3886188-3",
-        description: "IGV ACTUATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "ACP2788AB05",
+        "Description": "AUDIOCONTROL PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3886188-3",
-        description: "IGV ACTUATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "ACP2788AF01",
+        "Description": "AUDIO CONTROL PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3886188-3",
-        description: "IGV ACTUATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "AN6289J4",
+        "Description": "NUT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3888394-221204",
-        description: "ELECTRONIC CONTROL BOX",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "AN814-6DL",
+        "Description": "PLUG",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3888394-221204",
-        description: "ELECTRONIC CONTROL BOX",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "AR4714-11",
+        "Description": "ELECTRIC DOOR STRIKE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3888394-221204",
-        description: "ELECTRONIC CONTROL BOX",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "AR4714-7",
+        "Description": "DOOR STRIKE, ELECTRICALLY OPERATED",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3888448-1",
-        description: "HARNESS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9700-C1A-F23AN",
+        "Description": "PORTABLE O2P\/M (UN1072)",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3888449-1",
-        description: "WIRING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2LA402515-00",
+        "Description": "LIGHT-ANTICOLLISION",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3888449-2",
-        description: "WIRING HARNESS APU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "A25434006-3000",
+        "Description": "VALVE-DUAL DISTRIBUTION",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "38E93-5",
-        description: "ANTI ICING VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8ES005045-00",
+        "Description": "SUPPLY UNIT-POWER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3910032-104",
-        description: "VALVE AY",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "C24839010",
+        "Description": "MANIFOLD ALTER.BRAKE SV",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "392678-3-1",
-        description: "VALVE, TURBOFAN CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "795020-12-020",
+        "Description": "DMU-DATA MANAGEMENT UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "392678-3-1",
-        description: "VALVE, TURBOFAN CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "C12850AC03",
+        "Description": "FCU-FLIGHT CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "392678-3-1",
-        description: "VALVE, TURBOFAN CONTROL",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2A7206B",
+        "Description": "ACTUATOR-FEEL &",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "392678-3-1",
-        description: "VALVE, TURBOFAN CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "7514081-901",
+        "Description": "ANTENNA TCAS",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "392678-3-1",
-        description: "VALVE, TURBOFAN CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "15801-040",
+        "Description": "FCU (MONOGRAM SANITATION)",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "392678-3-1",
-        description: "VALVE, TURBOFAN CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2234320-01-01",
+        "Description": "FDIMU-FLIGHT DATA INT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "392678-3-1",
-        description: "VALVE, TURBOFAN CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8450B5",
+        "Description": "HINGE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "392678-3-1",
-        description: "VALVE, TURBOFAN CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8000959Y00",
+        "Description": "FLOODLIGHT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "392678-3-1",
-        description: "VALVE, TURBOFAN CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "736A0000-02",
+        "Description": "SENSOR MIXER TEMP",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "392678-3-1",
-        description: "VALVE, TURBOFAN CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3214-54",
+        "Description": "EMMERGENCY POWER SUPPLY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "392678-3-1",
-        description: "VALVE, TURBOFAN CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "715TS06Y11",
+        "Description": "XMTR UNIT-NW STRG HANDWHE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "392678-3-1",
-        description: "VALVE, TURBOFAN CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "AMU2790CB06",
+        "Description": "AMU-AUDIO MANAGEMENT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "392678-3-1",
-        description: "VALVE, TURBOFAN CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "315A2800-1",
+        "Description": "ACT.ASSY-NON LOCK.",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "392678-3-1",
-        description: "VALVE, TURBOFAN CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "G540DA74",
+        "Description": "TRANSMITTER LEVEL LIQUID",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "392678-3-1",
-        description: "VALVE, TURBOFAN CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "711TS06Y",
+        "Description": "TRANSMITTER UNIT-N,W STRG",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "392678-3-1",
-        description: "VALVE, TURBOFAN CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "7304-01-02",
+        "Description": "DETECTION UNIT-FIRE ENGIN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "392678-3-1",
-        description: "VALVE, TURBOFAN CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "761A0000-04",
+        "Description": "ACTUATOR INLET",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "392678-3-1",
-        description: "VALVE, TURBOFAN CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8ES455012-06",
+        "Description": "PSU-POWER SUPPLY UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "392678-3-1",
-        description: "VALVE, TURBOFAN CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "30210",
+        "Description": "ACCUMULATOR ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "392678-3-1",
-        description: "VALVE, TURBOFAN CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "VFT210B00",
+        "Description": "SKIN AIR INLET VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "392678-3-1",
-        description: "VALVE, TURBOFAN CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "89794077",
+        "Description": "CYLINDER ASSY-OXY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "392678-3-1",
-        description: "VALVE, TURBOFAN CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "89794050",
+        "Description": "CYLINDER O2 GM (UN1072)",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "392678-3-1",
-        description: "VALVE, TURBOFAN CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "801307-00",
+        "Description": "BOUTEILLE O2 GM (UN1072)",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3930007-105",
-        description: "VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "10-617980-1",
+        "Description": "EXCITER - IGNITION UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3945122506",
-        description: "ELAC (Elevator Aileron Computer)",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "10-631045-2",
+        "Description": "EXCITER - IGNITION",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3945122506",
-        description: "ELAC (Elevator Aileron Computer)",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "727-1155-02",
+        "Description": "WING TIP NAVIGATION LIGHT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3945122506",
-        description: "ELAC (Elevator Aileron Computer)",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4307792",
+        "Description": "MOTOR CONVERTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "3945128215",
-        description: "ELAC-ELEVATOR AND AILERON COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "96042-06",
+        "Description": "ISOLATOR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3945128215",
-        description: "ELAC-ELEVATOR AND AILERON COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "96042-10",
+        "Description": "ISOLATOR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3945128215",
-        description: "ELAC-ELEVATOR AND AILERON COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8260-123",
+        "Description": "STARTER GENERATOR",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3945128216",
-        description: "ELEVATOR AILERON COM",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "65C34812-7",
+        "Description": "Flap Track",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3945129100",
-        description: "ELAC - ELEVATOR & AILERON COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3291556-2",
+        "Description": "VALVE-DUAL DISTRIBUTION",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3957985114",
-        description: "ENGINE INTERFACE UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "D22AA1043",
+        "Description": "VALVE RETURN FUEL",
+        "Condition": "OH",
+        "Quantity": 1
       },
       {
-        partNumber: "3957985114",
-        description: "ENGINE INTERFACE UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z010H000521A",
+        "Description": "LIGHT-ANTICOLLISION",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1973773",
+        "Description": "DETECTION UNIT-FIRE ENGIN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "126784-10",
+        "Description": "CENTER DRIVE UNIT",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2206400-2",
+        "Description": "ACM",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2206400-2",
+        "Description": "ACM",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2293B020000",
+        "Description": "CHECK VALVE",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2293B020000",
+        "Description": "CHECK VALVE",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2612312-1",
+        "Description": "BRAKE",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2-8041-1",
+        "Description": "FUSE ASSY",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "28B263-13B",
+        "Description": "AC GENERATOR",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "28B545-9",
+        "Description": "APU GENERATOR",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3022053-001",
+        "Description": "PUMP",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "31075-440",
+        "Description": "SERVO CONTROL",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "31075-840",
+        "Description": "SERVO CONTROL",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "320548-2",
+        "Description": "VALVE",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3214446-4",
+        "Description": "HIGH STAGE VALVE",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3215394-8",
+        "Description": "VALVE",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3269264-28",
+        "Description": "ACTUATOR",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3282936-3",
+        "Description": "GEARBOX",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3289630-2",
+        "Description": "VALVE",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3289630-2",
+        "Description": "VALVE",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3291186-6",
+        "Description": "VALVE",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3291390-4",
+        "Description": "VALVE",
+        "Condition": "UNSRVCBL",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3291390-4",
+        "Description": "VALVE",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3291556-3",
+        "Description": "STARTER CONTROL VALVE",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "329695-5",
+        "Description": "VALVE",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3505582-27",
+        "Description": "STARTER",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3505582-27",
+        "Description": "STARTER",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3505582-28",
+        "Description": "STARTER",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3505945-12",
+        "Description": "STARTER",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "350880-7",
+        "Description": "PUMP",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "35-0L0-1001-04",
+        "Description": "PANEL",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3732A010000",
+        "Description": "PRECOOLER EXCHANGER",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3790037-108",
+        "Description": "NGS METERING VALVE",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3790037-108",
+        "Description": "NGS METERING VALVE",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "398786-5",
+        "Description": "VALVE",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "396442-1",
-        description: "FLOW CONTROL VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "398908-3",
+        "Description": "VALVE",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "397728-3-1",
-        description: "VALVE, SO",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "442369",
+        "Description": "HMU",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "40-0070-2",
-        description: "LIGHT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "442554",
+        "Description": "HMU",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "400-605",
-        description: "SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "64141-580-1",
+        "Description": "ALTIMETER",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "40340-10011",
-        description: "VALVE AY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "65C38058-24",
+        "Description": "ACTUATOR",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "4039892-904",
-        description: "INDICATOR ALTIMETER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "65C38058-24",
+        "Description": "ACTUATOR",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "4039892-904",
-        description: "INDICATOR ALTIMETER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6740B050000",
+        "Description": "OVERPRESSURE VALVE",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "4040800-911",
-        description: "COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6740E010000",
+        "Description": "VALVE",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "saus-46",
-        description: "777 APU STAND",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6774E010000",
+        "Description": "VALVE",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "40520-30019",
-        description: "CYLINDER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "71404-2",
+        "Description": "DUAL BRAKE METERING VALVE",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "4052500-927",
-        description: "COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "735511A",
+        "Description": "CSD",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "4055900-914",
-        description: "SYMBOL GENERATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "745329F",
+        "Description": "IDG",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "4063-19972-01AA",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "752168B",
+        "Description": "IDG",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "4071400-904",
-        description: "ADM",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "761574B",
+        "Description": "IDG",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "4071400-904",
-        description: "ADM",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "773289-15",
+        "Description": "HIGH PRESSURE VALVE",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "4073770-902",
-        description: "PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "790425A9",
+        "Description": "PNEUMATIC STARTER",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "4073870-901",
-        description: "AIMS DISPLAY SELECT PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8061-536",
+        "Description": "HMU",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "4073870-901",
-        description: "AIMS DISPLAY SELECT PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "808556-1",
+        "Description": "PRESSURE CHECK VALVE",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "4073970-901",
-        description: "DEVICE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "88005B0306",
+        "Description": "CABIN PRESSURE OUTFLOW VALVE",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "4073970-951",
-        description: "CONTROL DEVICE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "887055",
+        "Description": "PUMP",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "4073970-951",
-        description: "CONTROL DEVICE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8910-620",
+        "Description": "AIR MODULATING VALVE",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "407EED1-1",
-        description: "INDICATR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9043185-13",
+        "Description": "IGNITION LEAD",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "4081600-930",
-        description: "ELECTRONIC DISPLAY UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9043185-13",
+        "Description": "IGNITION LEAD",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "4082499-902",
-        description: "FLIGHT CONTROL COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "C20225510",
+        "Description": "CARBON BRAKE",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "4082499-903",
-        description: "COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "G6773-04",
+        "Description": "PANEL",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "4082730-901",
-        description: "EFIS CONTROL PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "G6773-04",
+        "Description": "PANEL",
+        "Condition": "REPAIRABLE",
+        "Quantity": 1
       },
       {
-        partNumber: "4082730-901",
-        description: "EFIS CONTROL PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "TC200-02",
+        "Description": "ELECTRICAL LEAD ASSY",
+        "Condition": "OVERHAULED",
+        "Quantity": 1
       },
       {
-        partNumber: "40885",
-        description: "VALVE CONTROL UNIT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "RDAV9843-02",
+        "Description": "10\"4 LCD LH MONITOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "40885",
-        description: "VALVE CONTROL UNIT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "066-50000-2120",
+        "Description": "COMPUTER-TCAS",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4091900-941",
-        description: "B777 DIGITAL DISPLAY UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "759A0000-10",
+        "Description": "CONTROLLER-PACK",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4100362-1",
-        description: "MOTOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z220H0001110",
+        "Description": "CONTROL UNIT-DRAIN MAST",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4101002-11",
-        description: "TRANSFER UNIT-HYD POWER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "RDAV1306-01",
+        "Description": "DVD PLAYER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4101002-11",
-        description: "TRANSFER UNIT-HYD POWER",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z130H0080110",
+        "Description": "FORWARD ATTENDANT PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4101002-9",
-        description: "POWER TRANSFER UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "465205-0502-0304",
+        "Description": "GPSSU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4-1071-100",
-        description: "CHIP DETECTOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "65B81133-5",
+        "Description": "POWER UNIT ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "413T1024-2",
-        description: "LATCH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "680203037A",
+        "Description": "RAM AIR TURBINE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "416-0001-9",
-        description: "COFFEE MAKER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2510144-27-01",
+        "Description": "SEAT CDB A320 (LH) MECA",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "416-00318-003",
-        description: "WHC-WINDOW HEAT COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-1047-020",
+        "Description": "VHF COM TRANSCEIVER,900B",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "416-1001-23",
-        description: "COFFEE MAKER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z050H8401A00",
+        "Description": "CABIN ASSIGNMENT MODULE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "416A1401-22",
-        description: "BRACKET ASSY - MEGAPHONE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z121H0209111",
+        "Description": "AAP-ADDITIONAL ATTENDANT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "417A2508-9",
-        description: "WATER TANK ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "926A0000-02",
+        "Description": "ACTUATOR-ROTARY,SLAT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "417A2508-9",
-        description: "WATER TANK ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "926B0000-01",
+        "Description": "ACTUATOR-ROTARY,SLAT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "417T3052-147",
-        description: "OUTBD PSU",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "753693",
+        "Description": "ADAPTER-QAD",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "417T3052-33",
-        description: "PSU ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z121H0139110",
+        "Description": "ADDITIONAL ATTENDANT PANE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "417T3052-33",
-        description: "PSU ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z121H0160111",
+        "Description": "ADDITIONAL ATTENDANT PANE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "417T3052-33",
-        description: "PSU ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z121H0A21111",
+        "Description": "ADDITIONAL ATTENDANT PANE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "417T3052-33",
-        description: "PSU ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z121H0D85111",
+        "Description": "ADDITIONAL ATTENDANT PANE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "417T3052-33",
-        description: "PSU ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z121H0J10111",
+        "Description": "ADDITIONAL ATTENDANT PANL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "417T3055-344B",
-        description: "SPACER PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z121H0201111",
+        "Description": "ADDITIONAL ATTENDANT PNL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "417T3057-42",
-        description: "PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z121H0G50111",
+        "Description": "ADDITIONNAL ATTENDANT PAN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4188-00",
-        description: "STATIC INVERTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z121H0163111",
+        "Description": "AFT ATTENDANT PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "419300-1003",
-        description: "DUAL INPUT RUDDER PCU ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z121H0002110",
+        "Description": "AFTER ATTENDANT PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "41SG118-2",
-        description: "XDCR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z121H0056110",
+        "Description": "AFTER ATTENDANT PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4205602",
-        description: "PUMP-ELECTRIC MOTOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z121H0092110",
+        "Description": "AFTER ATTENDANT PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4-273-03",
-        description: "TRU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2S7138",
+        "Description": "APU CHECK VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4-273-03",
-        description: "TRU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3876135-2",
+        "Description": "APU DELTA P SENSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4-273-03",
-        description: "TRU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "066-01127-1101",
+        "Description": "ATC MODE S-TRANSPONDEUR",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "42-935-2",
-        description: "ANTISKID CONTROL UNIT - M0162",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "LA2L51720HM0100",
+        "Description": "BATTERY CHARGE LIMITER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4305990100",
-        description: "SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "LA2L51415HM0100",
+        "Description": "BATTERY.CHARGE.LIMITER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4305990100",
-        description: "SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z051H8401702",
+        "Description": "CABIN ASSIGNMENT MODULE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4315542",
-        description: "RETRACTABLE LANDING LIGHT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "LA2G007001A0000",
+        "Description": "CENTRAL MAINTENANCE CPTR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4321561",
-        description: "LIGHT AY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z011H0000116",
+        "Description": "CIDS-DIRECTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4345-003",
-        description: "LAMP STUD",
-        conditionCode: "NS",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1J516-11800-000",
+        "Description": "CLEDU-CABIN LED UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "436-2",
-        description: "DETECTOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9005000-11206",
+        "Description": "COMPUTER-TCAS",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "44933",
-        description: "IGN EXCITER (ALT: 10-621630-1)",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "755CA02F",
+        "Description": "CONTACTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4500003K",
-        description: "ELECTRONIC CONTROL BOX",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "558CA04A31Y00",
+        "Description": "CONTACTOR THREE POLE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4500003L",
-        description: "ELECTRONIC CONTROL B",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "559CA01Y1",
+        "Description": "CONTACTOR THREE POLE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4500055",
-        description: "Plate Assy",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "564CA04F11Y01",
+        "Description": "CONTACTOR THREE POLE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4500074",
-        description: "QUILL SHAFT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "179029-101",
+        "Description": "CONTROLER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4500517",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1618B0000-02",
+        "Description": "CONTROLLER HEATER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "450-1-3100-00",
-        description: "SWITCH-PRESSURE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "977B0000-01",
+        "Description": "CONTROLLER-PACK TEMP.",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4501936",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "7125-19900-01AA",
+        "Description": "CONTROLLER-PRESSURE,CABIN",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "4502123",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "330400-1M00",
+        "Description": "CONTROL UNIT-THROTTLE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "450-2-3100-00",
-        description: "SWITCH-PRESSURE",
-        conditionCode: "NE",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z445H000080C",
+        "Description": "CONVERTER-DATA FIRE EXTIN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "450-2-3100-00",
-        description: "SWITCH-PRESSURE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "206PN01",
+        "Description": "DC VOLTMETER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4502474",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z033H0000110",
+        "Description": "DECODER ENCODER UNIT A",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4503344",
-        description: "HOUSING ASSY, COMPRESSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1982A0000-01",
+        "Description": "DIFF PRESS TRANSDUCER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4503366",
-        description: "I.D. PLATE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": 921000,
+        "Description": "DIGITAL INTERFACE UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "45-0351-1",
-        description: "LIGHT LANDING LH RETRACT - LH",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1333-500-100",
+        "Description": "DIPLEXER LOW NOISE AMPLIF",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "45-0351-4",
-        description: "LIGHT LANDING RH RETRACT - RH",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z013H000253A",
+        "Description": "DIRECTOR-CIDS",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "45-0351-5",
-        description: "LIGHT ASSY",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "409GA01",
+        "Description": "ECMU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4504071",
-        description: "INLET GUIDE VANE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6331-19428-3",
+        "Description": "ELECTRONIC BOX",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4504742",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "967A0000-03",
+        "Description": "EXCHANGER HEAT MAIN",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "4506052",
-        description: "BRACKET",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "72091-27D102",
+        "Description": "FAUCET ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "466090",
-        description: "FIRE EXT",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "ED43B1D7",
+        "Description": "FDIU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "47145-147",
-        description: "THS ACTUATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "B12000",
+        "Description": "FIRE SHUT OFF VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "47215920BB00",
-        description: "PROBE HEAT COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "B492AAM0411",
+        "Description": "FLIGHT CONTROL SECONDARY",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "47215920BB00",
-        description: "PROBE HEAT COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "B490BAM0310",
+        "Description": "FLIGHT MANAGE.GUIDANCE CO",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "47215920BB00",
-        description: "PROBE HEAT COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "B490CAM0308",
+        "Description": "FLIGHT MGNT GUID.ENV.CPTR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "473475-3",
-        description: "BOTTLE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "L87-13-003",
+        "Description": "FLOAT VENT VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "473597-5",
-        description: "SMOKE DETECTOR TYPE II",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z131H0416114",
+        "Description": "FORWARD ATTENDANT PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "473597-5",
-        description: "SMOKE DETECTOR TYPE II",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z131H0731116",
+        "Description": "FORWARD ATTENDANT PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "473597-5",
-        description: "SMOKE DETECTOR TYPE II",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "42D395",
+        "Description": "FUEL DIFF PRESS SWITCH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "473597-5",
-        description: "SMOKE DETECTOR TYPE II",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "B11A00",
+        "Description": "FUEL ISOLATION VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "473597-5",
-        description: "SMOKE DETECTOR TYPE II",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "B97H51-604",
+        "Description": "FUEL TRANSFER VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "473597-5",
-        description: "SMOKE DETECTOR TYPE II",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "697653001",
+        "Description": "GEARBOX-DOWN DRIVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "473597-5",
-        description: "SMOKE DETECTOR TYPE II",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "697503001",
+        "Description": "GEARBOX-DOWN DRIVE, A",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "473597-5",
-        description: "SMOKE DETECTOR TYPE II",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "697656001",
+        "Description": "GEARBOX-INPUT,LH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "473955-1",
-        description: "CARGO FIRE DETECTION MODULE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "697657001",
+        "Description": "GEARBOX-INPUT,LH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "476W2220-9N",
-        description: "CRADLE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "697658001",
+        "Description": "GEARBOX-INPUT,LH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "476W2220-9N",
-        description: "CRADLE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "697661001",
+        "Description": "GEARBOX-INPUT,RH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "488550-10-01",
-        description: "ACTUATOR CONTROL ELECTRONICS UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "697662001",
+        "Description": "GEARBOX-INPUT,RH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "488550-10-01",
-        description: "ACTUATOR CONTROL ELECTRONICS UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "697660001",
+        "Description": "GEARBOX-INPUT,RH\/LH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "49-170-11",
-        description: "SLATFLAP CONTROL COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "697651001",
+        "Description": "GEARBOX-RIGHT ANGLE",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "49-177-12",
-        description: "PRIMARY FLIGHT COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "697651001",
+        "Description": "GEARBOX-RIGHT ANGLE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4950079",
-        description: "CLAMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "705CA01",
+        "Description": "GENERATOR LINE CONTACTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4950565",
-        description: "CLAMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "5908975-15",
+        "Description": "GROUND POWER CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4950689-3",
-        description: "SEGMENT-HEAT BLANKET",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "N40-1B20203-102",
+        "Description": "HANDSET ASSY-CABIN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "4950689-4",
-        description: "SEGMENT-HEAT BLANKET",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "N40-1B20203-000",
+        "Description": "HANSDSET CABIN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "5006284A",
-        description: "HOUSING",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z450H0021210",
+        "Description": "HEAD AND SERVER UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "5006349",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "967A0000-01",
+        "Description": "HEAT EXCHANGER - MAIN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "5006349",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "H341BVM",
+        "Description": "HORIZON STANDBY INDICATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "503CA04F2-02Y00",
-        description: "CONTACTOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "600100-1",
+        "Description": "HYDRAULIC DAMPER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "510846-1",
-        description: "STATOR ALTERNATOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "300-041-697",
+        "Description": "ICE PROTECTION CONTROL UN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "5145-1-64",
-        description: "AUDIO SELECTOR PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2041167-3709",
+        "Description": "INTERROGATOR-DME",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "521100",
-        description: "GCU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "401100-3",
+        "Description": "LATCH DOORSILL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "5-211S614-80",
-        description: "PACKING (Alt: 5-211E600-7 & 5-211)",
-        conditionCode: "NS",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "700-2061-002",
+        "Description": "LCD MONITOR 8.6",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "522-0700-023",
-        description: "GLIDE SLOPE ANTENNA",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "003LG034C",
+        "Description": "LGCIU",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "548376-6",
-        description: "CABIN TEMPERATURE CONTROLLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "K428A3LGL001",
+        "Description": "LIGHT ASSY LOGO",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "548376-6",
-        description: "CABIN TEMPERATURE CONTROLLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2LA006724-00",
+        "Description": "LIGHT WARNING RED",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "56090-24",
-        description: "PIN, QUICK RELEASE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "-264434",
+        "Description": "MASTER CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "5653732",
-        description: "VALVE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z272H0000110",
+        "Description": "MASTER CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "568-1-29117-002",
-        description: "PUMP, FUEL OVERRIDEJETTISON",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z292H0000111",
+        "Description": "MASTER CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "56A621",
-        description: "BLADE ASSY OF-LPC 1STG",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z292H0000112",
+        "Description": "MCU-MASTER CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "56A621",
-        description: "BLADE ASSY OF-LPC 1STG",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "933252",
+        "Description": "MOTOR HYDRAULIQUE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "56A621",
-        description: "BLADE ASSY OF-LPC 1STG",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "20792-03AC",
+        "Description": "OUTFLOW VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "56A621",
-        description: "BLADE ASSY OF-LPC 1STG",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "7012-17971-4",
+        "Description": "OUTFLOW VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "56A621",
-        description: "BLADE ASSY OF-LPC 1STG",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4313071-01-6600",
+        "Description": "OVEN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "57186-10",
-        description: "HYDRAULIC PUMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8054-11-0000",
+        "Description": "OVEN SINGLE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "572756-1",
-        description: "THERMAL OVERHEAT SWITCH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "E3N543-25",
+        "Description": "OXYGNE CONTAINER ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "572757-1",
-        description: "THERMAL OVERHEAT SWITCH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "TAE0528-1",
+        "Description": "PAR 36 LED LAMP",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "5-89354-3149",
-        description: "NO1 WINDOW LH",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "TAE0528-2",
+        "Description": "PAR 36 LED LIGHT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "5908704",
-        description: "SPRING WAVE WASHER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z313H02AA017",
+        "Description": "PASSENGER SERVICE UNIT",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "5908953",
-        description: "SCREEN DRAIN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "568-1-29684-001",
+        "Description": "PLATE-MOUNTING ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "5909614",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4020Q8-3",
+        "Description": "PRESSURE UNIT-AIR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "5910228",
-        description: "RINGS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "HAD20973",
+        "Description": "PROBE THERMOCOUPLE T3",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "5938214-1",
-        description: "SEGMENT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "L95L90-601",
+        "Description": "PROTECTOR-OVER PRESSURE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "5956814-503N",
-        description: "WHEEL ASSY-NOSE STEERING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "568-1-28405-001",
+        "Description": "PUMP JET",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "5956814-503N",
-        description: "WHEEL ASSY-NOSE STEERING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3901340",
+        "Description": "PUMP-JET",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "5956814-503N",
-        description: "WHEEL ASSY-NOSE STEERING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "42F1307",
+        "Description": "RESERVOIR HYD,YELLOW",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "5956814-503N",
-        description: "WHEEL ASSY-NOSE STEERING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "LA2E50700C40000",
+        "Description": "SDAC",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "5956814-503N",
-        description: "WHEEL ASSY-NOSE STEERING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2158-1S1030AL",
+        "Description": "SEAT-CAB ATTEND 1LH OUTBD",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "59600-5003",
-        description: "HYD SOL VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2201-2DL",
+        "Description": "SEAT-CABIN ATTENDANT,UHC",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "5965440-5501",
-        description: "RESERVOIR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "SC5300-4",
+        "Description": "SERVOCONTROL-RUDDER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "600-154-1251",
-        description: "RELAY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "C38661-002",
+        "Description": "SERVO-INBD AILERON",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "600700-00-501",
-        description: "HOT AIR TRIM VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "38000-290",
+        "Description": "SHUTOFF VALVE-MANUAL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "601343",
-        description: "TUBE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "GAI2820-01",
+        "Description": "SMOKE DETECTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "601847",
-        description: "PLUG-MAGNETIC",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "GPA1101-00",
+        "Description": "SMOKE DETECTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "603223",
-        description: "SLIP TUBE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9107A0009-02",
+        "Description": "SOLENOID",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "60-3368-7M",
-        description: "STROBE POWER SUPPLY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8202-10-0000-02",
+        "Description": "STEAM OVEN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "60-3368-9",
-        description: "PWR SPLY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "S4-4500271",
+        "Description": "STRUT-SPRING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "60-4791-3",
-        description: "POWER SUPPLY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "LA2E50700100000",
+        "Description": "SYSTEM DATA ACQUISITION C",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "605457-8",
-        description: "FAN ASSEMBLY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "398B060000",
+        "Description": "THERMOSTAT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "606707-1",
-        description: "EXHAUST FAN",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "622-4540-023",
+        "Description": "TRANSCEIVER-DME,700",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "607510-2",
-        description: "TEMPERATURE CONTROL BOX",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "PC02001-01",
+        "Description": "TRANSFORMER CURRENT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "607510-2",
-        description: "TEMPERATURE CONTROL BOX",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "APTE1771000160D",
+        "Description": "TRANSMITTER OIL PRESSURE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "607510-2",
-        description: "TEMPERATURE CONTROL BOX",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-2701-001",
+        "Description": "TRIPLEXER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "607510-2",
-        description: "TEMPERATURE CONTROL BOX",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "766542",
+        "Description": "TURBINE ASSY",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "607510-2",
-        description: "TEMPERATURE CONTROL BOX",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "DK100-90",
+        "Description": "UNDERWATER LOCATOR BEACON",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "60-755100-5",
-        description: "FUEL PUMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "B97-51-601",
+        "Description": "VALVE-FUEL, INLET",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "60B40026-20",
-        description: "AUTO TRANSFORMER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "HTE900169",
+        "Description": "VALVE-FUEL JETTISON",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "60B40026-20",
-        description: "AUTO TRANSFORMER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "71035-3",
+        "Description": "VALVE-PRIORITY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "6105",
-        description: "FUSE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "B97H51-606",
+        "Description": "VALVE-TRANSFER FUEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "617166-1",
-        description: "AIR TEMP SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "VP1860C00",
+        "Description": "VALVE-U FLOOR EXTRACT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "617166-1",
-        description: "AIR TEMP SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1179-11-306-302",
+        "Description": "VIDEO CAMERA MODULE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "617166-1",
-        description: "AIR TEMP SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-0726-020",
+        "Description": "VOR\/MARKER RECEIVER,700A",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "62-0101-123",
-        description: "RAIL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z420H0202310",
+        "Description": "WIRELESS LAN UNIT-NEW STD",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "62-0101-123",
-        description: "RAIL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "S65-5366-720",
+        "Description": "WLAN L-BAND ANTENNA",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "622-4593-505",
-        description: "UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "71072A010001",
+        "Description": "VALVE-OVERPRESSURE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "622-5001-109",
-        description: "R.D.M.I. TYPE NO. RDMI-743",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4307785",
+        "Description": "MOTOR CONVERTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "622-5001-504",
-        description: "INDICATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "RDAX4332-01",
+        "Description": "SEAT ELECTRONIC BOX",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "622-5045-202",
-        description: "GENERATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "RDAX2302-01",
+        "Description": "WALL DISCONNECT BOX",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "622-5048-104",
-        description: "PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "15500-1051",
+        "Description": "ACTUATOR-RETRACTION,CLG",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "622-5048-341",
-        description: "PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "D68397",
+        "Description": "BEARING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "622-5132-130",
-        description: "WEATHER RADAR TRANSCEIVER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "785-585-5",
+        "Description": "BMC",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "622-5136-201",
-        description: "ANTENNA MOUNT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2057-31420AL",
+        "Description": "CABIN ATTENDANT SEAT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "622-5137-601",
-        description: "WEATHER RADAR ANTENNA",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2057-31440AL",
+        "Description": "CABIN ATTENDANT SEAT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "622-5137-601",
-        description: "WEATHER RADAR ANTENNA",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2058-111201AL",
+        "Description": "CABIN ATTENDANT SEAT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "622-5219-004",
-        description: "ASSY-VHF COMM L & R",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2058-111243AL",
+        "Description": "CABIN ATTENDANT SEAT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "622-5220-020",
-        description: "VORMARKER RECEIVER,700",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2058-111443AL",
+        "Description": "CABIN ATTENDANT SEAT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "622-5222-102",
-        description: "A.D.F RECEIVER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "37100-1001",
+        "Description": "CENTER LANDING GEAR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "622-5222-102",
-        description: "A.D.F RECEIVER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "12C22R212170000",
+        "Description": "CONTAINER 2MASKS TYPE1",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "622-6089-102",
-        description: "ALERT PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "22C150150170001",
+        "Description": "CONTAINER O2",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "622-6089-102",
-        description: "ALERT PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "96154566113X",
+        "Description": "DISPLAY MANAGEMENT V113X",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "622-6831-002",
-        description: "PANEL VHF",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "96154570113X",
+        "Description": "DISPLAY MANAGEMENT V113X",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "622-6831-002",
-        description: "PANEL VHF",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "271-201-011-501",
+        "Description": "EIVMU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "622-6831-002",
-        description: "PANEL VHF",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "LA2K1A1002D0000",
+        "Description": "FLIGHT CTRL PRIM CPTER",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "622-6831-002",
-        description: "PANEL VHF",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "LA2K1A1002D0000",
+        "Description": "FLIGHT CTRL PRIM CPTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "622-7878-201",
-        description: "AIR TRAFFIC CONTROL TRANSPONDER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "B490AAM0317",
+        "Description": "FLIGHT MNGT GUID ENV CMPT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "624014-1",
-        description: "TEMPERATURE SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z131H0531114",
+        "Description": "FORWARD ATTENDANT PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "624014-1",
-        description: "TEMPERATURE SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "752157D",
+        "Description": "INTEGRATED DRIVE GENERATR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "624014-1",
-        description: "TEMPERATURE SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "387B050000",
+        "Description": "THERMOSTAT SOLENOID",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "624016-1",
-        description: "DUCT AIR TEMP SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "10-118302-000",
+        "Description": "BOGIE PITCH TRIMMER ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "624016-2",
-        description: "SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3735C020000",
+        "Description": "EXCHANGER PRECOOLER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "624018-1",
-        description: "SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "87292337V04N04",
+        "Description": "FLIGHT CNTRL DATA CONCTR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "624160",
-        description: "COUPLING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1604A0000-02",
+        "Description": "REHEATER-CONDENSER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "624173",
-        description: "COUPLING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4A3931-003",
+        "Description": "SLIDE OFF-WING 3LH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "624185",
-        description: "TUBE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "AP41116101",
+        "Description": "SOLID STATE FLIGHT DATA R",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "624229",
-        description: "SPRING, COUPLING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z613H0000110",
+        "Description": "ADAPTER MINI LIGHT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "625878-1",
-        description: "SWITCH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z454H000081A",
+        "Description": "AIRLINE NETWORK ARCHI V2",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "625878-1",
-        description: "SWITCH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3506037-6",
+        "Description": "AIR TURBINE STARTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "625928-2",
-        description: "SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "071-50001-8107",
+        "Description": "ANTENNA-TCAS",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "625928-2",
-        description: "SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1003660-5",
+        "Description": "APU BLEED VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "625928-3",
-        description: "SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "96102-08",
+        "Description": "APU ISOLATOR, FWD",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "625946-8",
-        description: "CONTRLLR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "96102-11",
+        "Description": "APU ISOLATOR, REAR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "625946-8",
-        description: "CONTRLLR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3900941-01",
+        "Description": "APU PW980A",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "625946-8",
-        description: "CONTRLLR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2616221",
+        "Description": "AXLE SLEEVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "625946-8",
-        description: "CONTRLLR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2616949",
+        "Description": "AXLE SLEEVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "641121-1",
-        description: "DUCT ZONE OVERHEAT SWITCH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2616559",
+        "Description": "AXLE SLEEVE AFT AXLE BLG",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "641121-1",
-        description: "DUCT ZONE OVERHEAT SWITCH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1A5000-130000-4",
+        "Description": "BALLAST UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "641172-1",
-        description: "SWITCH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1B5000-131100-4",
+        "Description": "BALLAST UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "641172-1",
-        description: "SWITCH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1B5000-131100-5",
+        "Description": "BALLAST UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "641172-1",
-        description: "SWITCH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1A5000-130000-7",
+        "Description": "BALLAST UNIT_SIBU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "64141-580-1",
-        description: "STANDBY BAROMETRIC ALTIMETER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2144E5429-5",
+        "Description": "BLG WEDGE LOCK SPRING AY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "64141-580-1",
-        description: "STANDBY BAROMETRIC ALTIMETER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "DAP00021-05",
+        "Description": "BRAKE ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "64300-100",
-        description: "HEADSET AIRMAN 750",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "DAP00021R5",
+        "Description": "BRAKE ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "64300-100",
-        description: "HEADSET AIRMAN 750",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z055H0001250",
+        "Description": "CABIN ASSIGNMENT MODUL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "64300-100",
-        description: "HEADSET AIRMAN 750",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z055H0001230",
+        "Description": "CABIN ASSIGNMENT MODULE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "64300-200",
-        description: "AIRMAN 750 HEADSET",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z055H0001240",
+        "Description": "CABIN ASSIGNMENT MODULE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "6430A",
-        description: "VARIABLE POWER TRANSFORMER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2380HS3DAF21GA2",
+        "Description": "CABIN ATTENDANT SEAT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "645405-2",
-        description: "FAN-RECIRCULATION",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2380HS3EAF21GA2",
+        "Description": "CABIN ATTENDANT SEAT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "64882-206-1",
-        description: "PRESSURE INDICATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2380TS3DAA21GA2",
+        "Description": "CABIN ATTENDANT SEAT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "64882-206-1",
-        description: "PRESSURE INDICATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2382TD3EAA21GA2",
+        "Description": "CABIN ATTENDANT SEAT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "649-781-775-0",
-        description: "SCREW",
-        conditionCode: "NS",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2382TD3EAA25GA2",
+        "Description": "CABIN ATTENDANT SEAT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "649-781-775-0",
-        description: "SCREW",
-        conditionCode: "NS",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2383HR3AAB61GA3",
+        "Description": "CABIN ATTENDANT SEAT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "650-784-038-0",
-        description: "RING-SELF LOCKING",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2383TL3CAB51GA2",
+        "Description": "CABIN ATTENDANT SEAT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "650-784-038-0",
-        description: "RING-SELF LOCKING",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "96102-04",
+        "Description": "CONEBOLT ASSY,REAR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "6510",
-        description: "AIRSPEED SWITCH",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "96102-10",
+        "Description": "CONEBOLT ASSY,REAR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "65-16323-34",
-        description: "WINDSHIELD,  ASSY RH #3",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "DD1-08",
+        "Description": "DEVICE DOOR DECELERATION",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "65-17821-18",
-        description: "ASSY, MODULAR PACKAGE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4505915J",
+        "Description": "ELECTRONIC CONTROL BOX",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "65-17821-18",
-        description: "ASSY, MODULAR PACKAGE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1B5000-145100-7",
+        "Description": "FLAT ILLUMINATION BALLAST",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "65-17821-20",
-        description: "PRESSURE MODULAR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1B5000-146100-7",
+        "Description": "FLAT ILLUMINATION BALLAST",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "65-17821-20",
-        description: "PRESSURE MODULAR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3901255-10",
+        "Description": "FUEL CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "65-17821-20",
-        description: "PRESSURE MODULAR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "44436",
+        "Description": "HARNESS-1M,BOGIE ELECTRIC",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "65-17821-20",
-        description: "PRESSURE MODULAR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "43724",
+        "Description": "HARNESS 1M - SHOCK STRUT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "65-44562-1",
-        description: "BARREL ASSY.",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "10-200901-005",
+        "Description": "HARNESS 1M UPPER NLG",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "65-44562-1",
-        description: "BARREL ASSY.",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "43570",
+        "Description": "HARNESS-2M,BOGIE ELECTRIC",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "65-44681-16",
-        description: "VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "44435",
+        "Description": "HARNESS-2M,BOGIE ELECTRIC",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "65-44741-8",
-        description: "BLOCKING VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "43653",
+        "Description": "HARNESS-BTCM,ELECTRICAL B",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "65-44741-8",
-        description: "BLOCKING VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "C19628AD",
+        "Description": "HCU-CAPT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "65-45166-25",
-        description: "ROD ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "C19643AC",
+        "Description": "HEAD UP COMBINIER UNIT FO",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "65-45792-6",
-        description: "PANE",
-        conditionCode: "NS",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "C19625AA",
+        "Description": "HEAD UP PROJECTION UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "65-52810-64",
-        description: "UNIT AY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "38000-610",
+        "Description": "HEATER-WATER,POTABLE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "65-52810-64",
-        description: "UNIT AY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1B5000-131100-6",
+        "Description": "HYBRID ILLUMINAT BALLAST",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "66950",
-        description: "VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1B5000-131100-7",
+        "Description": "HYBRID ILLUMINAT BALLAST",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "66950",
-        description: "VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1B5000-141100-7",
+        "Description": "HYBRID ILLUMINAT BALLAST",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "66950",
-        description: "VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1B5000-141100-4",
+        "Description": "HYBRID ILLUMINATION BLLST",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "66950",
-        description: "VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1B5000-211100-4",
+        "Description": "HYBRID ILLUMINATION BLLST",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "6730C010000",
-        description: "VALVE-FAN AIR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3902764-01",
+        "Description": "IGNITION EXCITER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "6732A010000",
-        description: "VALVE FAN AIR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3901228-05",
+        "Description": "INLET GUIDE VANE ACTUATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "6740B050000",
-        description: "OVER PRESSURE VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "251TS10AHY03",
+        "Description": "INTEGRATED CONTROL PNL 08",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "6752-311-20",
-        description: "CIRCUIT BREAKER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z165H0184232",
+        "Description": "IPRAM CF CARD",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "6752-311-50",
-        description: "CIRCUIT BREAKER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z165H0184239",
+        "Description": "IPRAM CF CARD",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "6752-311-50",
-        description: "CIRCUIT BREAKER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z165H0184245",
+        "Description": "IPRAM CF CARD",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "676-3291-002",
-        description: "PLUG",
-        conditionCode: "NS",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "490346-3",
+        "Description": "KIT-SURVIVAL,FAA",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "6773E010000",
-        description: "VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "300-041-472",
+        "Description": "LIFT BELT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "6773E010000",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "30-2004277-00",
+        "Description": "LOWER TORQUE LINK",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "6774E010000",
-        description: "VALVE - BLEED AIR PRESSURE REG.",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "AR4838-1",
+        "Description": "PAD-KEY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "6774E010000",
-        description: "VALVE - BLEED AIR PRESSURE REG.",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2616522",
+        "Description": "PIN BRAKE ROD",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "69-17791-3",
-        description: "ARM",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "0851HY1",
+        "Description": "PROBE-PITOT,STANDBY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "69-37291-8",
-        description: "ROD",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3901398-02",
+        "Description": "SENSOR DELTA PRESSURE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "69-37317-300",
-        description: "HYDRAULIC PUMP MODULE AY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4952591",
+        "Description": "SENSOR DELTA PRESSURE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "69-37324-18",
-        description: "CABIN AIR TEMP MODULE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3901396-03",
+        "Description": "SENSOR N1 SPEED",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "69-37324-18",
-        description: "CABIN AIR TEMP MODULE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3902396-01",
+        "Description": "SENSOR-N2 SPEED",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "69-37324-18",
-        description: "CABIN AIR TEMP MODULE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3239518-2",
+        "Description": "SENSOR-PROXIMITY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "69-37369-24",
-        description: "MODULE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3901397-02",
+        "Description": "SENSOR STATIC PRESSURE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "69-37369-24",
-        description: "MODULE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "0861HR2-23",
+        "Description": "SIDE SLIP ANGLE PROBE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "69-37369-24",
-        description: "MODULE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "S3716-002",
+        "Description": "STARTER APU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "69-37369-24",
-        description: "MODULE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "0860J2",
+        "Description": "STBY STATIC PROBE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "69-37369-24",
-        description: "MODULE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1003599-3",
+        "Description": "SURGE CONTROL VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "69-37369-24",
-        description: "MODULE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4952080",
+        "Description": "SWITCH BYPASS IMPENDING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "69-37369-24",
-        description: "MODULE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "D98C13-604",
+        "Description": "SWITCH-PRESSURE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "69-37369-300",
-        description: "MOD-GROUND PROXIMITY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "L5758415400400",
+        "Description": "TAIL ASSY-CONE,4 LH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "69-55179-78",
-        description: "LIGHT DIMMER UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "L5758415400500",
+        "Description": "TAIL ASSY-CONE,4 RH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "69-71002-12",
-        description: "LEVER ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3220005WV067",
+        "Description": "TRASH COMPACTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "69-73614-47",
-        description: "MODULE, POWER MANAGEMENT CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2144A5589-1",
+        "Description": "UNLOCK ACT BRACKET PIN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "69-73614-47",
-        description: "MODULE, POWER MANAGEMENT CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2143A5501-1",
+        "Description": "UNLOCK ACT SIDESTAY PIN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "69-73713-17",
-        description: "NAV MODULE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2144A5455-4",
+        "Description": "WEDGE TO SPRING PIN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "69-73713-17",
-        description: "NAV MODULE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "A2727114900000",
+        "Description": "ROD ASSY-SPRING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "69-76436-9",
-        description: "MODULE,STAB TRIM FLT. DECK DOOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "348-200",
+        "Description": "AIR CHILLER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "69-78214-4",
-        description: "AURAL WARNING MODULE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "F5311061200743",
+        "Description": "COULISSANT RH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "69-78214-4",
-        description: "AURAL WARNING MODULE ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "MXP402",
+        "Description": "ASSY-STOWAGE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "70507-2",
-        description: "VALVE AY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "60-98976-4",
+        "Description": "BOOST PUMP MOTOR IMP ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "70507-2",
-        description: "VALVE AY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "622-8591-100",
+        "Description": "DISPLAY SELECT PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "70507-3",
-        description: "VALVE AY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3170120-7",
+        "Description": "INB AIL CONT PACK",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7121-19971-01AC",
-        description: "CONTROLLER-CABIN PRESSURE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "161U0056-1",
+        "Description": "INNER CYLINDER 913",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7121-19971-01AC",
-        description: "CONTROLLER-CABIN PRESSURE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "65B01540-19",
+        "Description": "LEFT DOWN LOCK ACTUATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7123-19973-03AC",
-        description: "CABIN PRESSURE SELECTOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "0861DR",
+        "Description": "PROBE ANGLE OF ATTACK",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7123-19973-03AC",
-        description: "CABIN PRESSURE SELECTOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "7A1467-17",
+        "Description": "SLIDE RAFT DOOR 1 LH",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "71234",
-        description: "HYDRAULIC RESERVOIR HAND PUMP",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "271T0042-4",
+        "Description": "ACMP PRESS FLTR MODULE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "716TS06Y",
-        description: "NW.STRG.HANDWHEEL SMTR.UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "AD8650502",
+        "Description": "ACTUATOR HORIZONTAL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "71784",
-        description: "HYDRAULIC VALVE MODULE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4075200-901",
+        "Description": "CABINET AIMS 777-200",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "71998",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "810503-6",
+        "Description": "CONTROLLER-ANTI ICE,ENG.",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "71998",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "810200-3",
+        "Description": "CONTROLLER-TEMP CABINE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "71998",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "233W3215-6",
+        "Description": "CVR SWITCH MODULE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "71998",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "30830",
+        "Description": "CYLINDER HYD ACCU TRANSF",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "72071000",
-        description: "OVEN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3204908-5",
+        "Description": "EQT COOLING OVERRIDE VLVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "72071000",
-        description: "OVEN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "07125P000-03",
+        "Description": "FLAP BALLSCREW 2\/7",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "72GP39-4",
-        description: "XMTR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "71756",
+        "Description": "FLAP\/SLAT PRIORITY VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7335",
-        description: "LAMP",
-        conditionCode: "NE",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "964-0452-011",
+        "Description": "HF TRANSCEIVER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "734-15610-03",
-        description: "PDU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "135W1870-1",
+        "Description": "INTERMEDIATE GEARBOX",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "737-0010-633",
-        description: "737NG WINGLET",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "ELM803-2-1",
+        "Description": "I\/O CARD",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "737-0010-634",
-        description: "737NG WINGLET",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "MF10-05-15",
+        "Description": "MASK-OXYGEN,FULL FACE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "737-8618-1",
-        description: "LIGHTPLATE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "293W3702-6",
+        "Description": "MLG DOOR ACTUATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "737-8618-1",
-        description: "LIGHTPLATE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "293W3702-8",
+        "Description": "MLG DOOR ACTUATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "740119H",
-        description: "INTEGRATED DRIVE GENERATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "99C55203-111",
+        "Description": "MLG DRAG BRACE OP SEQ VLV",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "740119H",
-        description: "INTEGRATED DRIVE GENERATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "161W1166-1",
+        "Description": "MLG REACTION LINK AY 660",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "740120C",
-        description: "GCU-GENERATOR CONTROL UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "233W7201-12",
+        "Description": "MODULE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "740120C",
-        description: "GCU-GENERATOR CONTROL UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "233W7201-6",
+        "Description": "MODULE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "740120C",
-        description: "GCU-GENERATOR CONTROL UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1153154-7",
+        "Description": "NGS CONTROLLER",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "740121A",
-        description: "GROUND POWER CONTROL UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "256W2210-3",
+        "Description": "OTB SLAT ROTARY ACTUATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "740121A",
-        description: "GROUND POWER CONTROL UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "256W2210-4",
+        "Description": "OTB SLAT ROTARY ACTUATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "74-20",
-        description: "HALON EXTINGUISHER-FIRE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "85000-001",
+        "Description": "PORTABLE MAINT.ACC.TERMNL",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "74-20",
-        description: "HALON EXTINGUISHER-FIRE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "60-4983-3",
+        "Description": "PWR SUPLY",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "74-20",
-        description: "HALON EXTINGUISHER-FIRE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "PC6033-3-55",
+        "Description": "QAR-QUICK ACCESS RECORDER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "743-0304-001",
-        description: "REPRODUCER, TAPE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "ELM1312-1",
+        "Description": "SIGNAL COND A+B CARD",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "745-3000-515",
-        description: "INLET COWL",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "251W4110-8",
+        "Description": "STAB TRIM ACTUATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "745-4000-503",
-        description: "FAN COWL LH (ENGINE RH)",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2704474-5",
+        "Description": "VALVE CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "746923E",
-        description: "ELEC GENE INTERFACE UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "08450-0027-0001",
+        "Description": "WALL DISPLAY BRACKET ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "746A0000-06",
-        description: "VALVE-TRIM AIR PRESSURE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "60944-1",
+        "Description": "ANTISKID ACCU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "748A0000-08",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2113-751NH",
+        "Description": "ATTENDANT SEAT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "751460",
-        description: "ELEMENT-FILTER",
-        conditionCode: "NE",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "066-50000-2721",
+        "Description": "COMPUTER TCAS",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7517900-10012",
-        description: "ACSS TCAS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "16D1004",
+        "Description": "DRAIN VALVE",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "7517900-10020",
-        description: "RT-950 TCAS COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3145968BA",
+        "Description": "ETHENET CABIN TELECOM UN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "77FE100-4",
+        "Description": "LH LCP WITH ROTATION",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "83-107-01",
+        "Description": "MLG WIU ADAPTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "7000-5013B00",
+        "Description": "NETWORK FILE SERVER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "474560-52",
+        "Description": "SMOKE DETECTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "256W3210-10",
+        "Description": "TE FLAP TRANSMISSION ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3145286CA0301",
+        "Description": "TELEPHONE SEAT BOX",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "MA30A1001",
+        "Description": "ACTUATOR ELECTRIC MOTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "MA30A1001",
+        "Description": "ACTUATOR ELECTRIC MOTOR",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "AD8650603",
+        "Description": "ACTUATOR VERTICAL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-0407-101",
+        "Description": "BACKDRIVE ACTUATOR",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1-002-0102-2031",
+        "Description": "CONVERTER FREQUENCY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3930021-105",
+        "Description": "FLAP PRIMARY CTL VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1012831-2",
+        "Description": "MN DK SHUTOFF VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "066-50029-1101",
+        "Description": "MULTI MODE RECEIVER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "233W3219-2",
+        "Description": "PASSENGER CABIN SYSTEM",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "372-079-003",
+        "Description": "STAB TRIM POS INDICATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "066-01127-1602",
+        "Description": "TRANSPONDER MODE S",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "622-5136-202",
+        "Description": "WEATHER RADAR DRIVE UNIT",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "810601-2",
+        "Description": "WING ANTI ICE VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "622-5130-205",
+        "Description": "WRCP",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-1338-021",
+        "Description": "ATC TRANSPONDER",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z233H0010110",
+        "Description": "BOX-CONNECTING,DEU A",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "APE5100",
+        "Description": "CLOCK",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "93A100-80",
+        "Description": "COCKPIT VOICE RECORDER",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "63543-253-3",
+        "Description": "DDRMI",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-920",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8001-06-0000",
+        "Description": "FOUR SELL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-921",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "TLS755-01-0102A",
+        "Description": "NAVIGATEUR MULTI MODE REC",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-921",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "72067000",
+        "Description": "OVEN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-921",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8201-11-0000",
+        "Description": "OVEN",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-921",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "C12848AA01",
+        "Description": "RADIO MANAGEMENT PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-921",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "622-8973-104",
+        "Description": "TCAS DIRECT ANTENNA",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "7519200-921",
-        description: "CMU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "RDAV1216-01",
+        "Description": "VIDEO TAPE REPRODUCER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7552355",
-        description: "FILTER ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2041444-0404",
+        "Description": "WEATHER RADAR ANTENNA MOU",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "7552355",
-        description: "FILTER ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "A06L00",
+        "Description": "ACTUATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7552355",
-        description: "FILTER ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z220H0002110",
+        "Description": "CONTROL UNIT - DRAIN MAST",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "756426",
-        description: "GEAR SHAFT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "0851MC",
+        "Description": "PITOT PROBE",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "756427",
-        description: "START MOTOR GEAR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "830A0000-03",
+        "Description": "ACTUATOR-ROTARY,SLAT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "756461-1",
-        description: "COVER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8410B5-4-90",
+        "Description": "CAMERA-AREA",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "756466",
-        description: "OIL PUMP GEAR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "600611-00-601",
+        "Description": "CONTROLLER-HEAT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "756466",
-        description: "OIL PUMP GEAR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "201419001-020",
+        "Description": "DAMPER UNIT",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "756469",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "60128-103",
+        "Description": "SURVIVAL KIT",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "756664",
-        description: "RETAINER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "22C150150170004",
+        "Description": "CONTAINER MASK EMER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "756665",
-        description: "COVER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "P78147",
+        "Description": "GENERATEUR SICMA BI",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "756668",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6610-20565-01",
+        "Description": "ACTUATOR ROTARY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "756670",
-        description: "SPACER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z121H0D01111",
+        "Description": "ADDITIONAL ATTENDANT PANL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "756671",
-        description: "BEARING SUPPORT ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "5600-2C1AF23AM",
+        "Description": "BOUTEILLE O2 PORTABLE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "756678",
-        description: "PUMP SCAVENGE OIL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z011H0000114",
+        "Description": "CIDS-DIRECTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "756678",
-        description: "PUMP SCAVENGE OIL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "F5528000000700",
+        "Description": "ELEVATOR ASSY RH",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "756681",
-        description: "CAP-FILTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "-292161",
+        "Description": "ENHANCED MASTER CTRL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "756687",
-        description: "JET",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "CE1716AA0",
+        "Description": "FAN-GROUND COOLING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "756731",
-        description: "SPRING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3711-00",
+        "Description": "FIRE DETECTION UNIT",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "757290",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "924C0000-01",
+        "Description": "GEARBOX-BEVEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "757291",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9028A0005-01",
+        "Description": "POSITION PICK-OFF UNIT",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "757292",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "L95F89-602",
+        "Description": "PROTECTOR-OVERPRESSURE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "757293",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "055-021-001",
+        "Description": "SENSOR-TEMPERATURE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "757307",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1671220-00",
+        "Description": "SIEGE 4EME OCC A330\/A340",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "757333-2",
-        description: "WASHER FLAT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "SC4710",
+        "Description": "YAW DAMPER SERVO ACTUATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "757366",
-        description: "PLUG",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1070B0000-02",
+        "Description": "ACTUATOR-FLAP",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "759C0000-02",
-        description: "CONTROLLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z120H0056111",
+        "Description": "ADDITIONAL ATTENDANT PNL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "759D0000-02",
-        description: "CONTROLLER-PACK",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "PG1152AC03",
+        "Description": "AIR DATA MODULE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "759D0000-02",
-        description: "CONTROLLER-PACK",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "913004",
+        "Description": "AIRSHOW CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "761574B",
-        description: "INTEGRATED DRIVE GENERATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z111H0036151",
+        "Description": "ATTENDANT INDICATION PNL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "761574B",
-        description: "INTEGRATED DRIVE GENERATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "64761-001-003",
+        "Description": "BEVERAGE MAKER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "761951",
-        description: "STARTER SHAFT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z212H0001110",
+        "Description": "BOITE DE PROTECTION",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "762080-1",
-        description: "SAFETY VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z054H0001230",
+        "Description": "CABIN ASSIGNMENT MODULE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "762185F",
-        description: "GENERATOR CONTROL UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "B401ACM0507",
+        "Description": "CENTRAL FAULT DATA INT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "762185H",
-        description: "GENERATOR CONTROL UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "655CC04A0Y00",
+        "Description": "CONTACTOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "762187F",
-        description: "BUS POWER CONTROL UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "630CC04A0Y00",
+        "Description": "CONTACTOR SINGLE POLE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "762187F",
-        description: "BUS POWER CONTROL UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "564CA04A01Y00",
+        "Description": "CONTACTOR THREE POLE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "762525",
-        description: "SEAL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "564CA04A11Y00",
+        "Description": "CONTACTOR THREE POLE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "763810-6",
-        description: "CABIN PRESSURE CONTROLLER",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "564CA04F10Y00",
+        "Description": "CONTACTOR THREE POLE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "763810-6",
-        description: "CABIN PRESSURE CONTROLLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "AH5702-60",
+        "Description": "CONTAINER 02",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "763810-6",
-        description: "CABIN PRESSURE CONTROLLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9022-15702-10",
+        "Description": "CONTROLLER-PRESSURE,CABIN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "763810-6",
-        description: "CABIN PRESSURE CONTROLLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "14404-011B",
+        "Description": "CONTROLLER-VACCUM SYSTEM",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "763810-6",
-        description: "CABIN PRESSURE CONTROLLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "14404-011",
+        "Description": "CONTROLLER VACUUM SYSTEM",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "763810-6",
-        description: "CABIN PRESSURE CONTROLLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "14404-011-1",
+        "Description": "CONTROLLER VACUUM SYSTEM",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "763810-6",
-        description: "CABIN PRESSURE CONTROLLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "G6990-42",
+        "Description": "CONTROL PANEL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "763810-6",
-        description: "CABIN PRESSURE CONTROLLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "DN17TYC3YS30071",
+        "Description": "CREWSEAT PNC",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "763810-6",
-        description: "CABIN PRESSURE CONTROLLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9615325060",
+        "Description": "DISPLAY MANAGEMENT COMPUT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "763810-6",
-        description: "CABIN PRESSURE CONTROLLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6331-16639-5",
+        "Description": "ELECTRONIC BOX",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "763810-6",
-        description: "CABIN PRESSURE CONTROLLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "241-191-000-031",
+        "Description": "EVMU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "763810-6",
-        description: "CABIN PRESSURE CONTROLLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "241-191-000-041",
+        "Description": "EVMU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "763810-6",
-        description: "CABIN PRESSURE CONTROLLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "B546CAM0104",
+        "Description": "FLIGHT MANGMNT.GUID.CPTR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "763A0000-03",
-        description: "TEMP. SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "C13042AA07",
+        "Description": "FLIGHT MANGMNT.GUID.CPTR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "766A0000-01",
-        description: "SENSOR-TEMPERATURE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "788A0000-01",
+        "Description": "GEARBOX-RIGHT ANGLE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "766A0000-01",
-        description: "SENSOR-TEMPERATURE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "066-50006-1202",
+        "Description": "ILS RECEIVER, RIA35B",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "77-109-12",
-        description: "XMTR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2041230-3532",
+        "Description": "ILS RIA 35A",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "773856-15",
-        description: "VALVE AY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4950488",
+        "Description": "LOP SWITCH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "773A0000-01",
-        description: "SENSOR-TEMPERATURE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "C24840010",
+        "Description": "MANIF ALTERNATE BRAKE RH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "775A0000-08",
-        description: "CONTROLLER-ZONE TEMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "S4-3500712",
+        "Description": "MANIFOLD GROUND SERVICE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "775D0000-01",
-        description: "ZONE CONTROLLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "174690M7",
+        "Description": "MASK OXYGEN FULL FACE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "775D0000-01",
-        description: "ZONE CONTROLLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z312H01N5803",
+        "Description": "PASSENGER SERVICE UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "775D0000-01",
-        description: "ZONE CONTROLLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "341E030000",
+        "Description": "THERMOSTAT SOLENOID",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "775D0000-01",
-        description: "ZONE CONTROLLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8TJ124GGR1",
+        "Description": "TRANSMITTER FUEL FLOW 12",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "780B0000-01",
-        description: "SENSOR UNIT, FLAPSLAT COMMAND",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "C24730100",
+        "Description": "UPLOCK ASSY NLG DOOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "780B0000-01",
-        description: "SENSOR UNIT, FLAPSLAT COMMAND",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "C24730100",
+        "Description": "UPLOCK ASSY NLG DOOR",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "780B0000-01",
-        description: "SENSOR UNIT, FLAPSLAT COMMAND",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "201117006",
+        "Description": "UPLOCK MLG RH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "780B0000-01",
-        description: "SENSOR UNIT, FLAPSLAT COMMAND",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "SAS911-002A",
+        "Description": "VALVE ANTI ICE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "78169-02",
-        description: "MOD ASSY",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "324195-1",
+        "Description": "VALVE-ANTI ICE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "785-002-8",
-        description: "BMC-BLEED MONITORING COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "769A0000-02",
+        "Description": "VALVE-CHECK",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "785-002-8",
-        description: "BMC-BLEED MONITORING COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9815715",
+        "Description": "VALVE_PRESS RELIEF",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "785002-9",
-        description: "BLEED MONITORING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "114079016",
+        "Description": "VALVE SELECTOR DOOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "785840-4",
-        description: "BLEED MONITOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "114083003",
+        "Description": "VALVE VENT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "78695-1",
-        description: "SNUBBER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1010099-6",
+        "Description": "WATER BOILER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "78695-1",
-        description: "SNUBBER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1010099-6-2",
+        "Description": "WATER BOILER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "786A0000-06",
-        description: "CONT UNIT POWER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "24E507009G01",
+        "Description": "WATER HEATER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "786A0000-12",
-        description: "POWER CONTROL UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8210-093",
+        "Description": "PUMP OIL OVERSPEED GOVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "7900064",
-        description: "TOILET",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "95072-04",
+        "Description": "SHOCKMOUNT-FWD LATERAL",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "790424-4",
-        description: "VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2940",
+        "Description": "ACTUATOR-FUEL CROS.VALVE",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "792-6140-001",
-        description: "HF ANTENNA COUPLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "7000700-951",
+        "Description": "AIR DATA COMPUTER 1",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "792A0000-07",
-        description: "ACTUATOR-FLAP,NO.2",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "7003360-946",
+        "Description": "ATT. HEADING REF.UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "792A0000-07",
-        description: "ACTUATOR-FLAP,NO.2",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "30100022-4",
+        "Description": "EXTINGUISHER-AUTOMATIC",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "793322",
-        description: "PROBE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "36045182A13",
+        "Description": "FLIGHT DATA ACQ UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "796-809-6A",
-        description: "CADENSICON",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "JP2579",
+        "Description": "JACK PANEL-HAND MIKE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "796-815-01-02",
-        description: "PRESELECTOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "LA4E20608HM0100",
+        "Description": "MULTI FONCTION COMPUTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "8011612",
-        description: "PACKING",
-        conditionCode: "NS",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-1468-202",
+        "Description": "TRANSCEIVER-VHF",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "801307-00",
-        description: "OXYGEN CYLINDER (115 CU FT)",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2095E020800",
+        "Description": "VALVE-ELECTRO PNEUMATIC",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "801A50-0005A",
-        description: "C-SEAL",
-        conditionCode: "NE",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "170-70510-001",
+        "Description": "PIN T.L APEX",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "80-207-01",
-        description: "SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "321-400-502-0",
+        "Description": "STOW SWITCH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "80-207-01",
-        description: "SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8TW32BAA2",
+        "Description": "T1.2 SENSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "8055515-4507",
-        description: "PTA-45B DATA PRINTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1459M55P32",
+        "Description": "ELECTRONIC CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "810200-3",
-        description: "CTC",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "321-400-501-0",
+        "Description": "STOW SWITCH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "810208-7",
-        description: "HEAT EXCHANGER",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "AC69576",
+        "Description": "VALVE SOLENOID STG 10 BLE",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "810209-11",
-        description: "AIR CYCLE MACHINE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6730B01",
+        "Description": "FAN AIR VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "810221-2",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2547000-2",
+        "Description": "ACTUATOR HYDRAULIC DOOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "810230-4",
-        description: "SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1084000-4",
+        "Description": "CONTROL UNIT HYDRAULIC",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "810505-3",
-        description: "ACIPS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1799M98P14",
+        "Description": "ELECTRONIC CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "810601-3",
-        description: "VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1851M42P11",
+        "Description": "ELECTRONIC CONTROL UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "810A0000-04",
-        description: "SERVOCONTROL-RUDDER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "340-4000-517",
+        "Description": "EXHAUST NOZZLE",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "810A0000-05",
-        description: "RUDDER SERVO CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "0711480-001",
+        "Description": "SHUT OFF VALVE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "810A0000-05",
-        description: "RUDDER SERVO CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6754D010000",
+        "Description": "VALVE-PRESSURE REGULATING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "810A0000-05",
-        description: "RUDDER SERVO CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6753D010000",
+        "Description": "VALVE-REGULATING HP",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "810A0000-05",
-        description: "RUDDER SERVO CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3290064-30",
+        "Description": "VALVE-STARTER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "813500-401",
-        description: "ACTUATOR ASSY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2045M10P04",
+        "Description": "VIB MONITORING UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "813500-401",
-        description: "ACTUATOR ASSY",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "928005",
+        "Description": "GENERATOR CONTROL UNIT",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "813500-409",
-        description: "ACTUATOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-0953-001",
+        "Description": "AMPLIFIER POWER SATCOM",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "816420-3",
-        description: "Engine Data Interface Unit",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "PAS3921AB02",
+        "Description": "DIGIT PLAYER ANNUNCIATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "8195-33",
-        description: "SNUBBER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "D5537005000400",
+        "Description": "TIP VERTICAL STABILIZER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0006-104",
-        description: "COMPUTER ASSY - AUTO PILOT FLIGHT DIRECTOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "37266-101",
+        "Description": "HARNESS ASSY 2M",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0006-105",
-        description: "AUTOPILOT FLIGHT DIRECTOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "A2-254-0006-10",
+        "Description": "MIROIR TOILETTES L61 L62",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0006-105",
-        description: "AUTOPILOT FLIGHT DIRECTOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "AGAF9-616500-02",
+        "Description": "PORTE SIMPLE GALLEY G6G7",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0297-001",
-        description: "RECEIVER VORMB",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "A325438470-504",
+        "Description": "SCHROUD LAVATORY V",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0297-001",
-        description: "RECEIVER VORMB",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1380201-2",
+        "Description": "AGU WIRING HARNESS",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0297-020",
-        description: "RECEIVER, VORMB",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "43607",
+        "Description": "HARNESS-2M,SHOCK STRUT RH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0299-001",
-        description: "ADF RECEIVER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "A805100-11",
+        "Description": "SPLITTER ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0329-001",
-        description: "DISTANCE MEASURING EQUIPMENT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "A800505-1",
+        "Description": "STOP-END,XZ",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0329-001",
-        description: "DISTANCE MEASURING EQUIPMENT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "37265-101",
+        "Description": "HARNESS ASSY 1M",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0329-001",
-        description: "DISTANCE MEASURING EQUIPMENT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "A325400289-944",
+        "Description": "TOILET DOOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0330-001",
-        description: "RECEIVER-TRANSMITTER, HF",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "65B18248-1",
+        "Description": "TUBE BLG",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0334-020",
-        description: "RADIO ALTIMETER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "417U3060-13620",
+        "Description": "BOX ASSY OXYGENE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0336-001",
-        description: "TRANSPONDER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "152020-1-20E",
+        "Description": "COUPLING",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0447-101",
-        description: "KEYBOARD",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "30-0408-3",
+        "Description": "EMERGENCY EXIT LIGHT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0693-003",
-        description: "TRANSCEIVER VHF",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "65B08505-6",
+        "Description": "HINGE FTG AY-SWINGING RH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0693-003",
-        description: "TRANSCEIVER VHF",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "65B17175-2",
+        "Description": "SPRING AY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0693-003",
-        description: "TRANSCEIVER VHF",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "701284",
+        "Description": "STROBE LIGHT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0693-003",
-        description: "TRANSCEIVER VHF",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "285W0030-1",
+        "Description": "AMBIENT NOISE SENSOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0726-020",
-        description: "VORMARKER RECEIVER,700A",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "903-1341",
+        "Description": "MICRO A MAIN PRISE JACK",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0726-120",
-        description: "VOR RECEIVER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "A800100-3",
+        "Description": "EXTINGUISHER ASSY OLD STD",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0990-003",
-        description: "TRANSCEIVER, HF",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "22C220210080004",
+        "Description": "CONTAINER 2MASKS TYPE2",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0990-003",
-        description: "TRANSCEIVER, HF",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "F5735322900100",
+        "Description": "TRAILING EDGE RH",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0990-003",
-        description: "TRANSCEIVER, HF",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "238W0967-501",
+        "Description": "HARNESS INTERPHONE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-0990-004",
-        description: "HF TRANSCEIVER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2547033-1",
+        "Description": "ROD PISTON",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-1047-002",
-        description: "TRANSCEIVER VHF COM",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "65-46100-78",
+        "Description": "MAIN LANDING GEAR ASSY",
+        "Condition": "UN",
+        "Quantity": 1
       },
       {
-        partNumber: "822-1047-003",
-        description: "TRANSCEIVER VHF COM",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "201524001-010",
+        "Description": "LH MLG SIDESTAY",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "822-1047-030",
-        description: "VHF-900 COMMUNICATIONS TRANSCEIVER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "201524002-010",
+        "Description": "RH MLG SIDESTAY",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "822-1047-030",
-        description: "VHF-900 COMMUNICATIONS TRANSCEIVER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "201523001-020",
+        "Description": "LH MLG A321",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-1152-002",
-        description: "GLOBAL LANDING UNIT TYPE NO. GLU-920",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "D23589520-11",
+        "Description": "NLG LEG ASSY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-1152-122",
-        description: "GLU-920 GLOBAL LANDING UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "201524001-010",
+        "Description": "LH MLG SIDESTAY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-1152-122",
-        description: "GLU-920 GLOBAL LANDING UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "201524002-010",
+        "Description": "RH MLG SIDESTAY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-1250-002",
-        description: "TRANSCEIVER VHF COM",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "D23596000-2",
+        "Description": "NLG FORESTAY",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-1293-321",
-        description: "TCAS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "201523002-020",
+        "Description": "RH MLG A321",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "822-1338-002",
-        description: "TRANSPONDER                                      ",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "D3215600500400",
+        "Description": "AFT PINTLE PIN",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "822-1338-002",
-        description: "TRANSPONDER                                      ",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "D22698172-107",
+        "Description": "NOSE LANDING GEAR",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "822-1338-021",
-        description: "TRANSPONDER-ATC",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "D22703072-1",
+        "Description": "DRAG BRACE NLG",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "822-1338-205",
-        description: "ATC TRANSPONDER       737",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "D23189000-21",
+        "Description": "LEG ASSEMBLY L\/H",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "822-1338-205",
-        description: "ATC TRANSPONDER       737",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "D23190000-21",
+        "Description": "TEG ASSEMBLY RH",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "822-2911-002",
-        description: "TCAS II TRANSMITTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "D231175001-12",
+        "Description": "NOSE LANDING GEAR",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "83000-05602",
-        description: "UNIT, WINDOW HEAT CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "114193007",
+        "Description": "MLG ACTUATOR",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "83000-05602",
-        description: "UNIT, WINDOW HEAT CONTROL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "201375009-020",
+        "Description": "MLG L\/H LEG ASSY",
+        "Condition": "UN",
+        "Quantity": 1
       },
       {
-        partNumber: "83000-05604",
-        description: "WINDOW HEAT CONTROL UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "201375010-020",
+        "Description": "MLG R\/H LEG ASSY",
+        "Condition": "UN",
+        "Quantity": 1
       },
       {
-        partNumber: "8-344-02",
-        description: "SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "D23175005-8",
+        "Description": "NLG LEG ASSY",
+        "Condition": "UN",
+        "Quantity": 1
       },
       {
-        partNumber: "8-344-03",
-        description: "SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "201375007-040",
+        "Description": "LH MAIN LANDING GEAR",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "861CAB-0001",
-        description: "ATTACK SENSOR",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "201375008-040",
+        "Description": "R\/H MLG & DRESSING",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "8-678-03",
-        description: "PSCU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "D3215303000400",
+        "Description": "AFT PINTLE PIN",
+        "Condition": "AR",
+        "Quantity": 1
       },
       {
-        partNumber: "87232323V00",
-        description: "SENSOR-DUCT TEMPERATURE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "D32153030008000",
+        "Description": "AFT RH PINTLE PIN",
+        "Condition": "AR",
+        "Quantity": 1
       },
+
       {
-        partNumber: "87292325V04",
-        description: "AVNCS EQPT VENT COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3039609",
+        "Description": "IGNITION EXCITER",
+        "Condition": "OVH",
+        "Quantity": 1
       },
       {
-        partNumber: "87292325V06",
-        description: "AVIONICS EQT VENTIL CPT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "30210",
+        "Description": "HYDRAULIC ACCUMULATOR",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "87292325V06",
-        description: "AVIONICS EQT VENTIL CPT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "734374D",
+        "Description": "Acuator",
+        "Condition": "OVH",
+        "Quantity": 1
       },
       {
-        partNumber: "87292325V06",
-        description: "AVIONICS EQT VENTIL CPT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6763C080000",
+        "Description": "VALVE-BLEED HP",
+        "Condition": "OVH",
+        "Quantity": 1
       },
       {
-        partNumber: "87292325V07",
-        description: "COMPUTER EQUIPMENT VENTILATION",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "96042-10",
+        "Description": "BARRY- CONTROLE FORWARD ISOLA",
+        "Condition": "OVH",
+        "Quantity": 1
       },
       {
-        partNumber: "8-736-05",
-        description: "POWER SUPPLY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3039609",
+        "Description": "DUAL IGNITER",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "89-01-07000",
-        description: "HANDSET-COCKPIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "15801-040",
+        "Description": "Flush Control Unit \/ FCU",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "89-01-07122",
-        description: "HANDSET, CABIN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "22715-000-02",
+        "Description": "Door Actuator Cylinder",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "89-01-07122",
-        description: "HANDSET, CABIN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "979786-5",
+        "Description": "VALVE SHUT-OFF",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "89-01-07122",
-        description: "HANDSET, CABIN",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "CT141-1",
+        "Description": "VALVE CHECK",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "8910-332",
-        description: "FUEL RETURN VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "TLS755-01-0102A",
+        "Description": "MMR RECEIVER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "8921082G5",
-        description: "LAVATORY WATER HEATER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "35-0L0-1001-04",
+        "Description": "ECP-ECAM CONTROL PANEL",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "899-156-612",
-        description: "SENSOR, WASTE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "7021479-2",
+        "Description": "ANTENNA",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "899-156-612",
-        description: "SENSOR, WASTE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "064-50000-2051",
+        "Description": "VHF Comunication Transciever",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "899-156-612",
-        description: "SENSOR, WASTE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1803B0000-02",
+        "Description": "Air condition System Controller",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "8AS193",
-        description: "SWITCH",
-        conditionCode: "NS",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1809A0000-01",
+        "Description": "Ram Air INLET Acuator",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "8DJ339WAG1",
-        description: "IND",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "30100022-8",
+        "Description": "BOTTLE FIRE EXTINGUISHER LAVARATORY",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "8DJ339WAG1",
-        description: "IND",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "350E55002",
+        "Description": "SDAC",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "8ES005045-00",
-        description: "PSU-POWER SUPPLY UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3888394-210103",
+        "Description": "ELECTRONIC CONTROL BOX",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "8ES005304-00",
-        description: "POWER SUPPLY UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "E21327006",
+        "Description": "Brake & Steering Control unit",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "8ES005304-00",
-        description: "POWER SUPPLY UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1809A0000-01",
+        "Description": "Ram Air Acuator Assy",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "8ES005309-00",
-        description: "SUPPLY UNIT-POWER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3214-31",
+        "Description": "Battery",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "8ES455012-00",
-        description: "POWER SUPPLY UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "810221-2",
+        "Description": "Zone Trim Modulating Valve",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "8TC19AAR1",
-        description: "T3 SENSOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z312H2100110",
+        "Description": "PISA MAIN PC BOARD",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "8TJ167GHH1",
-        description: "TRANSMITTER-FUEL FLOW",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "201479001-010",
+        "Description": "Adjustable Link",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "901950-02",
-        description: "FIRE DETECTION CONTROL UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2015G2H-8",
+        "Description": "PROBE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "902020",
-        description: "FIRE DETECTOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "TLS755-01-0101B",
+        "Description": "MMR RECEIVER",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "9024-15704-03",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2936",
+        "Description": "FUAL LP VALVE",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "9024-15704-2",
-        description: "SAFETY VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "10-631045-2",
+        "Description": "Ignition Exciter",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "9027-20010",
-        description: "SELECTOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8ES005045-00",
+        "Description": "Power Supply Unit",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "9043110-16",
-        description: "LEAD ASSY-IGNITION",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "GMT4190-020",
+        "Description": "Electronic Clock",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "924-09",
-        description: "KIT, SPARES FLOW DIVIDER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "218066-3",
+        "Description": "APU FUEL PUMP",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "924D100-1",
-        description: "ACTR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "664700500A4D",
+        "Description": "CTL INRWEFACE UNIT LDG",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "925010-101",
-        description: "DIU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "9031-16243-B5",
+        "Description": "Data Management Unit",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "931D100-3",
-        description: "PDU",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "01\/02\/7304",
+        "Description": "Fire Detector Unit",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "937E202G2",
-        description: "COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "792-669H-001",
+        "Description": "VERTICAL GYRO",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "940732",
-        description: "STANDBY SYSTEM HYDRAULIC PUMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "D97C00-664",
+        "Description": "SINGLE MOTOR ACTUATOR",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "941V100",
-        description: "AIR SHUT OFF VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "VFT210B00",
+        "Description": "Valve SKIN AIR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "94830-05",
-        description: "BRACKET, FORWARD",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2234320-01-01",
+        "Description": "FDIMU - FLIGHT DATA UNIT INT",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "94830-05",
-        description: "BRACKET, FORWARD",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "811A0200-03",
+        "Description": "BEARING ROD END",
+        "Condition": "NEW",
+        "Quantity": 1
       },
       {
-        partNumber: "9508175",
-        description: "VENT FLOAT VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6774G010000",
+        "Description": "PRESSURE REGULATING VALVE",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "9508175",
-        description: "VENT FLOAT VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4082730-911",
+        "Description": "Control Panel EFIS",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "9523M11G03",
-        description: "RETAINER",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "C24837102-2",
+        "Description": "Manifold Assy",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "9523M12G01",
-        description: "RETAINER-BLADE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "960442-7",
+        "Description": "Hydraulic Reservoir Assy",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "9560158820",
-        description: "WASHER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "AMU4031SA130103",
+        "Description": "Audio Management Unit",
+        "Condition": "Tested",
+        "Quantity": 1
       },
       {
-        partNumber: "9560162060",
-        description: "CLAMP",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "TY2013-10",
+        "Description": "CONTROL ASSY",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "9560163900",
-        description: "RING",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-1821-330",
+        "Description": "RECEIVER",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "9599-607-12352",
-        description: "RADIO ALTIMITER ANTENNA",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "AC69572",
+        "Description": "STG 7 BLEED CONTROL",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "9599-607-12352",
-        description: "RADIO ALTIMITER ANTENNA",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "746A0000-06",
+        "Description": "Valve-Air Trim",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "9599-607-14942",
-        description: "TRANSCEIVER-RADIO ALTI.",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "746A0000-06",
+        "Description": "Valve-Trim Air Pressure Valve,",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "96153250-32",
-        description: "DMC",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "96042-08",
+        "Description": "Engine Mount Assy",
+        "Condition": "OVH",
+        "Quantity": 1
       },
       {
-        partNumber: "96153250-32",
-        description: "DMC",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3945128218",
+        "Description": "ELAC",
+        "Condition": "Tested",
+        "Quantity": 1
       },
       {
-        partNumber: "9615325060",
-        description: "DISPLAY MANAGEMENT COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "C19266AA01",
+        "Description": "Control, MCDU",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "9615325060",
-        description: "DISPLAY MANAGEMENT COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z312H2000110",
+        "Description": "PISA",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "9615325060",
-        description: "DISPLAY MANAGEMENT COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "940-0351-005",
+        "Description": "ComputeR TCAS TPA-100B",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "9615325060",
-        description: "DISPLAY MANAGEMENT COMPUTER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "A25461020-2",
+        "Description": "Selector Brake",
+        "Condition": "Tested",
+        "Quantity": 1
       },
       {
-        partNumber: "963A0000-02",
-        description: "VALVE-TRIM AIR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3291556-2",
+        "Description": "Starter",
+        "Condition": "OVH",
+        "Quantity": 1
       },
       {
-        partNumber: "964-0401-016",
-        description: "DATALOADER                                        ",
-        conditionCode: "NS",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z133H052151D",
+        "Description": "FAP",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "964-0401-016",
-        description: "DATALOADER                                        ",
-        conditionCode: "NS",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "940-0300-001",
+        "Description": "COMPUTER TCAS TPA-100A",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "964-0453-011",
-        description: "HF ANTENNA COUPLER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "AMU4031LA130103",
+        "Description": "Audio Management Unit",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0648-004",
-        description: "GPWC",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "397B030000",
+        "Description": "Solenoid thermostat",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0648-004",
-        description: "GPWC",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "96042-06",
+        "Description": "Engine Mount Assy",
+        "Condition": "OVH",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0648-004",
-        description: "GPWC",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "C24837102-2",
+        "Description": "Brake Manifold Assy",
+        "Condition": "Tested",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0976-003-206-206",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-1287-120",
+        "Description": "Transceiver-VHF",
+        "Condition": "OVH",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0976-003-206-206",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "241-246-022-004",
+        "Description": "EVMU",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0976-003-232-232",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "D22AA1043",
+        "Description": "Fuel Return Valve",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0976-020-218-218",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6730F010000",
+        "Description": "FAN AIR VALV",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0976-020-218-218",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2612312-1",
+        "Description": "BRAKE ASSY",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0976-020-218-218",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "15800-356",
+        "Description": "Armature Assy",
+        "Condition": "Tested",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0976-020-218-218",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "201582001",
+        "Description": "MLG L.H",
+        "Condition": "OVH",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0976-020-218-218",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "201582002",
+        "Description": "MLG R.H",
+        "Condition": "OVH",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0976-020-218-218",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "D23589520-12",
+        "Description": "NLG",
+        "Condition": "OVH",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0976-020-218-218",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "642-3802-523",
+        "Description": "FAN REVERSER RH",
+        "Condition": "OVH",
+        "Quantity": 2
       },
       {
-        partNumber: "965-0976-020-218-218",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "642-3801-521",
+        "Description": "FAN REVERSER LH",
+        "Condition": "OVH",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0976-020-218-218",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "766352B",
+        "Description": "RAT",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0976-020-218-218",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8862-101",
+        "Description": "FIRE\/OVERHEAT INDICATOR",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0976-020-218-218",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6764B040000",
+        "Description": "Valve Bleed",
+        "Condition": "OVH",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0976-020-218-218",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "7008471-668",
+        "Description": "RADAR CONTROL PANEL",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0976-020-218-218",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "642-2000-15",
+        "Description": "FWD ENGINE MOUNT",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0976-020-218-218",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "DV8456701-5",
+        "Description": "TRAVEL LIMITION UNIT",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0976-020-218-218",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1211313-010",
+        "Description": "ACTUATOR VSV",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0976-020-218-218",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "114079018",
+        "Description": "Valve Selector",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0976-020-218-218",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "4000833-0207",
+        "Description": "Radar Indicator",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0976-020-218-218",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "D24001000",
+        "Description": "VALVE-CONTROL, PARKING BRAKE ELECTRICAL,",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0976-020-218-218",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1567700-3",
+        "Description": "Control Unit Assy",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0976-020-218-218",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "066-50008-0409",
+        "Description": "TRANSCEIVER-WEATHER RADAR",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "965-0976-020-218-218",
-        description: "EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3945129100",
+        "Description": "ELAC",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "965-1676-002",
-        description: "MARK V EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "398908-3",
+        "Description": "VALVE-TRIM MODULATING",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "965-1676-002",
-        description: "MARK V EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "VFT210B00",
+        "Description": "Skin air valve",
+        "Condition": "SV",
+        "Quantity": 2
       },
       {
-        partNumber: "965-1676-002",
-        description: "MARK V EGPWS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "C19755BA01",
+        "Description": "LCDU",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "967-0212-002",
-        description: "DIGITAL FLIGHT DATA ACQUISITION UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "2LA003968-00",
+        "Description": "LIGHT-ANTICOLLISION,BEACON",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "967-0212-002",
-        description: "DIGITAL FLIGHT DATA ACQUISITION UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "DV8456701-5",
+        "Description": "TRAVEL LIMITATION UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "967-0212-002",
-        description: "DIGITAL FLIGHT DATA ACQUISITION UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "979142-6-1",
+        "Description": "VALVE SHUTOFF",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "967-0212-002",
-        description: "DIGITAL FLIGHT DATA ACQUISITION UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "342B050000",
+        "Description": "THERMOSTAT-CONTROL",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "967-0212-002",
-        description: "DIGITAL FLIGHT DATA ACQUISITION UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "C19298AF05",
+        "Description": "LCDU",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "967-0212-002",
-        description: "DIGITAL FLIGHT DATA ACQUISITION UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "TLS755-01-0102A",
+        "Description": "MMR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "967-0212-002",
-        description: "DIGITAL FLIGHT DATA ACQUISITION UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "114095004",
+        "Description": "LOCK-STAY ACTUATOR",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "967-0212-002",
-        description: "DIGITAL FLIGHT DATA ACQUISITION UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "51154-04",
+        "Description": "Pump Assy",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "967-0212-002",
-        description: "DIGITAL FLIGHT DATA ACQUISITION UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "AR4726-5",
+        "Description": "FLT DECK DOOR STRIKER",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "967-0212-002",
-        description: "DIGITAL FLIGHT DATA ACQUISITION UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "51154-04",
+        "Description": "Electric Hyd. Pump",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "967-0212-002",
-        description: "DIGITAL FLIGHT DATA ACQUISITION UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "C24839010",
+        "Description": "MANIFOLD ALTER.BRAKE",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "967-0212-002",
-        description: "DIGITAL FLIGHT DATA ACQUISITION UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "Z133H031151A",
+        "Description": "FAP",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "967-0212-002",
-        description: "DIGITAL FLIGHT DATA ACQUISITION UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-1465-001",
+        "Description": "VOR ILS TRANSCEIVER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "969291-1",
-        description: "SHAFT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8202-61-0000",
+        "Description": "OVEN",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "9700-C1A-BF23A",
-        description: "O2 BOTTLE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "C19736AA01",
+        "Description": "INTEGRATED AVIONICS DISPLAY UNIT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "9700-C1A-F23AN",
-        description: "PORTABLE OXYGEN CYL.",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "6764B040000",
+        "Description": "Valve Bleed",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "9700-G2A-BF10A",
-        description: "PORTABLE OXYGEN BOTTLE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "PPC1200-00",
+        "Description": "Smoke Detector",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "971600",
-        description: "POWER UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "40997003",
+        "Description": "OZONE CONVERTER",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "972C10-2",
-        description: "VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "8260-123",
+        "Description": "Starter",
+        "Condition": "OVH",
+        "Quantity": 1
       },
       {
-        partNumber: "980-4700-003",
-        description: "FLIGHT DATA RECORDER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "20032-2",
+        "Description": "Alternator",
+        "Condition": "OVH",
+        "Quantity": 1
       },
       {
-        partNumber: "980-4700-042",
-        description: "SSFDR-SOLID STATE FLIGHT DATA RECORDER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "822-0297-020",
+        "Description": "ADF RECEIVER",
+        "Condition": "Repaired",
+        "Quantity": 1
       },
       {
-        partNumber: "980-4700-042",
-        description: "SSFDR-SOLID STATE FLIGHT DATA RECORDER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "FE240-004",
+        "Description": "DOOR DAMPER CYLINDER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "980-4700-042",
-        description: "SSFDR-SOLID STATE FLIGHT DATA RECORDER",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "642-2000-25",
+        "Description": "FWD ENGINE MOUNT",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "980-6022-001",
-        description: "COCKPIT VOICE RECORDER, SOLID STATE MEMORY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "3732A010000",
+        "Description": "PRECOOLER",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "980-6022-001",
-        description: "COCKPIT VOICE RECORDER, SOLID STATE MEMORY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "1706903",
+        "Description": "IDG",
+        "Condition": "SV",
+        "Quantity": 1
       },
       {
-        partNumber: "980-6022-001",
-        description: "COCKPIT VOICE RECORDER, SOLID STATE MEMORY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "64356-101",
+        "Description": "MAN LIFE RAFT",
+        "Condition": "US",
+        "Quantity": 1
       },
       {
-        partNumber: "980-6022-001",
-        description: "COCKPIT VOICE RECORDER, SOLID STATE MEMORY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "772292",
+        "Description": "IDG",
+        "Condition": "OVH",
+        "Quantity": 1
       },
       {
-        partNumber: "980-6022-001",
-        description: "COCKPIT VOICE RECORDER, SOLID STATE MEMORY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "96042-10",
+        "Description": "Engine Mount Assy",
+        "Condition": "OVH",
+        "Quantity": 1
       },
       {
-        partNumber: "980-9900-001",
-        description: "AUDIO VIDEO REPRODUC UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "C49007-42",
+        "Description": "Sling Equipment",
+        "Condition": "NEW",
+        "Quantity": 1
       },
       {
-        partNumber: "980-9900-001",
-        description: "AUDIO VIDEO REPRODUC UNIT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "145-22683-401",
+        "Description": "COVER ASSY (PANEL BLEED VALVE)",
+        "Condition": "NEW",
+        "Quantity": 1
       },
       {
-        partNumber: "9992M65G08",
-        description: "SHROUD ASSY-CPRSR STTR STG 1",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "9A APU STAND",
-        description: "APU Stand",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "A1-18-1030",
-        description: "LIGHT SHIELD",
-        conditionCode: "NS",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "A1-18-1030",
-        description: "LIGHT SHIELD",
-        conditionCode: "NS",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "A1-18-1030",
-        description: "LIGHT SHIELD",
-        conditionCode: "NS",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "A1-18-1030",
-        description: "LIGHT SHIELD",
-        conditionCode: "NS",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "A12SA",
-        description: "MEGAPHONE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "A1650-191",
-        description: "WATER HOSE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "A25313002",
-        description: "VALVE BRAKE SELECTOR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "A25315-1",
-        description: "VALVE-PARKING BRAKE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "A25434006-3000",
-        description: "BRAKE DUAL DISTRIBUTION VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "A25434006-3000",
-        description: "BRAKE DUAL DISTRIBUTION VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "A25434006-3000",
-        description: "BRAKE DUAL DISTRIBUTION VALVE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "A25434006-3000",
-        description: "BRAKE DUAL DISTRIBUTION VALVE",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "A25461-104",
-        description: "AUTO SELECTOR NOR BRK SYS",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "A420-062894-01",
-        description: "Solenoid",
-        conditionCode: "NS",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "A800100-3",
-        description: "FIRE EXTINGUISHER - LAVATORY",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "AC69576",
-        description: "VALVE SOLENOID MAKE-UP AIR",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "ACP2788AB04",
-        description: "ACP-AUDIO CONTROL PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "ACP2788AB04",
-        description: "ACP-AUDIO CONTROL PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "ACP2788AB04",
-        description: "ACP-AUDIO CONTROL PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "ACP2788AB04",
-        description: "ACP-AUDIO CONTROL PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "ACP2788AB04",
-        description: "ACP-AUDIO CONTROL PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "ACP2788AB04",
-        description: "ACP-AUDIO CONTROL PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "ACP2788AB05",
-        description: "AUDIOCONTROL PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "ACP2788AF01",
-        description: "AUDIO CONTROL PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "ACP2788AF01",
-        description: "AUDIO CONTROL PANEL",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "AN6289J4",
-        description: "NUT",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "AN814-6DL",
-        description: "PLUG",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "AR4714-11",
-        description: "ELECTRIC DOOR STRIKE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "AR4714-11",
-        description: "ELECTRIC DOOR STRIKE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "AR4714-11",
-        description: "ELECTRIC DOOR STRIKE",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "AR4714-7",
-        description: "DOOR STRIKE, ELECTRICALLY OPERATED",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "AR4714-7",
-        description: "DOOR STRIKE, ELECTRICALLY OPERATED",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "002A0016-32",
-        description: "Elevator and Tab Assy - RH",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "002A0016-31",
-        description: "Elevator Assy - LH",
-        conditionCode: "OH",
-        quantity: 1,
-        uoM: "EA"
-      },
-      {
-        partNumber: "AR4714-7",
-        description: "DOOR STRIKE, ELECTRICALLY OPERATED",
-        conditionCode: "SV",
-        quantity: 1,
-        uoM: "EA"
+        "PN": "7014300-901",
+        "Description": "DISPLAY",
+        "Condition": "SV",
+        "Quantity": 1
       }
     ];
   }
